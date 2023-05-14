@@ -386,11 +386,11 @@ func TestMsgTokenChown(t *testing.T) {
 	}
 
 	//issue token to FromAddress
-	tokenIssueMsg := types.NewMsgTokenIssue(common.NativeToken, common.NativeToken, common.NativeToken, "okcoin", "1000", testAccounts[0].baseAccount.Address, true)
+	tokenIssueMsg := types.NewMsgTokenIssue(common.NativeToken, common.NativeToken, common.NativeToken, "fucoin", "1000", testAccounts[0].baseAccount.Address, true)
 	TokenIssue = append(TokenIssue, createTokenMsg(t, app, ctx, testAccounts[0], tokenIssueMsg))
 
 	//test error supply coin issue(TotalSupply > (9*1e10))
-	MsgErrorSupply := types.NewMsgTokenIssue("okb", "okb", "okb", "okccc", strconv.FormatInt(int64(10*1e10), 10), testAccounts[0].baseAccount.Address, true)
+	MsgErrorSupply := types.NewMsgTokenIssue("okb", "okb", "okb", "fuccc", strconv.FormatInt(int64(10*1e10), 10), testAccounts[0].baseAccount.Address, true)
 	TokenIssue = append(TokenIssue, createTokenMsg(t, app, ctx, testAccounts[0], MsgErrorSupply))
 
 	//test error tokenDesc (length > 256)
@@ -398,7 +398,7 @@ func TestMsgTokenChown(t *testing.T) {
 ok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-b
 ok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-b
 ok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-b`,
-		common.NativeToken, common.NativeToken, "okcoin", "2100", testAccounts[0].baseAccount.Address, true)
+		common.NativeToken, common.NativeToken, "fucoin", "2100", testAccounts[0].baseAccount.Address, true)
 	TokenIssue = append(TokenIssue, createTokenMsg(t, app, ctx, testAccounts[0], MsgErrorName))
 
 	ctx = mockApplyBlock(t, app, TokenIssue, 3)
@@ -442,19 +442,19 @@ func TestHandleMsgTokenIssueFails(t *testing.T) {
 	}{
 		{
 			"Error Get Decimal From Decimal String",
-			types.NewMsgTokenIssue("", common.NativeToken, common.NativeToken, "okcoin", "", testAccounts[0].baseAccount.Address, true),
+			types.NewMsgTokenIssue("", common.NativeToken, common.NativeToken, "fucoin", "", testAccounts[0].baseAccount.Address, true),
 			"create a decimal from an input decimal string failed: create a decimal from an input decimal string failed: decimal string cannot be empty",
 			false,
 		},
 		{
 			"Error Invalid Coins",
-			types.NewMsgTokenIssue("", common.NativeToken, "a.b", "okcoin", "9999", testAccounts[0].baseAccount.Address, true),
+			types.NewMsgTokenIssue("", common.NativeToken, "a.b", "fucoin", "9999", testAccounts[0].baseAccount.Address, true),
 			"invalid coins: invalid coins: a.b",
 			false,
 		},
 		{
 			"Error Mint Coins Failed",
-			types.NewMsgTokenIssue("", common.NativeToken, common.NativeToken, "okcoin", "9999", testAccounts[0].baseAccount.Address, true),
+			types.NewMsgTokenIssue("", common.NativeToken, common.NativeToken, "fucoin", "9999", testAccounts[0].baseAccount.Address, true),
 			"not have permission to mint should panic",
 			true,
 		},

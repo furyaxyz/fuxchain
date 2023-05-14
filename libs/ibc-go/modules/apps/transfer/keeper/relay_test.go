@@ -68,7 +68,7 @@ func (suite *KeeperTestSuite) TestSendTransfer() {
 
 		// createOutgoingPacket tests
 		// - source chain
-		// okc demom not validate will panic will return error
+		// fuc demom not validate will panic will return error
 		//{"send coin failed",
 		//	func() {
 		//		suite.coordinator.CreateTransferChannels(path)

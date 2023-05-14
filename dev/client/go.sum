@@ -319,12 +319,12 @@ github.com/nxadm/tail v1.4.4/go.mod h1:kenIhsEOeOJmVchQTgglprH7qJGnHDVpk1VPCcaMI
 github.com/nxadm/tail v1.4.8 h1:nPr65rt6Y5JFSKQO7qToXr7pePgD6Gwiw05lkbyAQTE=
 github.com/nxadm/tail v1.4.8/go.mod h1:+ncqLTQzXmGhMZNUePPaPqPvBxHAIsmXswZKocGu+AU=
 github.com/oklog/ulid v1.3.1/go.mod h1:CirwcVhetQ6Lv90oh/F+FBtV6XMibvdAFo93nm5qn4U=
-github.com/exfury/go-amino v0.15.1-okc4 h1:K0xPoVjkz33ySNC4VLStyit4dblMeVlWJQQ6sq+aUBY=
-github.com/exfury/go-amino v0.15.1-okc4/go.mod h1:TQU0M1i/ImAo+tYpZi73AU3V/dKeCoMC9Sphe2ZwGME=
+github.com/exfury/go-amino v0.15.1-fuc4 h1:K0xPoVjkz33ySNC4VLStyit4dblMeVlWJQQ6sq+aUBY=
+github.com/exfury/go-amino v0.15.1-fuc4/go.mod h1:TQU0M1i/ImAo+tYpZi73AU3V/dKeCoMC9Sphe2ZwGME=
 github.com/exfury/go-ethereum v1.10.26-0.20230324102049-403cce993362 h1:lnpoVAX4GBmj1AxP1AwUVM5n+73E5Mua7UCChbwgnqs=
 github.com/exfury/go-ethereum v1.10.26-0.20230324102049-403cce993362/go.mod h1:f9/CleoGkiU7NWF9tdpWGfEYmFbN7zUi17jGick31KM=
-github.com/exfury/grocksdb v1.6.45-okc2 h1:Dbmax+uY71YuGTkJftpF55dbGW7hfIVOfNz2mnFqXl0=
-github.com/exfury/grocksdb v1.6.45-okc2/go.mod h1:+/BHUY+mT0tbaVXwO2wTtD9eytazyw1W5n2O7AGyXZA=
+github.com/exfury/grocksdb v1.6.45-fuc2 h1:Dbmax+uY71YuGTkJftpF55dbGW7hfIVOfNz2mnFqXl0=
+github.com/exfury/grocksdb v1.6.45-fuc2/go.mod h1:+/BHUY+mT0tbaVXwO2wTtD9eytazyw1W5n2O7AGyXZA=
 github.com/exfury/fuxchain v0.1.1 h1:c9E8GSUmCfwVbKHr5pjjlqd2mOWLjUsufHEtW74CNN0=
 github.com/exfury/fuxchain v0.1.1/go.mod h1:W2fA6BSAL2eUR60eH369Ipw8pNTckOhH6CtiEiuwKmU=
 github.com/olekukonko/tablewriter v0.0.5 h1:P2Ga83D34wi1o9J6Wh1mRuqd4mF/x/lgBS7N7AbDhec=
