@@ -28,7 +28,7 @@ func init() {
 }
 
 // ----------------------------------------------------------------------------
-// Main OKBChain account
+// Main FURYChain account
 // ----------------------------------------------------------------------------
 
 // EthAccount implements the auth.Account interface and embeds an

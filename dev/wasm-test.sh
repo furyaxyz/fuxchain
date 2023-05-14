@@ -2,7 +2,7 @@
 
 KEY="captain"
 CHAINID="fuxchain-197"
-MONIKER="okbc"
+MONIKER="furyc"
 CURDIR=`dirname $0`
 HOME_SERVER=$CURDIR/"_cache_evm"
 
@@ -42,7 +42,7 @@ run() {
       --rpc.laddr=tcp://0.0.0.0:26657 \
       --rpc.external_laddr=0.0.0.0:26657 \
       --p2p.laddr=tcp://0.0.0.0:26656 \
-      --rest.laddr "tcp://localhost:8545" > okb.txt 2>&1 &
+      --rest.laddr "tcp://localhost:8545" > fury.txt 2>&1 &
 
 # --iavl-commit-interval-height \
 # --iavl-enable-async-commit \
@@ -95,11 +95,11 @@ fuxchaincli keys add --recover admin18 -m "lazy cause kite fence gravity regret 
 # Set moniker and chain-id for Ethermint (Moniker can be anything, chain-id must be an integer)
 fuxchaind init $MONIKER --chain-id $CHAINID --home $HOME_SERVER
 
-# Change parameter token denominations to okb
-cat $HOME_SERVER/config/genesis.json | jq '.app_state["staking"]["params"]["bond_denom"]="okb"' > $HOME_SERVER/config/tmp_genesis.json && mv $HOME_SERVER/config/tmp_genesis.json $HOME_SERVER/config/genesis.json
-cat $HOME_SERVER/config/genesis.json | jq '.app_state["crisis"]["constant_fee"]["denom"]="okb"' > $HOME_SERVER/config/tmp_genesis.json && mv $HOME_SERVER/config/tmp_genesis.json $HOME_SERVER/config/genesis.json
-cat $HOME_SERVER/config/genesis.json | jq '.app_state["gov"]["deposit_params"]["min_deposit"][0]["denom"]="okb"' > $HOME_SERVER/config/tmp_genesis.json && mv $HOME_SERVER/config/tmp_genesis.json $HOME_SERVER/config/genesis.json
-cat $HOME_SERVER/config/genesis.json | jq '.app_state["mint"]["params"]["mint_denom"]="okb"' > $HOME_SERVER/config/tmp_genesis.json && mv $HOME_SERVER/config/tmp_genesis.json $HOME_SERVER/config/genesis.json
+# Change parameter token denominations to fury
+cat $HOME_SERVER/config/genesis.json | jq '.app_state["staking"]["params"]["bond_denom"]="fury"' > $HOME_SERVER/config/tmp_genesis.json && mv $HOME_SERVER/config/tmp_genesis.json $HOME_SERVER/config/genesis.json
+cat $HOME_SERVER/config/genesis.json | jq '.app_state["crisis"]["constant_fee"]["denom"]="fury"' > $HOME_SERVER/config/tmp_genesis.json && mv $HOME_SERVER/config/tmp_genesis.json $HOME_SERVER/config/genesis.json
+cat $HOME_SERVER/config/genesis.json | jq '.app_state["gov"]["deposit_params"]["min_deposit"][0]["denom"]="fury"' > $HOME_SERVER/config/tmp_genesis.json && mv $HOME_SERVER/config/tmp_genesis.json $HOME_SERVER/config/genesis.json
+cat $HOME_SERVER/config/genesis.json | jq '.app_state["mint"]["params"]["mint_denom"]="fury"' > $HOME_SERVER/config/tmp_genesis.json && mv $HOME_SERVER/config/tmp_genesis.json $HOME_SERVER/config/genesis.json
 
 # Enable EVM
 
@@ -114,10 +114,10 @@ else
 fi
 
 # Allocate genesis accounts (cosmos formatted addresses)
-fuxchaind add-genesis-account $(fuxchaincli keys show $KEY    -a) 100000000okb --home $HOME_SERVER
-fuxchaind add-genesis-account $(fuxchaincli keys show admin16 -a) 900000000okb --home $HOME_SERVER
-fuxchaind add-genesis-account $(fuxchaincli keys show admin17 -a) 900000000okb --home $HOME_SERVER
-fuxchaind add-genesis-account $(fuxchaincli keys show admin18 -a) 900000000okb --home $HOME_SERVER
+fuxchaind add-genesis-account $(fuxchaincli keys show $KEY    -a) 100000000fury --home $HOME_SERVER
+fuxchaind add-genesis-account $(fuxchaincli keys show admin16 -a) 900000000fury --home $HOME_SERVER
+fuxchaind add-genesis-account $(fuxchaincli keys show admin17 -a) 900000000fury --home $HOME_SERVER
+fuxchaind add-genesis-account $(fuxchaincli keys show admin18 -a) 900000000fury --home $HOME_SERVER
 
 # Sign genesis transaction
 fuxchaind gentx --name $KEY --keyring-backend test --home $HOME_SERVER

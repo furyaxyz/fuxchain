@@ -157,7 +157,7 @@ func (suite *ProposalSuite) TestNewChangeDistributionTypeProposal() {
 			RandStr(types.MaxTitleLength),
 			RandStr(types.MaxDescriptionLength),
 			ActionMintedPerBlock,
-			"{\"coins\":{\"denom\":\"okb\",\"amount\":\"1.000000000000000000\"}}",
+			"{\"coins\":{\"denom\":\"fury\",\"amount\":\"1.000000000000000000\"}}",
 			ErrExtraProposalParams("coin is nil"),
 		},
 		{
@@ -165,7 +165,7 @@ func (suite *ProposalSuite) TestNewChangeDistributionTypeProposal() {
 			RandStr(types.MaxTitleLength),
 			RandStr(types.MaxDescriptionLength),
 			ActionMintedPerBlock,
-			"{\"coin\":{\"denom\":\"okb\",\"aamount\":\"1.000000000000000000\"}}",
+			"{\"coin\":{\"denom\":\"fury\",\"aamount\":\"1.000000000000000000\"}}",
 			ErrExtraProposalParams("coin is nil"),
 		},
 		{
@@ -173,7 +173,7 @@ func (suite *ProposalSuite) TestNewChangeDistributionTypeProposal() {
 			RandStr(types.MaxTitleLength),
 			RandStr(types.MaxDescriptionLength),
 			ActionMintedPerBlock,
-			"{\"coin\":{\"ddenom\":\"okb\",\"amount\":\"1.000000000000000000\"}}",
+			"{\"coin\":{\"ddenom\":\"fury\",\"amount\":\"1.000000000000000000\"}}",
 			ErrExtraProposalParams("coin is nil"),
 		},
 		{
@@ -205,7 +205,7 @@ func (suite *ProposalSuite) TestNewChangeDistributionTypeProposal() {
 			RandStr(types.MaxTitleLength),
 			RandStr(types.MaxDescriptionLength),
 			ActionMintedPerBlock,
-			"{\"coin\":{\"denom\":\"okb\",\"amount\":\"-1.000000000000000000\"}}",
+			"{\"coin\":{\"denom\":\"fury\",\"amount\":\"-1.000000000000000000\"}}",
 			ErrExtraProposalParams("coin is negative"),
 		},
 		{
@@ -213,7 +213,7 @@ func (suite *ProposalSuite) TestNewChangeDistributionTypeProposal() {
 			RandStr(types.MaxTitleLength),
 			RandStr(types.MaxDescriptionLength),
 			ActionMintedPerBlock,
-			"{\"coin\":{\"denom\":\"okbb\",\"amount\":\"-1.000000000000000000\"}}",
+			"{\"coin\":{\"denom\":\"furyb\",\"amount\":\"-1.000000000000000000\"}}",
 			ErrExtraProposalParams("coin is nil"),
 		},
 		{
@@ -221,7 +221,7 @@ func (suite *ProposalSuite) TestNewChangeDistributionTypeProposal() {
 			RandStr(types.MaxTitleLength),
 			RandStr(types.MaxDescriptionLength),
 			ActionMintedPerBlock,
-			"{\"coin\":{\"denom\":\"okbb\",\"amount\":-1}}",
+			"{\"coin\":{\"denom\":\"furyb\",\"amount\":-1}}",
 			ErrExtraProposalParams("parse json error"),
 		},
 		{
@@ -229,7 +229,7 @@ func (suite *ProposalSuite) TestNewChangeDistributionTypeProposal() {
 			RandStr(types.MaxTitleLength),
 			RandStr(types.MaxDescriptionLength),
 			ActionMintedPerBlock,
-			"{\"coin\":{\"denom\":\"okbb\",\"amount\":\"dfads\"}}",
+			"{\"coin\":{\"denom\":\"furyb\",\"amount\":\"dfads\"}}",
 			ErrExtraProposalParams("parse json error"),
 		},
 		{
@@ -237,7 +237,7 @@ func (suite *ProposalSuite) TestNewChangeDistributionTypeProposal() {
 			RandStr(types.MaxTitleLength),
 			RandStr(types.MaxDescriptionLength),
 			ActionMintedPerBlock,
-			"{\"coin\":{\"denom\":\"okb\",\"amount\":\"1.000000000000000000\"}}",
+			"{\"coin\":{\"denom\":\"fury\",\"amount\":\"1.000000000000000000\"}}",
 			nil,
 		},
 		{
@@ -245,7 +245,7 @@ func (suite *ProposalSuite) TestNewChangeDistributionTypeProposal() {
 			RandStr(types.MaxTitleLength),
 			RandStr(types.MaxDescriptionLength),
 			ActionMintedPerBlock,
-			"{\"coin\":{\"denom\":\"okb\",\"amount\":\"0.000000000000000000\"}}",
+			"{\"coin\":{\"denom\":\"fury\",\"amount\":\"0.000000000000000000\"}}",
 			nil,
 		},
 	}

@@ -4,8 +4,8 @@ set -o errexit -o nounset -o pipefail
 CHAIN_ID="fuxchain-197"
 NODE="http://localhost:26657"
 QUERY_EXTRA="--node=$NODE"
-TX_EXTRA_UNBLOCKED="--fees 0.01okb --gas 3000000 --chain-id=$CHAIN_ID --node $NODE -b async -y"
-TX_EXTRA="--fees 0.01okb --gas 3000000 --chain-id=$CHAIN_ID --node $NODE -b block -y"
+TX_EXTRA_UNBLOCKED="--fees 0.01fury --gas 3000000 --chain-id=$CHAIN_ID --node $NODE -b async -y"
+TX_EXTRA="--fees 0.01fury --gas 3000000 --chain-id=$CHAIN_ID --node $NODE -b block -y"
 captain=$(fuxchaincli keys show captain -a)
 
 
@@ -37,18 +37,18 @@ echo $res | jq
 
 
 
-# claim okb from cw4-stake
+# claim fury from cw4-stake
 res=$(fuxchaincli tx wasm store ../cw4-stake/artifacts/cw4_stake.wasm --from $captain $TX_EXTRA)
 code_id=$(echo "$res" | jq '.logs[0].events[1].attributes[0].value' | sed 's/\"//g')
-# native token must be "okb", not "OKB" or tokens with other names
-res=$(fuxchaincli tx wasm instantiate "$code_id" '{"denom":{"native":"okb"},"min_bond":"50","tokens_per_weight":"5","unbonding_period":{"height":0}}' --label test1 --admin $captain --from captain $TX_EXTRA)
+# native token must be "fury", not "FURY" or tokens with other names
+res=$(fuxchaincli tx wasm instantiate "$code_id" '{"denom":{"native":"fury"},"min_bond":"50","tokens_per_weight":"5","unbonding_period":{"height":0}}' --label test1 --admin $captain --from captain $TX_EXTRA)
 contractAddr=$(echo "$res" | jq '.logs[0].events[0].attributes[0].value' | sed 's/\"//g')
 echo "cw4-stake contract address: $contractAddr"
 
 res=$(fuxchaincli query wasm contract-state smart "$contractAddr" '{"staked":{"address":"'$captain'"}}' $QUERY_EXTRA)
 echo $res | jq
 
-res=$(fuxchaincli tx wasm execute "$contractAddr" '{"bond":{}}' --amount=10okb --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm execute "$contractAddr" '{"bond":{}}' --amount=10fury --from captain $TX_EXTRA)
 echo $res | jq
 
 res=$(fuxchaincli query wasm contract-state smart "$contractAddr" '{"staked":{"address":"'$captain'"}}' $QUERY_EXTRA)

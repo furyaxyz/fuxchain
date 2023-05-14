@@ -95,7 +95,7 @@ func TestCw20TxSending(t *testing.T) {
 type AppInfo struct {
 	height int64
 
-	App              *app.OKBChainApp
+	App              *app.FURYChainApp
 	evmMintKey       *ecdsa.PrivateKey
 	evmMintAddr      sdk.AccAddress
 	MinterKey        crypto.PrivKey
@@ -161,17 +161,17 @@ func InitializeEXFURYApp(b testing.TB, db dbm.DB, numAccounts int) AppInfo {
 	return info
 }
 
-func setup(db dbm.DB, withGenesis bool, invCheckPeriod uint) (*app.OKBChainApp, simapp.GenesisState) {
-	exfuryApp := app.NewOKBChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, invCheckPeriod)
+func setup(db dbm.DB, withGenesis bool, invCheckPeriod uint) (*app.FURYChainApp, simapp.GenesisState) {
+	exfuryApp := app.NewFURYChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, invCheckPeriod)
 	if withGenesis {
 		return exfuryApp, app.NewDefaultGenesisState()
 	}
 	return exfuryApp, simapp.GenesisState{}
 }
 
-// SetupWithGenesisAccounts initializes a new OKBChainApp with the provided genesis
+// SetupWithGenesisAccounts initializes a new FURYChainApp with the provided genesis
 // accounts and possible balances.
-func SetupWithGenesisAccounts(b testing.TB, db dbm.DB, genAccs []authexported.GenesisAccount) *app.OKBChainApp {
+func SetupWithGenesisAccounts(b testing.TB, db dbm.DB, genAccs []authexported.GenesisAccount) *app.FURYChainApp {
 	exfuryApp, genesisState := setup(db, true, 0)
 	authGenesis := authtypes.NewGenesisState(authtypes.DefaultParams(), genAccs)
 	appCodec := exfuryApp.Codec()

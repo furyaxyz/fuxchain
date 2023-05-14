@@ -37,7 +37,7 @@ import (
 
 	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
 	apptypes "github.com/exfury/fuxchain/app/types"
-	okbcapptypes "github.com/exfury/fuxchain/app/types"
+	furycapptypes "github.com/exfury/fuxchain/app/types"
 	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
 	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
 	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
@@ -195,7 +195,7 @@ func NewTestChain(t *testing.T, coord *Coordinator, chainID string) TestChainI {
 
 	//fromBalance := suite.App().AccountKeeper.GetAccount(suite.ctx, cmFrom).GetCoins()
 	//var account *apptypes.EthAccount
-	//balance = sdk.NewCoins(okbcapptypes.NewPhotonCoin(amount))
+	//balance = sdk.NewCoins(furycapptypes.NewPhotonCoin(amount))
 	//addr := sdk.AccAddress(pubKey.Address())
 	//baseAcc := auth.NewBaseAccount(addr, balance, pubKey, 10, 50)
 	//account = &apptypes.EthAccount{
@@ -269,7 +269,7 @@ func NewTestEthChain(t *testing.T, coord *Coordinator, chainID string) *TestChai
 	require.True(t, ok)
 	balance := sdk.NewCoins(apptypes.NewPhotonCoin(i))
 
-	genesisAcc := &okbcapptypes.EthAccount{
+	genesisAcc := &furycapptypes.EthAccount{
 		BaseAccount: auth.NewBaseAccount(ethPubkey.Address().Bytes(), balance, ethPubkey, 0, 0),
 		CodeHash:    []byte{},
 	}

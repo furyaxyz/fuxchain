@@ -203,12 +203,12 @@ var (
 	onceLog sync.Once
 )
 
-var _ simapp.App = (*OKBChainApp)(nil)
+var _ simapp.App = (*FURYChainApp)(nil)
 
-// OKBChainApp implements an extended ABCI application. It is an application
+// FURYChainApp implements an extended ABCI application. It is an application
 // that may process transactions through Ethereum's EVM running atop of
 // Tendermint consensus.
-type OKBChainApp struct {
+type FURYChainApp struct {
 	*bam.BaseApp
 
 	invCheckPeriod uint
@@ -266,8 +266,8 @@ type OKBChainApp struct {
 	WasmHandler wasmkeeper.HandlerOption
 }
 
-// NewOKBChainApp returns a reference to a new initialized OKBChain application.
-func NewOKBChainApp(
+// NewFURYChainApp returns a reference to a new initialized FURYChain application.
+func NewFURYChainApp(
 	logger log.Logger,
 	db dbm.DB,
 	traceStore io.Writer,
@@ -275,7 +275,7 @@ func NewOKBChainApp(
 	skipUpgradeHeights map[int64]bool,
 	invCheckPeriod uint,
 	baseAppOptions ...func(*bam.BaseApp),
-) *OKBChainApp {
+) *FURYChainApp {
 	logger.Info("Starting " + system.ChainName)
 	onceLog.Do(func() {
 		iavl.SetLogger(logger.With("module", "iavl"))
@@ -284,7 +284,7 @@ func NewOKBChainApp(
 
 	codecProxy, interfaceReg := chaincodec.MakeCodecSuit(ModuleBasics)
 	vmbridge.RegisterInterface(interfaceReg)
-	// NOTE we use custom OKBChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
+	// NOTE we use custom FURYChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
 	bApp := bam.NewBaseApp(appName, logger, db, evm.TxDecoder(codecProxy), baseAppOptions...)
 
 	bApp.SetCommitMultiStoreTracer(traceStore)
@@ -312,7 +312,7 @@ func NewOKBChainApp(
 	tkeys := sdk.NewTransientStoreKeys(params.TStoreKey)
 	memKeys := sdk.NewMemoryStoreKeys(capabilitytypes.MemStoreKey)
 
-	app := &OKBChainApp{
+	app := &FURYChainApp{
 		BaseApp:        bApp,
 		invCheckPeriod: invCheckPeriod,
 		keys:           keys,
@@ -345,7 +345,7 @@ func NewOKBChainApp(
 
 	//proxy := codec.NewMarshalProxy(cc, cdc)
 	app.marshal = codecProxy
-	// use custom OKBChain account for contracts
+	// use custom FURYChain account for contracts
 	app.AccountKeeper = auth.NewAccountKeeper(
 		codecProxy.GetCdc(), keys[mpt.StoreKey], app.subspaces[auth.ModuleName], chain.ProtoAccount,
 	)
@@ -728,7 +728,7 @@ func NewOKBChainApp(
 	return app
 }
 
-func (app *OKBChainApp) SetOption(req abci.RequestSetOption) (res abci.ResponseSetOption) {
+func (app *FURYChainApp) SetOption(req abci.RequestSetOption) (res abci.ResponseSetOption) {
 	if req.Key == "CheckChainID" {
 		if err := chain.IsValidateChainIdWithGenesisHeight(req.Value); err != nil {
 			app.Logger().Error(err.Error())
@@ -743,25 +743,25 @@ func (app *OKBChainApp) SetOption(req abci.RequestSetOption) (res abci.ResponseS
 	return app.BaseApp.SetOption(req)
 }
 
-func (app *OKBChainApp) LoadStartVersion(height int64) error {
+func (app *FURYChainApp) LoadStartVersion(height int64) error {
 	return app.LoadVersion(height, app.keys[bam.MainStoreKey])
 }
 
 // Name returns the name of the App
-func (app *OKBChainApp) Name() string { return app.BaseApp.Name() }
+func (app *FURYChainApp) Name() string { return app.BaseApp.Name() }
 
 // BeginBlocker updates every begin block
-func (app *OKBChainApp) BeginBlocker(ctx sdk.Context, req abci.RequestBeginBlock) abci.ResponseBeginBlock {
+func (app *FURYChainApp) BeginBlocker(ctx sdk.Context, req abci.RequestBeginBlock) abci.ResponseBeginBlock {
 	return app.mm.BeginBlock(ctx, req)
 }
 
 // EndBlocker updates every end block
-func (app *OKBChainApp) EndBlocker(ctx sdk.Context, req abci.RequestEndBlock) abci.ResponseEndBlock {
+func (app *FURYChainApp) EndBlocker(ctx sdk.Context, req abci.RequestEndBlock) abci.ResponseEndBlock {
 	return app.mm.EndBlock(ctx, req)
 }
 
 // InitChainer updates at chain initialization
-func (app *OKBChainApp) InitChainer(ctx sdk.Context, req abci.RequestInitChain) abci.ResponseInitChain {
+func (app *FURYChainApp) InitChainer(ctx sdk.Context, req abci.RequestInitChain) abci.ResponseInitChain {
 
 	var genesisState simapp.GenesisState
 	app.marshal.GetCdc().MustUnmarshalJSON(req.AppStateBytes, &genesisState)
@@ -769,12 +769,12 @@ func (app *OKBChainApp) InitChainer(ctx sdk.Context, req abci.RequestInitChain) 
 }
 
 // LoadHeight loads state at a particular height
-func (app *OKBChainApp) LoadHeight(height int64) error {
+func (app *FURYChainApp) LoadHeight(height int64) error {
 	return app.LoadVersion(height, app.keys[bam.MainStoreKey])
 }
 
 // ModuleAccountAddrs returns all the app's module account addresses.
-func (app *OKBChainApp) ModuleAccountAddrs() map[string]bool {
+func (app *FURYChainApp) ModuleAccountAddrs() map[string]bool {
 	modAccAddrs := make(map[string]bool)
 	for acc := range maccPerms {
 		modAccAddrs[supply.NewModuleAddress(acc).String()] = true
@@ -784,33 +784,33 @@ func (app *OKBChainApp) ModuleAccountAddrs() map[string]bool {
 }
 
 // SimulationManager implements the SimulationApp interface
-func (app *OKBChainApp) SimulationManager() *module.SimulationManager {
+func (app *FURYChainApp) SimulationManager() *module.SimulationManager {
 	return app.sm
 }
 
 // GetKey returns the KVStoreKey for the provided store key.
 //
 // NOTE: This is solely to be used for testing purposes.
-func (app *OKBChainApp) GetKey(storeKey string) *sdk.KVStoreKey {
+func (app *FURYChainApp) GetKey(storeKey string) *sdk.KVStoreKey {
 	return app.keys[storeKey]
 }
 
-// Codec returns OKBChain's codec.
+// Codec returns FURYChain's codec.
 //
 // NOTE: This is solely to be used for testing purposes as it may be desirable
 // for modules to register their own custom testing types.
-func (app *OKBChainApp) Codec() *codec.Codec {
+func (app *FURYChainApp) Codec() *codec.Codec {
 	return app.marshal.GetCdc()
 }
 
-func (app *OKBChainApp) Marshal() *codec.CodecProxy {
+func (app *FURYChainApp) Marshal() *codec.CodecProxy {
 	return app.marshal
 }
 
 // GetSubspace returns a param subspace for a given module name.
 //
 // NOTE: This is solely to be used for testing purposes.
-func (app *OKBChainApp) GetSubspace(moduleName string) params.Subspace {
+func (app *FURYChainApp) GetSubspace(moduleName string) params.Subspace {
 	return app.subspaces[moduleName]
 }
 

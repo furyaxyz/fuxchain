@@ -1,4 +1,4 @@
-# OKBChain
+# FURYChain
 The Infrastructure of Decentralized Exchange
 
 
@@ -10,7 +10,7 @@ The Infrastructure of Decentralized Exchange
 [![LoC](https://tokei.rs/b1/github/exfury/fuxchain)](https://github.com/exfury/fuxchain)
 [![GolangCI](https://golangci.com/badges/github.com/exfury/fuxchain.svg)](https://golangci.com/r/github.com/exfury/fuxchain)
 
-This repository hosts `OKBChain`, the implementation of the OKBChain based on the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk).
+This repository hosts `FURYChain`, the implementation of the FURYChain based on the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk).
 
 **Note**: Requires [Go 1.20](https://golang.org/dl/)
 

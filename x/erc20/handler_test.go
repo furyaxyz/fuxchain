@@ -17,7 +17,7 @@ type Erc20TestSuite struct {
 
 	ctx     sdk.Context
 	handler sdk.Handler
-	app     *app.OKBChainApp
+	app     *app.FURYChainApp
 }
 
 func TestErc20TestSuite(t *testing.T) {

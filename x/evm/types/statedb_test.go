@@ -24,7 +24,7 @@ type StateDBTestSuite struct {
 	suite.Suite
 
 	ctx         sdk.Context
-	app         *app.OKBChainApp
+	app         *app.FURYChainApp
 	stateDB     *types.CommitStateDB
 	address     ethcmn.Address
 	stateObject types.StateObject

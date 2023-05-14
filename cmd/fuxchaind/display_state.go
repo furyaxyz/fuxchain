@@ -111,7 +111,7 @@ func displayContractState(ctx *server.Context) {
 	})
 }
 
-func newDisplayApp(ctx *server.Context) *app.OKBChainApp {
+func newDisplayApp(ctx *server.Context) *app.FURYChainApp {
 	rootDir := ctx.Config.RootDir
 	dataDir := filepath.Join(rootDir, "data")
 	db, err := sdk.NewDB(applicationDB, dataDir)
@@ -119,7 +119,7 @@ func newDisplayApp(ctx *server.Context) *app.OKBChainApp {
 		panic("fail to open application db: " + err.Error())
 	}
 
-	return app.NewOKBChainApp(
+	return app.NewFURYChainApp(
 		ctx.Logger,
 		db,
 		nil,

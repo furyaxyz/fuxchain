@@ -52,15 +52,15 @@ func TestHandlerBlockedContractAddrSend(t *testing.T) {
 		msg         sdk.Msg
 		account     app.EthAccount
 	}{
-		// 0.01okb as fixed fee in each stdTx
-		{"success to send", "9999.000000000000000000okb", successfulSendMsg, gAcc[0]},
-		{"success to multi-send", "9989.000000000000000000okb", successfulMultiSendMsg, gAcc[0]},
-		{"success to send", "9988.000000000000000000okb", successfulSendMsg, gAcc[0]},
-		{"success to multi-send", "9978.000000000000000000okb", successfulMultiSendMsg, gAcc[0]},
-		//{"fail to send to contract", "9978.000000000000000000okb", failedSendMsg, gAcc[0]},
-		//{"fail to multi-send to contract", "9978.000000000000000000okb", failedMultiSendMsg, gAcc[0]},
-		{"fail to send to contract", "9978.000000000000000000okb", sendToContractMsg, gAcc[0]},
-		{"fail to multi-send to contract", "9978.000000000000000000okb", multiSendToContractMsg, gAcc[0]},
+		// 0.01fury as fixed fee in each stdTx
+		{"success to send", "9999.000000000000000000fury", successfulSendMsg, gAcc[0]},
+		{"success to multi-send", "9989.000000000000000000fury", successfulMultiSendMsg, gAcc[0]},
+		{"success to send", "9988.000000000000000000fury", successfulSendMsg, gAcc[0]},
+		{"success to multi-send", "9978.000000000000000000fury", successfulMultiSendMsg, gAcc[0]},
+		//{"fail to send to contract", "9978.000000000000000000fury", failedSendMsg, gAcc[0]},
+		//{"fail to multi-send to contract", "9978.000000000000000000fury", failedMultiSendMsg, gAcc[0]},
+		{"fail to send to contract", "9978.000000000000000000fury", sendToContractMsg, gAcc[0]},
+		{"fail to multi-send to contract", "9978.000000000000000000fury", multiSendToContractMsg, gAcc[0]},
 	}
 	for i, tt := range TestSets {
 		t.Run(tt.description, func(t *testing.T) {
@@ -72,10 +72,10 @@ func TestHandlerBlockedContractAddrSend(t *testing.T) {
 	}
 }
 
-// Setup initializes a new OKBChainApp. A Nop logger is set in OKBChainApp.
-func initApp(isCheckTx bool) *chain.OKBChainApp {
+// Setup initializes a new FURYChainApp. A Nop logger is set in FURYChainApp.
+func initApp(isCheckTx bool) *chain.FURYChainApp {
 	db := dbm.NewMemDB()
-	app := chain.NewOKBChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, 0)
+	app := chain.NewFURYChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, 0)
 
 	if !isCheckTx {
 		// init chain must be called to stop deliverState from being nil

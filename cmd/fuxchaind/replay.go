@@ -342,9 +342,9 @@ func doReplay(ctx *server.Context, state sm.State, stateStoreDB dbm.DB, blockSto
 		block := originBlockStore.LoadBlock(lastBlockHeight)
 		meta := originBlockStore.LoadBlockMeta(lastBlockHeight)
 		blockExec := sm.NewBlockExecutor(stateStoreDB, ctx.Logger, mockApp, mock.Mempool{}, sm.MockEvidencePool{})
-		config.GetOkbcConfig().SetDeliverTxsExecuteMode(0) // mockApp not support parallel tx
+		config.GetFurycConfig().SetDeliverTxsExecuteMode(0) // mockApp not support parallel tx
 		state, _, err = blockExec.ApplyBlockWithTrace(state, meta.BlockID, block)
-		config.GetOkbcConfig().SetDeliverTxsExecuteMode(viper.GetInt(sm.FlagDeliverTxsExecMode))
+		config.GetFurycConfig().SetDeliverTxsExecuteMode(viper.GetInt(sm.FlagDeliverTxsExecMode))
 		panicError(err)
 	}
 

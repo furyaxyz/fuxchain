@@ -157,9 +157,9 @@ func TestDelegator(t *testing.T) {
 		validatorStatusChecker(sdk.Unbonded.String()),
 		// check delegate response
 		noErrorInHandlerResult(false),
-		//  1. ValidDelegator1 delegate 8000 okb, success
+		//  1. ValidDelegator1 delegate 8000 fury, success
 		noErrorInHandlerResult(true),
-		//  2. ValidDelegator1 delegate 8000 okb again, fail coz no balance
+		//  2. ValidDelegator1 delegate 8000 fury again, fail coz no balance
 		noErrorInHandlerResult(false),
 		noErrorInHandlerResult(false),
 		validatorStatusChecker(sdk.Bonded.String()),
@@ -180,9 +180,9 @@ func TestDelegator(t *testing.T) {
 		noErrorInHandlerResult(false),
 		noErrorInHandlerResult(false),
 		noErrorInHandlerResult(false),
-		//   1. ValidDelegator1 UnBond 4000okb, success
+		//   1. ValidDelegator1 UnBond 4000fury, success
 		noErrorInHandlerResult(true),
-		//   2. ValidDelegator1 UnBond 4000okb, success
+		//   2. ValidDelegator1 UnBond 4000fury, success
 		noErrorInHandlerResult(true),
 		nil,
 		//   3. Check ValidDelegator1's not exists any more

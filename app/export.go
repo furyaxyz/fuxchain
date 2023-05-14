@@ -25,7 +25,7 @@ func NewDefaultGenesisState() simapp.GenesisState {
 
 // ExportAppStateAndValidators exports the state of the application for a genesis
 // file.
-func (app *OKBChainApp) ExportAppStateAndValidators(
+func (app *FURYChainApp) ExportAppStateAndValidators(
 	forZeroHeight bool, jailWhiteList []string,
 ) (appState json.RawMessage, validators []tmtypes.GenesisValidator, err error) {
 
@@ -53,7 +53,7 @@ func (app *OKBChainApp) ExportAppStateAndValidators(
 // NOTE zero height genesis is a temporary feature which will be deprecated
 //
 //	in favour of export at a block height
-func (app *OKBChainApp) prepForZeroHeightGenesis(ctx sdk.Context, jailWhiteList []string) {
+func (app *FURYChainApp) prepForZeroHeightGenesis(ctx sdk.Context, jailWhiteList []string) {
 	applyWhiteList := false
 
 	//Check if there is a whitelist

@@ -95,8 +95,8 @@ func getAccountFromMpt(height uint64) map[string]interface{} {
 		panicError(err)
 		// check if the account is a contract account
 		if ethAcc, ok := acc.(*apptypes.EthAccount); ok {
-			var okbAcc = TempNewAccountPretty{Storage: make(map[string]string)}
-			err = json.Unmarshal(buff, &okbAcc)
+			var furyAcc = TempNewAccountPretty{Storage: make(map[string]string)}
+			err = json.Unmarshal(buff, &furyAcc)
 			panicError(err)
 
 			if !bytes.Equal(ethAcc.CodeHash, mpt.EmptyCodeHashBytes) {
@@ -108,11 +108,11 @@ func getAccountFromMpt(height uint64) map[string]interface{} {
 				for cItr.Next() {
 					key := ethcmn.BytesToHash(contractTrie.GetKey(cItr.Key))
 					prefixKey := GetStorageByAddressKey(ethAcc.EthAddress().Bytes(), key.Bytes())
-					okbAcc.Storage[prefixKey.String()] = hex.EncodeToString(cItr.Value)
+					furyAcc.Storage[prefixKey.String()] = hex.EncodeToString(cItr.Value)
 				}
 			}
 
-			result[acc.GetAddress().String()] = &okbAcc
+			result[acc.GetAddress().String()] = &furyAcc
 		} else {
 			result[acc.GetAddress().String()] = acc
 		}

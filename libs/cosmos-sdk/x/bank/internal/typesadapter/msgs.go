@@ -5,7 +5,7 @@ import (
 	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
 	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
 	txmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	okbc_types "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
+	furyc_types "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
 	"github.com/exfury/fuxchain/libs/system"
 )
 
@@ -109,10 +109,10 @@ func (msg *MsgMultiSend) ValidateBasic() error {
 	// this just makes sure all the inputs and outputs are properly formatted,
 	// not that they actually have the money inside
 	if len(msg.Inputs) == 0 {
-		return okbc_types.ErrNoInputs
+		return furyc_types.ErrNoInputs
 	}
 	if len(msg.Outputs) == 0 {
-		return okbc_types.ErrNoOutputs
+		return furyc_types.ErrNoOutputs
 	}
 	return ValidateInputsOutputs(msg.Inputs, msg.Outputs)
 }
@@ -221,7 +221,7 @@ func ValidateInputsOutputs(inputs []Input, outputs []Output) error {
 
 	// make sure inputs and outputs match
 	if !totalIn.IsEqual(totalOut) {
-		return okbc_types.ErrInputOutputMismatch
+		return furyc_types.ErrInputOutputMismatch
 	}
 
 	return nil

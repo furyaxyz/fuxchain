@@ -291,7 +291,7 @@ type TestAccounts []*testAccount
 func GenTx(msgs []sdk.Msg, accnums []uint64, seq []uint64, priv ...crypto.PrivKey) *auth.StdTx {
 	// Make the transaction free
 	fee := auth.StdFee{
-		// just for test - 0.01okb as fixed fee
+		// just for test - 0.01fury as fixed fee
 		Amount: sdk.NewDecCoinsFromDec(sdk.DefaultBondDenom, sdk.MustNewDecFromStr("0.01")),
 		Gas:    200000,
 	}
@@ -390,7 +390,7 @@ func TestMsgTokenChown(t *testing.T) {
 	TokenIssue = append(TokenIssue, createTokenMsg(t, app, ctx, testAccounts[0], tokenIssueMsg))
 
 	//test error supply coin issue(TotalSupply > (9*1e10))
-	MsgErrorSupply := types.NewMsgTokenIssue("okb", "okb", "okb", "fuccc", strconv.FormatInt(int64(10*1e10), 10), testAccounts[0].baseAccount.Address, true)
+	MsgErrorSupply := types.NewMsgTokenIssue("fury", "fury", "fury", "fuccc", strconv.FormatInt(int64(10*1e10), 10), testAccounts[0].baseAccount.Address, true)
 	TokenIssue = append(TokenIssue, createTokenMsg(t, app, ctx, testAccounts[0], MsgErrorSupply))
 
 	//test error tokenDesc (length > 256)
@@ -414,7 +414,7 @@ ok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-bok-b
 	addTokenSuffix(ctx, keeper, "notexist")
 
 	//normal test
-	symbName := "okb-b85" //addTokenSuffix(ctx,keeper,common.NativeToken)
+	symbName := "fury-b85" //addTokenSuffix(ctx,keeper,common.NativeToken)
 	//change owner from F to T
 	tokenChownMsg := types.NewMsgTransferOwnership(fromAddr, toAddr, symbName)
 	TokenChown = append(TokenChown, createTokenMsg(t, app, ctx, testAccounts[0], tokenChownMsg))
@@ -546,7 +546,7 @@ func TestCreateTokenIssue(t *testing.T) {
 	tokenIssueMsg = types.NewMsgTokenIssue("btc", "btc", "btc", "bitcoin", strconv.FormatInt(types.TotalSupplyUpperbound+1, 10), testAccounts[0].baseAccount.Address, true)
 	tokenIssue = append(tokenIssue, createTokenMsg(t, app, ctx, testAccounts[0], tokenIssueMsg))
 
-	// not enough okbs
+	// not enough furys
 	tokenIssueMsg = types.NewMsgTokenIssue("xmr", "xmr", "xmr", "Monero", totalSupplyStr, testAccounts[0].baseAccount.Address, true)
 	tokenIssue = append(tokenIssue, createTokenMsg(t, app, ctx, testAccounts[0], tokenIssueMsg))
 
@@ -950,7 +950,7 @@ func TestTxFailedFeeTable(t *testing.T) {
 	toPubKey := toPriKey.PubKey()
 	toAddr := sdk.AccAddress(toPubKey.Address())
 
-	// failed issue msg : not enough okbs .
+	// failed issue msg : not enough furys .
 	failedIssueMsg := types.NewMsgTokenIssue("xmr", "xmr", "xmr", "Monero", "500", testAccounts[0].baseAccount.Address, true)
 	// failed mint msg : no such token
 	decCoin := sdk.NewDecCoinFromDec("nob", sdk.NewDec(200))
@@ -976,7 +976,7 @@ func TestTxFailedFeeTable(t *testing.T) {
 		balance string
 		msg     *auth.StdTx
 	}{
-		// 0.01okb as fixed fee in each stdTx
+		// 0.01fury as fixed fee in each stdTx
 		{"fail to issue : 0.01", "9.990000000000000000", createTokenMsg(t, app, ctx, testAccounts[0], failedIssueMsg)},
 		{"fail to mint  : 0.01", "9.980000000000000000", createTokenMsg(t, app, ctx, testAccounts[0], failedMintMsg)},
 		{"fail to burn  : 0.01", "9.970000000000000000", createTokenMsg(t, app, ctx, testAccounts[0], failedBurnMsg)},
@@ -1031,7 +1031,7 @@ func TestTxSuccessFeeTable(t *testing.T) {
 		msg         sdk.Msg
 		account     *testAccount
 	}{
-		// 0.01okb as fixed fee in each stdTx
+		// 0.01fury as fixed fee in each stdTx
 		{"success to issue : 2500+0.01", "27499.990000000000000000", successfulIssueMsg, testAccounts[0]},
 		{"success to mint  : 10+0.01", "27489.980000000000000000", successfulMintMsg, testAccounts[0]},
 		{"success to burn  : 10+0.01", "27479.970000000000000000", successfulBurnMsg, testAccounts[0]},
@@ -1081,7 +1081,7 @@ func TestBlockedAddrSend(t *testing.T) {
 		msg         sdk.Msg
 		account     *testAccount
 	}{
-		// 0.01okb as fixed fee in each stdTx
+		// 0.01fury as fixed fee in each stdTx
 		{"success to send  : 50+0.01", "29949.990000000000000000", successfulSendMsg, testAccounts[0]},
 		{"fail to send  : 0.01", "29949.980000000000000000", failedSendMsg, testAccounts[0]},
 		{"success to multi-send  : 100+0.01", "29849.970000000000000000", successfulMultiSendMsg, testAccounts[0]},

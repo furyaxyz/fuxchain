@@ -39,7 +39,7 @@ import (
 
 const (
 	addrAStoreKey      = 0
-	defaultMinGasPrice = "0.000000001okb"
+	defaultMinGasPrice = "0.000000001fury"
 	latestBlockNumber  = "latest"
 	pendingBlockNumber = "pending"
 )
@@ -119,7 +119,7 @@ func (suite *RPCPendingTestSuite) SetupTest() {
 	viper.Set(flags.FlagHome, serverDir)
 	viper.Set(rpc.FlagPersonalAPI, true)
 
-	chainId := apptesting.GetOKBChainID(1)
+	chainId := apptesting.GetFURYChainID(1)
 	suite.coordinator = apptesting.NewEthCoordinator(suite.T(), 1)
 	suite.chain = suite.coordinator.GetChain(chainId)
 	suite.chain.App().SetOption(abci.RequestSetOption{

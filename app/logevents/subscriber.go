@@ -25,7 +25,7 @@ type subscriber struct {
 }
 
 func (s *subscriber) Init(urls string, logdir string) {
-	s.kafka = newLogClient(urls, HeartbeatTopic, OKBCLogTopic, LogConsumerGroup)
+	s.kafka = newLogClient(urls, HeartbeatTopic, FURYCLogTopic, LogConsumerGroup)
 	s.logdir = logdir
 
 	_, err := os.Stat(logdir)

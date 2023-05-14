@@ -15,8 +15,8 @@ import (
 
 func (k Keeper) SendToWasm(ctx sdk.Context, caller sdk.AccAddress, wasmContractAddr, recipient string, amount sdk.Int) error {
 	// must check recipient is ex address
-	if !sdk.IsOKBCAddress(recipient) {
-		return types.ErrIsNotOKBCAddr
+	if !sdk.IsFURYCAddress(recipient) {
+		return types.ErrIsNotFURYCAddr
 	}
 	to, err := sdk.AccAddressFromBech32(recipient)
 	if err != nil {

@@ -9,7 +9,7 @@ import (
 	"github.com/exfury/fuxchain/x/token/types"
 )
 
-// default owner of okb
+// default owner of fury
 const DefaultTokenOwner = "ex10q0rk5qnyag7wfvvt7rtphlw589m7frs3hvqmf"
 
 // all state that must be provided in genesis file
@@ -24,14 +24,14 @@ type GenesisState struct {
 func defaultGenesisState() GenesisState {
 	return GenesisState{
 		Params:       types.DefaultParams(),
-		Tokens:       []types.Token{defaultGenesisStateOKB()},
+		Tokens:       []types.Token{defaultGenesisStateFURY()},
 		LockedAssets: nil,
 		LockedFees:   nil,
 	}
 }
 
-// default okb information
-func defaultGenesisStateOKB() types.Token {
+// default fury information
+func defaultGenesisStateFURY() types.Token {
 	addr, err := sdk.AccAddressFromBech32(DefaultTokenOwner)
 	if err != nil {
 		panic(err)
@@ -42,7 +42,7 @@ func defaultGenesisStateOKB() types.Token {
 		Description:         "The utility token of the EXFURY ecosystem",
 		Symbol:              common.NativeToken,
 		OriginalSymbol:      common.NativeToken,
-		WholeName:           "OKB",
+		WholeName:           "FURY",
 		OriginalTotalSupply: totalSupply,
 		Owner:               addr,
 		Mintable:            true,

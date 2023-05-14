@@ -16,13 +16,13 @@ const (
 type LocalClient struct {
 	path     string
 	dir      string
-	okbcConf *OkbcConfig
+	furycConf *FurycConfig
 	logger   log.Logger
 	watcher  *fsnotify.Watcher
 	close    chan struct{}
 }
 
-func NewLocalClient(path string, okbcConf *OkbcConfig, logger log.Logger) (*LocalClient, error) {
+func NewLocalClient(path string, furycConf *FurycConfig, logger log.Logger) (*LocalClient, error) {
 	if logger == nil {
 		logger = log.NewNopLogger()
 	}
@@ -34,7 +34,7 @@ func NewLocalClient(path string, okbcConf *OkbcConfig, logger log.Logger) (*Loca
 	client := &LocalClient{
 		path:     path,
 		dir:      dir,
-		okbcConf: okbcConf,
+		furycConf: furycConf,
 		logger:   logger,
 		watcher:  watcher,
 		close:    make(chan struct{}),
@@ -99,8 +99,8 @@ func (a *LocalClient) LoadConfig() (loaded bool) {
 	}
 	loaded = true
 	for k, v := range conf {
-		a.okbcConf.updateFromKVStr(k, v)
+		a.furycConf.updateFromKVStr(k, v)
 	}
-	a.logger.Info(a.okbcConf.format())
+	a.logger.Info(a.furycConf.format())
 	return
 }

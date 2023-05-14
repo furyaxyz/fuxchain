@@ -25,7 +25,7 @@ func TestAmountToCoins(t *testing.T) {
 func TestStrToTransfers(t *testing.T) {
 	common.InitConfig()
 	//coinStr := `[{"to": "cosmos18ragjd23yv4ctjg3vadh43q5zf8z0hafm4qjrf", "amount": "1BNB,2BTC"},
-	//{"to": "cosmos18ragjd23yv4ctjg3vadh43q5zf8z0hafm4qjrf", "amount": "1OKB,2BTC"}]`
+	//{"to": "cosmos18ragjd23yv4ctjg3vadh43q5zf8z0hafm4qjrf", "amount": "1FURY,2BTC"}]`
 	coinStr := `[{"to":"ex1jedas2n0pq2c68pelztgel8ht8pz50rh7s7vfz","amount":"1` + common.NativeToken + `"}]`
 	coinStrError := `[{"to":"xe1qwuag8gx408m9ej038vzx50ntt0x4yrq38yf06","amount":"1` + common.NativeToken + `"}]`
 	addr, err := sdk.AccAddressFromBech32("ex1jedas2n0pq2c68pelztgel8ht8pz50rh7s7vfz")

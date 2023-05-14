@@ -29,7 +29,7 @@ type MintTestSuite struct {
 	ctx        sdk.Context
 	govHandler govtypes.Handler
 	querier    sdk.Querier
-	app        *app.OKBChainApp
+	app        *app.FURYChainApp
 	codec      *codec.Codec
 }
 
@@ -103,13 +103,13 @@ func (suite *MintTestSuite) TestModifyMintedPerBlockProposal() {
 		expectDec   sdktypes.Dec
 		expectError error
 	}{
-		{"amount -1", "{\"coin\":{\"denom\":\"okb\",\"amount\":\"-1.000000000000000000\"}}", sdktypes.NewDec(0), types.ErrExtraProposalParams("coin is negative")},
-		{"not okb", "{\"coin\":{\"denom\":\"exfury\",\"amount\":\"1.000000000000000000\"}}", sdktypes.NewDec(0), types.ErrExtraProposalParams("coin is nil")},
-		{"amount 1 ok", "{\"coin\":{\"denom\":\"okb\",\"amount\":\"1.000000000000000000\"}}", sdktypes.NewDec(1), nil},
-		{"amount 0.5 ok", "{\"coin\":{\"denom\":\"okb\",\"amount\":\"0.500000000000000000\"}}", sdktypes.NewDecWithPrec(5, 1), nil},
-		{"amount 0.0 ok", "{\"coin\":{\"denom\":\"okb\",\"amount\":\"0.000000000000000000\"}}", sdktypes.NewDec(0), nil},
-		{"amount 0 ok", "{\"coin\":{\"denom\":\"okb\",\"amount\":\"0\"}}", sdktypes.NewDec(0), nil},
-		{"amount 10000 ok", "{\"coin\":{\"denom\":\"okb\",\"amount\":\"10000\"}}", sdktypes.NewDec(10000), nil},
+		{"amount -1", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"-1.000000000000000000\"}}", sdktypes.NewDec(0), types.ErrExtraProposalParams("coin is negative")},
+		{"not fury", "{\"coin\":{\"denom\":\"exfury\",\"amount\":\"1.000000000000000000\"}}", sdktypes.NewDec(0), types.ErrExtraProposalParams("coin is nil")},
+		{"amount 1 ok", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"1.000000000000000000\"}}", sdktypes.NewDec(1), nil},
+		{"amount 0.5 ok", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"0.500000000000000000\"}}", sdktypes.NewDecWithPrec(5, 1), nil},
+		{"amount 0.0 ok", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"0.000000000000000000\"}}", sdktypes.NewDec(0), nil},
+		{"amount 0 ok", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"0\"}}", sdktypes.NewDec(0), nil},
+		{"amount 10000 ok", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"10000\"}}", sdktypes.NewDec(10000), nil},
 	}
 
 	for _, tc := range testCases {

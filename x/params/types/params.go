@@ -24,7 +24,7 @@ func ParamKeyTable() sdkparams.KeyTable {
 // Params is the struct of the parameters in this module
 type Params struct {
 	// DexList proposal params
-	// Maximum period for okb holders to deposit on a dex list proposal. Initial value: 2 days
+	// Maximum period for fury holders to deposit on a dex list proposal. Initial value: 2 days
 	MaxDepositPeriod time.Duration `json:"max_deposit_period"`
 	// Minimum deposit for a critical dex list proposal to enter voting period
 	MinDeposit sdk.SysCoins `json:"min_deposit"`

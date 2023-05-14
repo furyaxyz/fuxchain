@@ -23,12 +23,12 @@ func WithChainId(chainId string) Option {
 	}
 }
 
-// Setup initializes a new OKBChainApp. A Nop logger is set in OKBChainApp.
-func Setup(isCheckTx bool, options ...Option) *OKBChainApp {
+// Setup initializes a new FURYChainApp. A Nop logger is set in FURYChainApp.
+func Setup(isCheckTx bool, options ...Option) *FURYChainApp {
 	viper.Set(sdk.FlagDBBackend, string(dbm.MemDBBackend))
 	types.DBBackend = string(dbm.MemDBBackend)
 	db := dbm.NewMemDB()
-	app := NewOKBChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, 0)
+	app := NewFURYChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, 0)
 
 	if !isCheckTx {
 		setupOption := &SetupOption{chainId: ""}

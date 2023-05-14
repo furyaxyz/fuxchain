@@ -14,7 +14,7 @@ import (
 )
 
 func TestConfig(t *testing.T) {
-	c := GetOkbcConfig()
+	c := GetFurycConfig()
 
 	tm.SetDynamicConfig(c)
 	require.Equal(t, 0, tm.DynamicConfig.GetMempoolSize())

@@ -45,7 +45,7 @@ import (
 )
 
 const flagInvCheckPeriod = "inv-check-period"
-const OkbcEnvPrefix = system.EnvPrefix
+const FurycEnvPrefix = system.EnvPrefix
 
 var invCheckPeriod uint
 
@@ -72,7 +72,7 @@ func main() {
 
 	rootCmd := &cobra.Command{
 		Use:               system.Server,
-		Short:             "OKBChain App Daemon (server)",
+		Short:             "FURYChain App Daemon (server)",
 		PersistentPreRunE: preRun(ctx),
 	}
 	// CLI commands to initialize the chain
@@ -113,7 +113,7 @@ func main() {
 	preCheckLongFlagSyntax()
 
 	// prepare and add flags
-	executor := cli.PrepareBaseCmd(rootCmd, OkbcEnvPrefix, app.DefaultNodeHome)
+	executor := cli.PrepareBaseCmd(rootCmd, FurycEnvPrefix, app.DefaultNodeHome)
 	rootCmd.PersistentFlags().UintVar(&invCheckPeriod, flagInvCheckPeriod,
 		0, "Assert registered invariants every N blocks")
 	rootCmd.PersistentFlags().Bool(server.FlagGops, false, "Enable gops metrics collection")
@@ -134,7 +134,7 @@ func initEnv() {
 }
 
 func checkSetEnv(envName string, value string) {
-	realEnvName := OkbcEnvPrefix + "_" + strings.ToUpper(envName)
+	realEnvName := FurycEnvPrefix + "_" + strings.ToUpper(envName)
 	_, ok := os.LookupEnv(realEnvName)
 	if !ok {
 		_ = os.Setenv(realEnvName, value)
@@ -143,7 +143,7 @@ func checkSetEnv(envName string, value string) {
 
 func closeApp(iApp abci.Application) {
 	fmt.Println("Close App")
-	app := iApp.(*app.OKBChainApp)
+	app := iApp.(*app.FURYChainApp)
 	app.StopBaseApp()
 	evmtypes.CloseIndexer()
 	rpc.CloseEthBackend()
@@ -156,7 +156,7 @@ func newApp(logger log.Logger, db dbm.DB, traceStore io.Writer) abci.Application
 		panic(err)
 	}
 
-	return app.NewOKBChainApp(
+	return app.NewFURYChainApp(
 		logger,
 		db,
 		traceStore,
@@ -172,15 +172,15 @@ func newApp(logger log.Logger, db dbm.DB, traceStore io.Writer) abci.Application
 func exportAppStateAndTMValidators(
 	logger log.Logger, db dbm.DB, traceStore io.Writer, height int64, forZeroHeight bool, jailWhiteList []string,
 ) (json.RawMessage, []tmtypes.GenesisValidator, error) {
-	var ethermintApp *app.OKBChainApp
+	var ethermintApp *app.FURYChainApp
 	if height != -1 {
-		ethermintApp = app.NewOKBChainApp(logger, db, traceStore, false, map[int64]bool{}, 0)
+		ethermintApp = app.NewFURYChainApp(logger, db, traceStore, false, map[int64]bool{}, 0)
 
 		if err := ethermintApp.LoadHeight(height); err != nil {
 			return nil, nil, err
 		}
 	} else {
-		ethermintApp = app.NewOKBChainApp(logger, db, traceStore, true, map[int64]bool{}, 0)
+		ethermintApp = app.NewFURYChainApp(logger, db, traceStore, true, map[int64]bool{}, 0)
 	}
 
 	return ethermintApp.ExportAppStateAndValidators(forZeroHeight, jailWhiteList)

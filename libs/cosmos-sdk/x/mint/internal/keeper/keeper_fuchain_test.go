@@ -19,7 +19,7 @@ type TreasuresTestSuite struct {
 	suite.Suite
 
 	ctx     sdk.Context
-	app     *app.OKBChainApp
+	app     *app.FURYChainApp
 	stateDB *evm_types.CommitStateDB
 	codec   *codec.Codec
 

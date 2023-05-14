@@ -66,7 +66,7 @@ func TestNewMsgTokenBurn(t *testing.T) {
 	decCoin0.Denom = ""
 
 	decCoin1 := decCoin
-	decCoin1.Denom = "1okb-ads"
+	decCoin1.Denom = "1fury-ads"
 
 	testCase := []struct {
 		burnMsg MsgTokenBurn
@@ -75,7 +75,7 @@ func TestNewMsgTokenBurn(t *testing.T) {
 		{NewMsgTokenBurn(decCoin, addr), nil},
 		{NewMsgTokenBurn(decCoin0, addr), common.ErrInsufficientCoins(DefaultParamspace, "100.000000000000000000")},
 		{NewMsgTokenBurn(decCoin, sdk.AccAddress{}), ErrAddressIsRequired()},
-		{NewMsgTokenBurn(decCoin1, addr), common.ErrInsufficientCoins(DefaultParamspace, "100.0000000000000000001okb-ads")},
+		{NewMsgTokenBurn(decCoin1, addr), common.ErrInsufficientCoins(DefaultParamspace, "100.0000000000000000001fury-ads")},
 	}
 
 	for _, msgCase := range testCase {
@@ -165,9 +165,9 @@ func TestNewTokenMsgSend(t *testing.T) {
 	}
 
 	Errorcoins := sdk.SysCoins{
-		sdk.NewDecCoinFromDec("okb", sdk.NewDec(100)),
-		sdk.NewDecCoinFromDec("okb", sdk.NewDec(100)),
-		sdk.NewDecCoinFromDec("okb", sdk.NewDec(100)),
+		sdk.NewDecCoinFromDec("fury", sdk.NewDec(100)),
+		sdk.NewDecCoinFromDec("fury", sdk.NewDec(100)),
+		sdk.NewDecCoinFromDec("fury", sdk.NewDec(100)),
 	}
 
 	// not valid coins
@@ -185,7 +185,7 @@ func TestNewTokenMsgSend(t *testing.T) {
 	}{
 		{NewMsgTokenSend(fromAddr, toAddr, coins), nil},
 		{NewMsgTokenSend(fromAddr, toAddr, sdk.SysCoins{}), common.ErrInsufficientCoins(DefaultParamspace, "")},
-		{NewMsgTokenSend(fromAddr, toAddr, Errorcoins), ErrInvalidCoins("100.000000000000000000okb,100.000000000000000000okb,100.000000000000000000okb")},
+		{NewMsgTokenSend(fromAddr, toAddr, Errorcoins), ErrInvalidCoins("100.000000000000000000fury,100.000000000000000000fury,100.000000000000000000fury")},
 		{NewMsgTokenSend(sdk.AccAddress{}, toAddr, coins), ErrAddressIsRequired()},
 		{NewMsgTokenSend(fromAddr, sdk.AccAddress{}, coins), ErrAddressIsRequired()},
 		{NewMsgTokenSend(fromAddr, toAddr, notValidCoins), ErrInvalidCoins("100.000000000000000000")},
@@ -251,7 +251,7 @@ func TestNewTokenMultiSend(t *testing.T) {
 		{NewMsgMultiSend(fromAddr, transfers), nil},
 		{NewMsgMultiSend(sdk.AccAddress{}, transfers), ErrAddressIsRequired()},
 		{NewMsgMultiSend(fromAddr, make([]TransferUnit, MultiSendLimit+1)), ErrMsgTransfersAmountBiggerThanSendLimit()},
-		{NewMsgMultiSend(fromAddr, transfers0), ErrInvalidCoins("0.000000000000000000okb")},
+		{NewMsgMultiSend(fromAddr, transfers0), ErrInvalidCoins("0.000000000000000000fury")},
 		{NewMsgMultiSend(fromAddr, transfers1), ErrAddressIsRequired()},
 	}
 	for _, msgCase := range testCase {
@@ -297,7 +297,7 @@ func TestNewMsgTransferOwnership(t *testing.T) {
 		{NewMsgTransferOwnership(fromAddr, sdk.AccAddress{}, common.NativeToken), ErrAddressIsRequired()},
 		{NewMsgTransferOwnership(sdk.AccAddress{}, toAddr, common.NativeToken), ErrAddressIsRequired()},
 		{NewMsgTransferOwnership(fromAddr, toAddr, ""), ErrMsgSymbolIsEmpty()},
-		{NewMsgTransferOwnership(fromAddr, toAddr, "1okb-ads"), ErrConfirmOwnershipNotExistOrBlockTimeAfter()},
+		{NewMsgTransferOwnership(fromAddr, toAddr, "1fury-ads"), ErrConfirmOwnershipNotExistOrBlockTimeAfter()},
 	}
 	for _, msgCase := range testCase {
 		err := msgCase.transferOwnershipMsg.ValidateBasic()

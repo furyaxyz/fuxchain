@@ -183,19 +183,19 @@ func TestParseMsgWrapper(t *testing.T) {
 		fnCheck func(ret *MsgWrapper, err error)
 	}{
 		{
-			input: `{"type": "fuxchain/staking/MsgDeposit","value": {"delegator_address": "0x4375D630687C83471829227b5C1Ea92217FD6265","quantity": {"denom": "okb","amount": "1"}}}`,
+			input: `{"type": "fuxchain/staking/MsgDeposit","value": {"delegator_address": "0x4375D630687C83471829227b5C1Ea92217FD6265","quantity": {"denom": "fury","amount": "1"}}}`,
 			fnCheck: func(ret *MsgWrapper, err error) {
 				require.NoError(t, err)
 				require.Equal(t, "fuxchain/staking/MsgDeposit", ret.Name)
-				require.Equal(t, "{\"delegator_address\": \"0x4375D630687C83471829227b5C1Ea92217FD6265\",\"quantity\": {\"denom\": \"okb\",\"amount\": \"1\"}}", string(ret.Data))
+				require.Equal(t, "{\"delegator_address\": \"0x4375D630687C83471829227b5C1Ea92217FD6265\",\"quantity\": {\"denom\": \"fury\",\"amount\": \"1\"}}", string(ret.Data))
 			},
 		},
 		{
-			input: `{"type": "fuxchain/staking/MsgWithdraw","value": {"delegator_address": "0x4375D630687C83471829227b5C1Ea92217FD6265","quantity": {"denom": "okb","amount": "1"}}}`,
+			input: `{"type": "fuxchain/staking/MsgWithdraw","value": {"delegator_address": "0x4375D630687C83471829227b5C1Ea92217FD6265","quantity": {"denom": "fury","amount": "1"}}}`,
 			fnCheck: func(ret *MsgWrapper, err error) {
 				require.NoError(t, err)
 				require.Equal(t, "fuxchain/staking/MsgWithdraw", ret.Name)
-				require.Equal(t, "{\"delegator_address\": \"0x4375D630687C83471829227b5C1Ea92217FD6265\",\"quantity\": {\"denom\": \"okb\",\"amount\": \"1\"}}", string(ret.Data))
+				require.Equal(t, "{\"delegator_address\": \"0x4375D630687C83471829227b5C1Ea92217FD6265\",\"quantity\": {\"denom\": \"fury\",\"amount\": \"1\"}}", string(ret.Data))
 			},
 		},
 		// error

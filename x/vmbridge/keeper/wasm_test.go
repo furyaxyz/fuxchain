@@ -72,7 +72,7 @@ func (suite *KeeperTestSuite) TestKeeper_SendToWasm() {
 				suite.Require().NoError(err)
 				suite.Require().Equal("{\"balance\":\"1\"}", string(result))
 			},
-			types.ErrIsNotOKBCAddr,
+			types.ErrIsNotFURYCAddr,
 		},
 		{
 			"recipient is wasmaddr",
@@ -98,7 +98,7 @@ func (suite *KeeperTestSuite) TestKeeper_SendToWasm() {
 				suite.Require().NoError(err)
 				suite.Require().Equal("{\"balance\":\"1\"}", string(result))
 			},
-			types.ErrIsNotOKBCAddr,
+			types.ErrIsNotFURYCAddr,
 		},
 		{
 			"normal topic,amount is zero",

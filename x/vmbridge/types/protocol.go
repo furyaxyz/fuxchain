@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	SendToWasmEventName  = "__OKBCSendToWasm"
+	SendToWasmEventName  = "__FURYCSendToWasm"
 	WasmCalledMethodName = "mintCW20"
 
 	SendToEvmSubMsgName = "send-to-evm"

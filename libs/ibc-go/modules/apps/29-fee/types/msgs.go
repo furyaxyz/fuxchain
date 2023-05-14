@@ -282,16 +282,16 @@ func (msg MsgPayPacketFeeAsync) GetSignBytes() []byte {
 //}
 
 func convPacketFee(fee Fee) (Fee, error) {
-	recvF, err := sdk.ConvWei2TOkb(fee.RecvFee)
+	recvF, err := sdk.ConvWei2TFury(fee.RecvFee)
 	if nil != err {
 		return fee, err
 	}
 
-	ackF, err := sdk.ConvWei2TOkb(fee.AckFee)
+	ackF, err := sdk.ConvWei2TFury(fee.AckFee)
 	if nil != err {
 		return fee, err
 	}
-	timeoutF, err := sdk.ConvWei2TOkb(fee.TimeoutFee)
+	timeoutF, err := sdk.ConvWei2TFury(fee.TimeoutFee)
 	if nil != err {
 		return fee, err
 	}

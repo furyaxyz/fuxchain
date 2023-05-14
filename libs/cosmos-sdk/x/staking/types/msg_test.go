@@ -194,7 +194,7 @@ func TestMsgMarshalYAML(t *testing.T) {
   validatoraddress: %s
   pubkey: %s
   value:
-    denom: okb
+    denom: fury
     amount: "1000.000000000000000000"
 `, msg.DelegatorAddress, msg.ValidatorAddress, bechifiedPub)
 

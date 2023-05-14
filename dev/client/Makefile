@@ -11,7 +11,7 @@ Version=v0.19.6
 CosmosSDK=v0.39.2
 Tendermint=v0.33.9
 Iavl=v0.14.3
-Name=okbclient
+Name=furyclient
 ServerName=fuxchaind
 ClientName=fuxchaincli
 

@@ -39,11 +39,11 @@ func export(ctx *server.Context) {
 	}
 }
 
-func createApp(ctx *server.Context, dataPath string) *app.OKBChainApp {
+func createApp(ctx *server.Context, dataPath string) *app.FURYChainApp {
 	rootDir := ctx.Config.RootDir
 	dataDir := filepath.Join(rootDir, dataPath)
 	db, err := sdk.NewDB(applicationDB, dataDir)
 	panicError(err)
 	exapp := newApp(ctx.Logger, db, nil)
-	return exapp.(*app.OKBChainApp)
+	return exapp.(*app.FURYChainApp)
 }

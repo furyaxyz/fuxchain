@@ -27,10 +27,10 @@ import (
 	"github.com/spf13/viper"
 )
 
-var _ tmconfig.IDynamicConfig = &OkbcConfig{}
-var _ iavlconfig.IDynamicConfig = &OkbcConfig{}
+var _ tmconfig.IDynamicConfig = &FurycConfig{}
+var _ iavlconfig.IDynamicConfig = &FurycConfig{}
 
-type OkbcConfig struct {
+type FurycConfig struct {
 	// mempool.recheck
 	mempoolRecheck bool
 	// mempool.force_recheck_gap
@@ -210,20 +210,20 @@ var (
 
 	mainnetNodeIdWhitelist = []string{}
 
-	okbcConfig *OkbcConfig
+	furycConfig *FurycConfig
 	once       sync.Once
 	confLogger log.Logger
 )
 
-func GetOkbcConfig() *OkbcConfig {
+func GetFurycConfig() *FurycConfig {
 	once.Do(func() {
-		okbcConfig = NewOkbcConfig()
+		furycConfig = NewFurycConfig()
 	})
-	return okbcConfig
+	return furycConfig
 }
 
-func NewOkbcConfig() *OkbcConfig {
-	c := defaultOkbcConfig()
+func NewFurycConfig() *FurycConfig {
+	c := defaultFurycConfig()
 	c.loadFromConfig()
 
 	if viper.GetBool(FlagEnableDynamic) {
@@ -248,8 +248,8 @@ func NewOkbcConfig() *OkbcConfig {
 	return c
 }
 
-func defaultOkbcConfig() *OkbcConfig {
-	return &OkbcConfig{
+func defaultFurycConfig() *FurycConfig {
+	return &FurycConfig{
 		mempoolRecheck:         false,
 		mempoolForceRecheckGap: 2000,
 		commitGapHeight:        iavlconfig.DefaultCommitGapHeight,
@@ -260,13 +260,13 @@ func defaultOkbcConfig() *OkbcConfig {
 func RegisterDynamicConfig(logger log.Logger) {
 	confLogger = logger
 	// set the dynamic config
-	okbConfig := GetOkbcConfig()
-	tmconfig.SetDynamicConfig(okbConfig)
-	iavlconfig.SetDynamicConfig(okbConfig)
-	trace.SetDynamicConfig(okbConfig)
+	furyConfig := GetFurycConfig()
+	tmconfig.SetDynamicConfig(furyConfig)
+	iavlconfig.SetDynamicConfig(furyConfig)
+	trace.SetDynamicConfig(furyConfig)
 }
 
-func (c *OkbcConfig) loadFromConfig() {
+func (c *FurycConfig) loadFromConfig() {
 	c.SetMempoolRecheck(viper.GetBool(FlagMempoolRecheck))
 	c.SetMempoolForceRecheckGap(viper.GetInt64(FlagMempoolForceRecheckGap))
 	c.SetMempoolSize(viper.GetInt(FlagMempoolSize))
@@ -324,12 +324,12 @@ func resolveSentryAddrs(plain string) []string {
 	return strings.Split(plain, ";")
 }
 
-func (c *OkbcConfig) loadFromApollo() bool {
+func (c *FurycConfig) loadFromApollo() bool {
 	client := NewApolloClient(c)
 	return client.LoadConfig()
 }
 
-func (c *OkbcConfig) loadFromLocal() (bool, error) {
+func (c *FurycConfig) loadFromLocal() (bool, error) {
 	var err error
 	rootDir := viper.GetString("home")
 	configPath := path.Join(rootDir, "config", LocalDynamicConfigPath)
@@ -346,7 +346,7 @@ func (c *OkbcConfig) loadFromLocal() (bool, error) {
 	return ok, err
 }
 
-func (c *OkbcConfig) format() string {
+func (c *FurycConfig) format() string {
 	return fmt.Sprintf(`%s config:
 	mempool.recheck: %v
 	mempool.force_recheck_gap: %d
@@ -413,12 +413,12 @@ func (c *OkbcConfig) format() string {
 	)
 }
 
-func (c *OkbcConfig) update(key, value interface{}) {
+func (c *FurycConfig) update(key, value interface{}) {
 	k, v := key.(string), value.(string)
 	c.updateFromKVStr(k, v)
 }
 
-func (c *OkbcConfig) updateFromKVStr(k, v string) {
+func (c *FurycConfig) updateFromKVStr(k, v string) {
 	switch k {
 	case FlagMempoolRecheck:
 		r, err := strconv.ParseBool(v)
@@ -662,85 +662,85 @@ func (c *OkbcConfig) updateFromKVStr(k, v string) {
 
 }
 
-func (c *OkbcConfig) GetEnableAnalyzer() bool {
+func (c *FurycConfig) GetEnableAnalyzer() bool {
 	return c.enableAnalyzer
 }
-func (c *OkbcConfig) SetEnableAnalyzer(value bool) {
+func (c *FurycConfig) SetEnableAnalyzer(value bool) {
 	c.enableAnalyzer = value
 }
 
-func (c *OkbcConfig) GetMempoolRecheck() bool {
+func (c *FurycConfig) GetMempoolRecheck() bool {
 	return c.mempoolRecheck
 }
-func (c *OkbcConfig) SetMempoolRecheck(value bool) {
+func (c *FurycConfig) SetMempoolRecheck(value bool) {
 	c.mempoolRecheck = value
 }
 
-func (c *OkbcConfig) GetMempoolForceRecheckGap() int64 {
+func (c *FurycConfig) GetMempoolForceRecheckGap() int64 {
 	return c.mempoolForceRecheckGap
 }
-func (c *OkbcConfig) SetMempoolForceRecheckGap(value int64) {
+func (c *FurycConfig) SetMempoolForceRecheckGap(value int64) {
 	if value <= 0 {
 		return
 	}
 	c.mempoolForceRecheckGap = value
 }
 
-func (c *OkbcConfig) GetMempoolSize() int {
+func (c *FurycConfig) GetMempoolSize() int {
 	return c.mempoolSize
 }
-func (c *OkbcConfig) SetMempoolSize(value int) {
+func (c *FurycConfig) SetMempoolSize(value int) {
 	if value < 0 {
 		return
 	}
 	c.mempoolSize = value
 }
 
-func (c *OkbcConfig) GetMempoolCacheSize() int {
+func (c *FurycConfig) GetMempoolCacheSize() int {
 	return c.mempoolCacheSize
 }
-func (c *OkbcConfig) SetMempoolCacheSize(value int) {
+func (c *FurycConfig) SetMempoolCacheSize(value int) {
 	if value < 0 {
 		return
 	}
 	c.mempoolCacheSize = value
 }
 
-func (c *OkbcConfig) GetMempoolFlush() bool {
+func (c *FurycConfig) GetMempoolFlush() bool {
 	return c.mempoolFlush
 }
-func (c *OkbcConfig) SetMempoolFlush(value bool) {
+func (c *FurycConfig) SetMempoolFlush(value bool) {
 	c.mempoolFlush = value
 }
 
-func (c *OkbcConfig) GetEnableWtx() bool {
+func (c *FurycConfig) GetEnableWtx() bool {
 	return c.enableWtx
 }
 
-func (c *OkbcConfig) SetDeliverTxsExecuteMode(mode int) {
+func (c *FurycConfig) SetDeliverTxsExecuteMode(mode int) {
 	c.deliverTxsMode = mode
 }
 
-func (c *OkbcConfig) GetDeliverTxsExecuteMode() int {
+func (c *FurycConfig) GetDeliverTxsExecuteMode() int {
 	return c.deliverTxsMode
 }
 
-func (c *OkbcConfig) SetEnableWtx(value bool) {
+func (c *FurycConfig) SetEnableWtx(value bool) {
 	c.enableWtx = value
 }
 
-func (c *OkbcConfig) GetNodeKeyWhitelist() []string {
+func (c *FurycConfig) GetNodeKeyWhitelist() []string {
 	return c.nodeKeyWhitelist
 }
 
-func (c *OkbcConfig) GetMempoolCheckTxCost() bool {
+func (c *FurycConfig) GetMempoolCheckTxCost() bool {
 	return c.mempoolCheckTxCost
 }
-func (c *OkbcConfig) SetMempoolCheckTxCost(value bool) {
+func (c *FurycConfig) SetMempoolCheckTxCost(value bool) {
 	c.mempoolCheckTxCost = value
 }
 
-func (c *OkbcConfig) SetNodeKeyWhitelist(value string) {
+func (c *FurycConfig) SetNodeKeyWhitelist(value string) {
 	idList := resolveNodeKeyWhitelist(value)
 
 	for _, id := range idList {
@@ -754,82 +754,82 @@ func (c *OkbcConfig) SetNodeKeyWhitelist(value string) {
 	}
 }
 
-func (c *OkbcConfig) GetSentryAddrs() []string {
+func (c *FurycConfig) GetSentryAddrs() []string {
 	return c.sentryAddrs
 }
 
-func (c *OkbcConfig) SetSentryAddrs(value string) {
+func (c *FurycConfig) SetSentryAddrs(value string) {
 	addrs := resolveSentryAddrs(value)
 	for _, addr := range addrs {
 		c.sentryAddrs = append(c.sentryAddrs, strings.TrimSpace(addr))
 	}
 }
 
-func (c *OkbcConfig) GetMaxTxNumPerBlock() int64 {
+func (c *FurycConfig) GetMaxTxNumPerBlock() int64 {
 	return c.maxTxNumPerBlock
 }
-func (c *OkbcConfig) SetMaxTxNumPerBlock(value int64) {
+func (c *FurycConfig) SetMaxTxNumPerBlock(value int64) {
 	if value < 0 {
 		return
 	}
 	c.maxTxNumPerBlock = value
 }
 
-func (c *OkbcConfig) GetEnableDeleteMinGPTx() bool {
+func (c *FurycConfig) GetEnableDeleteMinGPTx() bool {
 	return c.enableDeleteMinGPTx
 }
 
-func (c *OkbcConfig) SetEnableDeleteMinGPTx(enable bool) {
+func (c *FurycConfig) SetEnableDeleteMinGPTx(enable bool) {
 	c.enableDeleteMinGPTx = enable
 }
 
-func (c *OkbcConfig) GetMaxGasUsedPerBlock() int64 {
+func (c *FurycConfig) GetMaxGasUsedPerBlock() int64 {
 	return c.maxGasUsedPerBlock
 }
 
-func (c *OkbcConfig) SetMaxGasUsedPerBlock(value int64) {
+func (c *FurycConfig) SetMaxGasUsedPerBlock(value int64) {
 	if value < -1 {
 		return
 	}
 	c.maxGasUsedPerBlock = value
 }
 
-func (c *OkbcConfig) GetEnablePGU() bool {
+func (c *FurycConfig) GetEnablePGU() bool {
 	return c.enablePGU
 }
 
-func (c *OkbcConfig) SetEnablePGU(value bool) {
+func (c *FurycConfig) SetEnablePGU(value bool) {
 	c.enablePGU = value
 }
 
-func (c *OkbcConfig) GetPGUAdjustment() float64 {
+func (c *FurycConfig) GetPGUAdjustment() float64 {
 	return c.pguAdjustment
 }
 
-func (c *OkbcConfig) SetPGUAdjustment(value float64) {
+func (c *FurycConfig) SetPGUAdjustment(value float64) {
 	c.pguAdjustment = value
 }
 
-func (c *OkbcConfig) GetGasLimitBuffer() uint64 {
+func (c *FurycConfig) GetGasLimitBuffer() uint64 {
 	return c.gasLimitBuffer
 }
-func (c *OkbcConfig) SetGasLimitBuffer(value uint64) {
+func (c *FurycConfig) SetGasLimitBuffer(value uint64) {
 	c.gasLimitBuffer = value
 }
 
-func (c *OkbcConfig) GetEnableDynamicGp() bool {
+func (c *FurycConfig) GetEnableDynamicGp() bool {
 	return c.enableDynamicGp
 }
 
-func (c *OkbcConfig) SetEnableDynamicGp(value bool) {
+func (c *FurycConfig) SetEnableDynamicGp(value bool) {
 	c.enableDynamicGp = value
 }
 
-func (c *OkbcConfig) GetDynamicGpWeight() int {
+func (c *FurycConfig) GetDynamicGpWeight() int {
 	return c.dynamicGpWeight
 }
 
-func (c *OkbcConfig) SetDynamicGpWeight(value int) {
+func (c *FurycConfig) SetDynamicGpWeight(value int) {
 	if value <= 0 {
 		value = 1
 	} else if value > 100 {
@@ -838,10 +838,10 @@ func (c *OkbcConfig) SetDynamicGpWeight(value int) {
 	c.dynamicGpWeight = value
 }
 
-func (c *OkbcConfig) GetDynamicGpCoefficient() int {
+func (c *FurycConfig) GetDynamicGpCoefficient() int {
 	return c.dynamicGpCoefficient
 }
-func (c *OkbcConfig) SetDynamicGpCoefficient(value int) {
+func (c *FurycConfig) SetDynamicGpCoefficient(value int) {
 	if value <= 0 {
 		value = 1
 	} else if value > 100 {
@@ -850,44 +850,44 @@ func (c *OkbcConfig) SetDynamicGpCoefficient(value int) {
 	c.dynamicGpCoefficient = value
 }
 
-func (c *OkbcConfig) GetDynamicGpMaxGasUsed() int64 {
+func (c *FurycConfig) GetDynamicGpMaxGasUsed() int64 {
 	return c.dynamicGpMaxGasUsed
 }
 
-func (c *OkbcConfig) SetDynamicGpMaxGasUsed(value int64) {
+func (c *FurycConfig) SetDynamicGpMaxGasUsed(value int64) {
 	if value < -1 {
 		return
 	}
 	c.dynamicGpMaxGasUsed = value
 }
 
-func (c *OkbcConfig) GetDynamicGpMaxTxNum() int64 {
+func (c *FurycConfig) GetDynamicGpMaxTxNum() int64 {
 	return c.dynamicGpMaxTxNum
 }
 
-func (c *OkbcConfig) SetDynamicGpMaxTxNum(value int64) {
+func (c *FurycConfig) SetDynamicGpMaxTxNum(value int64) {
 	if value < 0 {
 		return
 	}
 	c.dynamicGpMaxTxNum = value
 }
 
-func (c *OkbcConfig) GetDynamicGpMode() int {
+func (c *FurycConfig) GetDynamicGpMode() int {
 	return c.dynamicGpMode
 }
 
-func (c *OkbcConfig) SetDynamicGpMode(value int) {
+func (c *FurycConfig) SetDynamicGpMode(value int) {
 	if value < 0 || value > 2 {
 		return
 	}
 	c.dynamicGpMode = value
 }
 
-func (c *OkbcConfig) GetDynamicGpCheckBlocks() int {
+func (c *FurycConfig) GetDynamicGpCheckBlocks() int {
 	return c.dynamicGpCheckBlocks
 }
 
-func (c *OkbcConfig) SetDynamicGpCheckBlocks(value int) {
+func (c *FurycConfig) SetDynamicGpCheckBlocks(value int) {
 	if value <= 0 {
 		value = 1
 	} else if value > 100 {
@@ -896,95 +896,95 @@ func (c *OkbcConfig) SetDynamicGpCheckBlocks(value int) {
 	c.dynamicGpCheckBlocks = value
 }
 
-func (c *OkbcConfig) GetCsTimeoutPropose() time.Duration {
+func (c *FurycConfig) GetCsTimeoutPropose() time.Duration {
 	return c.csTimeoutPropose
 }
-func (c *OkbcConfig) SetCsTimeoutPropose(value time.Duration) {
+func (c *FurycConfig) SetCsTimeoutPropose(value time.Duration) {
 	if value < 0 {
 		return
 	}
 	c.csTimeoutPropose = value
 }
 
-func (c *OkbcConfig) GetCsTimeoutProposeDelta() time.Duration {
+func (c *FurycConfig) GetCsTimeoutProposeDelta() time.Duration {
 	return c.csTimeoutProposeDelta
 }
-func (c *OkbcConfig) SetCsTimeoutProposeDelta(value time.Duration) {
+func (c *FurycConfig) SetCsTimeoutProposeDelta(value time.Duration) {
 	if value < 0 {
 		return
 	}
 	c.csTimeoutProposeDelta = value
 }
 
-func (c *OkbcConfig) GetCsTimeoutPrevote() time.Duration {
+func (c *FurycConfig) GetCsTimeoutPrevote() time.Duration {
 	return c.csTimeoutPrevote
 }
-func (c *OkbcConfig) SetCsTimeoutPrevote(value time.Duration) {
+func (c *FurycConfig) SetCsTimeoutPrevote(value time.Duration) {
 	if value < 0 {
 		return
 	}
 	c.csTimeoutPrevote = value
 }
 
-func (c *OkbcConfig) GetCsTimeoutPrevoteDelta() time.Duration {
+func (c *FurycConfig) GetCsTimeoutPrevoteDelta() time.Duration {
 	return c.csTimeoutPrevoteDelta
 }
-func (c *OkbcConfig) SetCsTimeoutPrevoteDelta(value time.Duration) {
+func (c *FurycConfig) SetCsTimeoutPrevoteDelta(value time.Duration) {
 	if value < 0 {
 		return
 	}
 	c.csTimeoutPrevoteDelta = value
 }
 
-func (c *OkbcConfig) GetCsTimeoutPrecommit() time.Duration {
+func (c *FurycConfig) GetCsTimeoutPrecommit() time.Duration {
 	return c.csTimeoutPrecommit
 }
-func (c *OkbcConfig) SetCsTimeoutPrecommit(value time.Duration) {
+func (c *FurycConfig) SetCsTimeoutPrecommit(value time.Duration) {
 	if value < 0 {
 		return
 	}
 	c.csTimeoutPrecommit = value
 }
 
-func (c *OkbcConfig) GetCsTimeoutPrecommitDelta() time.Duration {
+func (c *FurycConfig) GetCsTimeoutPrecommitDelta() time.Duration {
 	return c.csTimeoutPrecommitDelta
 }
-func (c *OkbcConfig) SetCsTimeoutPrecommitDelta(value time.Duration) {
+func (c *FurycConfig) SetCsTimeoutPrecommitDelta(value time.Duration) {
 	if value < 0 {
 		return
 	}
 	c.csTimeoutPrecommitDelta = value
 }
 
-func (c *OkbcConfig) GetCsTimeoutCommit() time.Duration {
+func (c *FurycConfig) GetCsTimeoutCommit() time.Duration {
 	return c.csTimeoutCommit
 }
-func (c *OkbcConfig) SetCsTimeoutCommit(value time.Duration) {
+func (c *FurycConfig) SetCsTimeoutCommit(value time.Duration) {
 	if value < 0 {
 		return
 	}
 	c.csTimeoutCommit = value
 }
 
-func (c *OkbcConfig) GetIavlCacheSize() int {
+func (c *FurycConfig) GetIavlCacheSize() int {
 	return c.iavlCacheSize
 }
-func (c *OkbcConfig) SetIavlCacheSize(value int) {
+func (c *FurycConfig) SetIavlCacheSize(value int) {
 	c.iavlCacheSize = value
 }
 
-func (c *OkbcConfig) GetIavlFSCacheSize() int64 {
+func (c *FurycConfig) GetIavlFSCacheSize() int64 {
 	return c.iavlFSCacheSize
 }
 
-func (c *OkbcConfig) SetIavlFSCacheSize(value int64) {
+func (c *FurycConfig) SetIavlFSCacheSize(value int64) {
 	c.iavlFSCacheSize = value
 }
 
-func (c *OkbcConfig) GetCommitGapHeight() int64 {
+func (c *FurycConfig) GetCommitGapHeight() int64 {
 	return atomic.LoadInt64(&c.commitGapHeight)
 }
-func (c *OkbcConfig) SetCommitGapHeight(value int64) {
+func (c *FurycConfig) SetCommitGapHeight(value int64) {
 	if IsPruningOptionNothing() { // pruning nothing the gap should 1
 		value = 1
 	}
@@ -1002,43 +1002,43 @@ func IsPruningOptionNothing() bool {
 	return false
 }
 
-func (c *OkbcConfig) GetActiveVC() bool {
+func (c *FurycConfig) GetActiveVC() bool {
 	return c.activeVC
 }
-func (c *OkbcConfig) SetActiveVC(value bool) {
+func (c *FurycConfig) SetActiveVC(value bool) {
 	c.activeVC = value
 	consensus.SetActiveVC(value)
 }
 
-func (c *OkbcConfig) GetBlockPartSize() int {
+func (c *FurycConfig) GetBlockPartSize() int {
 	return c.blockPartSizeBytes
 }
-func (c *OkbcConfig) SetBlockPartSize(value int) {
+func (c *FurycConfig) SetBlockPartSize(value int) {
 	c.blockPartSizeBytes = value
 	tmtypes.UpdateBlockPartSizeBytes(value)
 }
 
-func (c *OkbcConfig) GetBlockCompressType() int {
+func (c *FurycConfig) GetBlockCompressType() int {
 	return c.blockCompressType
 }
-func (c *OkbcConfig) SetBlockCompressType(value int) {
+func (c *FurycConfig) SetBlockCompressType(value int) {
 	c.blockCompressType = value
 	tmtypes.BlockCompressType = value
 }
 
-func (c *OkbcConfig) GetBlockCompressFlag() int {
+func (c *FurycConfig) GetBlockCompressFlag() int {
 	return c.blockCompressFlag
 }
-func (c *OkbcConfig) SetBlockCompressFlag(value int) {
+func (c *FurycConfig) SetBlockCompressFlag(value int) {
 	c.blockCompressFlag = value
 	tmtypes.BlockCompressFlag = value
 }
 
-func (c *OkbcConfig) GetGcInterval() int {
+func (c *FurycConfig) GetGcInterval() int {
 	return c.gcInterval
 }
 
-func (c *OkbcConfig) SetGcInterval(value int) {
+func (c *FurycConfig) SetGcInterval(value int) {
 	// close gc for debug
 	if value > 0 {
 		debug.SetGCPercent(-1)
@@ -1049,29 +1049,29 @@ func (c *OkbcConfig) SetGcInterval(value int) {
 
 }
 
-func (c *OkbcConfig) GetCommitGapOffset() int64 {
+func (c *FurycConfig) GetCommitGapOffset() int64 {
 	return c.commitGapOffset
 }
 
-func (c *OkbcConfig) SetCommitGapOffset(value int64) {
+func (c *FurycConfig) SetCommitGapOffset(value int64) {
 	if value < 0 {
 		value = 0
 	}
 	c.commitGapOffset = value
 }
 
-func (c *OkbcConfig) GetEnableHasBlockPartMsg() bool {
+func (c *FurycConfig) GetEnableHasBlockPartMsg() bool {
 	return c.enableHasBlockPartMsg
 }
 
-func (c *OkbcConfig) SetEnableHasBlockPartMsg(value bool) {
+func (c *FurycConfig) SetEnableHasBlockPartMsg(value bool) {
 	c.enableHasBlockPartMsg = value
 }
 
-func (c *OkbcConfig) GetIavlAcNoBatch() bool {
+func (c *FurycConfig) GetIavlAcNoBatch() bool {
 	return c.iavlAcNoBatch
 }
 
-func (c *OkbcConfig) SetIavlAcNoBatch(value bool) {
+func (c *FurycConfig) SetIavlAcNoBatch(value bool) {
 	c.iavlAcNoBatch = value
 }

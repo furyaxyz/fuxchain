@@ -594,12 +594,12 @@ func (ms *MptStore) StopWithVersion(targetVersion int64) error {
 	// Ensure the state of a recent block is also stored to disk before exiting.
 	if !TrieDirtyDisabled {
 		triedb := ms.db.TrieDB()
-		okbcStartHeight := uint64(tmtypes.GetStartBlockHeight()) // start height of okbc
+		furycStartHeight := uint64(tmtypes.GetStartBlockHeight()) // start height of furyc
 
 		latestStoreVersion := ms.GetLatestStoredBlockHeight()
 
 		for version := latestStoreVersion; version <= curVersion; version++ {
-			if version <= okbcStartHeight || version <= uint64(ms.startVersion) {
+			if version <= furycStartHeight || version <= uint64(ms.startVersion) {
 				continue
 			}
 

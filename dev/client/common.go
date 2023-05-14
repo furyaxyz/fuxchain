@@ -22,8 +22,8 @@ import (
 
 const (
 	RpcUrl        = "http://127.0.0.1:8545"
-	ChainId int64 = 67 //  okbc
-	//ChainId int64   = 196 //  okbc
+	ChainId int64 = 67 //  furyc
+	//ChainId int64   = 196 //  furyc
 	GasPrice int64  = 100000000 // 0.1 gwei
 	GasLimit uint64 = 3000000
 )
@@ -149,7 +149,7 @@ func writeContract(client *ethclient.Client,
 	return nil
 }
 
-func transferOKB(client *ethclient.Client,
+func transferFURY(client *ethclient.Client,
 	fromAddress common.Address,
 	toAddress common.Address,
 	amount *big.Int,
@@ -166,7 +166,7 @@ func transferOKB(client *ethclient.Client,
 
 	fmt.Printf(
 		"==================================================\n"+
-			"Transfer OKB: \n"+
+			"Transfer FURY: \n"+
 			"	from  : <%s>\n"+
 			"	to    : <%s>\n"+
 			"	amount: <%s>\n"+
@@ -323,8 +323,8 @@ func send(client *ethclient.Client, to, privKey string) {
 	privateKey, senderAddress := initKey(privKey)
 	toAddress := common.HexToAddress(to)
 
-	// send 0.001okb
-	transferOKB(client, senderAddress, toAddress, str2bigInt("0.001"), privateKey, 0)
+	// send 0.001fury
+	transferFURY(client, senderAddress, toAddress, str2bigInt("0.001"), privateKey, 0)
 }
 
 func transferOip(client *ethclient.Client, oip20 *Oip20,

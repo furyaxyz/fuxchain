@@ -65,9 +65,9 @@ var (
 	govProposalID2 = uint64(2)
 )
 
-func TestOKBChainAppExport(t *testing.T) {
+func TestFURYChainAppExport(t *testing.T) {
 	db := dbm.NewMemDB()
-	app := NewOKBChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	app := NewFURYChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 
 	genesisState := ModuleBasics.DefaultGenesis()
 	stateBytes, err := codec.MarshalJSONIndent(app.Codec(), genesisState)
@@ -83,14 +83,14 @@ func TestOKBChainAppExport(t *testing.T) {
 	app.Commit(abci.RequestCommit{})
 
 	// Making a new app object with the db, so that initchain hasn't been called
-	app2 := NewOKBChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	app2 := NewFURYChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 	_, _, err = app2.ExportAppStateAndValidators(false, []string{})
 	require.NoError(t, err, "ExportAppStateAndValidators should not have an error")
 }
 
 func TestModuleManager(t *testing.T) {
 	db := dbm.NewMemDB()
-	app := NewOKBChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	app := NewFURYChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 
 	for moduleName, _ := range ModuleBasics {
 		if moduleName == upgrade.ModuleName {
@@ -103,7 +103,7 @@ func TestModuleManager(t *testing.T) {
 
 func TestProposalManager(t *testing.T) {
 	db := dbm.NewMemDB()
-	app := NewOKBChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	app := NewFURYChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 
 	require.True(t, app.GovKeeper.Router().HasRoute(params.RouterKey))
 	require.True(t, app.GovKeeper.Router().HasRoute(distr.RouterKey))
@@ -117,7 +117,7 @@ func TestFakeBlockTxSuite(t *testing.T) {
 
 type FakeBlockTxTestSuite struct {
 	suite.Suite
-	app   *OKBChainApp
+	app   *FURYChainApp
 	codec *codec.Codec
 
 	evmSenderPrivKey   ethsecp256k1.PrivKey
@@ -266,7 +266,7 @@ func (suite *FakeBlockTxTestSuite) TestFakeBlockTx() {
 				txBytes, _ := txEncoder(tx)
 				return txBytes
 			},
-			5, //insufficient funds: insufficient funds to pay for fees; 890.000000000000000000okb < 1000000000000000000.000000000000000000okb
+			5, //insufficient funds: insufficient funds to pay for fees; 890.000000000000000000fury < 1000000000000000000.000000000000000000fury
 			0,
 		},
 		{

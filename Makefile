@@ -81,11 +81,11 @@ ifeq ($(LINK_STATICALLY),true)
 	ldflags += -linkmode=external -extldflags "-Wl,-z,muldefs -static"
 endif
 
-ifeq ($(OKBCMALLOC),tcmalloc)
+ifeq ($(FURYCMALLOC),tcmalloc)
   ldflags += -extldflags "-ltcmalloc_minimal"
 endif
 
-ifeq ($(OKBCMALLOC),jemalloc)
+ifeq ($(FURYCMALLOC),jemalloc)
   ldflags += -extldflags "-ljemalloc"
 endif
 

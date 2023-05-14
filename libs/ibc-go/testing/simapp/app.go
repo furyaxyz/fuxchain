@@ -292,7 +292,7 @@ func NewSimApp(
 	invCheckPeriod uint,
 	baseAppOptions ...func(*bam.BaseApp),
 ) *SimApp {
-	logger.Info("Starting OKBC")
+	logger.Info("Starting FURYC")
 	//onceLog.Do(func() {
 	//	iavl.SetLogger(logger.With("module", "iavl"))
 	//	logStartingFlags(logger)
@@ -300,7 +300,7 @@ func NewSimApp(
 
 	codecProxy, interfaceReg := chaincodec.MakeCodecSuit(ModuleBasics)
 
-	// NOTE we use custom OKBChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
+	// NOTE we use custom FURYChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
 	bApp := bam.NewBaseApp(appName, logger, db, evm.TxDecoder(codecProxy), baseAppOptions...)
 
 	bApp.SetCommitMultiStoreTracer(traceStore)
@@ -361,7 +361,7 @@ func NewSimApp(
 
 	//proxy := codec.NewMarshalProxy(cc, cdc)
 	app.marshal = codecProxy
-	// use custom OKBChain account for contracts
+	// use custom FURYChain account for contracts
 	app.AccountKeeper = auth.NewAccountKeeper(
 		codecProxy.GetCdc(), keys[auth.StoreKey], app.subspaces[auth.ModuleName], chain.ProtoAccount,
 	)
@@ -808,8 +808,8 @@ func (app *SimApp) BeginBlocker(ctx sdk.Context, req abci.RequestBeginBlock) abc
 
 // EndBlocker updates every end block
 func (app *SimApp) EndBlocker(ctx sdk.Context, req abci.RequestEndBlock) abci.ResponseEndBlock {
-	// if appconfig.GetOkbcConfig().GetEnableDynamicGp() {
-	// 	GlobalGpIndex = CalBlockGasPriceIndex(app.blockGasPrice, appconfig.GetOkbcConfig().GetDynamicGpWeight())
+	// if appconfig.GetFurycConfig().GetEnableDynamicGp() {
+	// 	GlobalGpIndex = CalBlockGasPriceIndex(app.blockGasPrice, appconfig.GetFurycConfig().GetDynamicGpWeight())
 	// 	app.blockGasPrice = app.blockGasPrice[:0]
 	// }
 

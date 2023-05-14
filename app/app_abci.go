@@ -11,13 +11,13 @@ import (
 )
 
 // BeginBlock implements the Application interface
-func (app *OKBChainApp) BeginBlock(req abci.RequestBeginBlock) (res abci.ResponseBeginBlock) {
+func (app *FURYChainApp) BeginBlock(req abci.RequestBeginBlock) (res abci.ResponseBeginBlock) {
 	trace.OnAppBeginBlockEnter(app.LastBlockHeight() + 1)
 	app.EvmKeeper.Watcher.DelayEraseKey()
 	return app.BaseApp.BeginBlock(req)
 }
 
-func (app *OKBChainApp) DeliverTx(req abci.RequestDeliverTx) (res abci.ResponseDeliverTx) {
+func (app *FURYChainApp) DeliverTx(req abci.RequestDeliverTx) (res abci.ResponseDeliverTx) {
 
 	trace.OnAppDeliverTxEnter()
 
@@ -26,11 +26,11 @@ func (app *OKBChainApp) DeliverTx(req abci.RequestDeliverTx) (res abci.ResponseD
 	return resp
 }
 
-func (app *OKBChainApp) PreDeliverRealTx(req []byte) (res abci.TxEssentials) {
+func (app *FURYChainApp) PreDeliverRealTx(req []byte) (res abci.TxEssentials) {
 	return app.BaseApp.PreDeliverRealTx(req)
 }
 
-func (app *OKBChainApp) DeliverRealTx(req abci.TxEssentials) (res abci.ResponseDeliverTx) {
+func (app *FURYChainApp) DeliverRealTx(req abci.TxEssentials) (res abci.ResponseDeliverTx) {
 	trace.OnAppDeliverTxEnter()
 	resp := app.BaseApp.DeliverRealTx(req)
 	app.EvmKeeper.Watcher.RecordTxAndFailedReceipt(req, &resp, app.GetTxDecoder())
@@ -39,13 +39,13 @@ func (app *OKBChainApp) DeliverRealTx(req abci.TxEssentials) (res abci.ResponseD
 }
 
 // EndBlock implements the Application interface
-func (app *OKBChainApp) EndBlock(req abci.RequestEndBlock) (res abci.ResponseEndBlock) {
+func (app *FURYChainApp) EndBlock(req abci.RequestEndBlock) (res abci.ResponseEndBlock) {
 	return app.BaseApp.EndBlock(req)
 }
 
 // Commit implements the Application interface
-func (app *OKBChainApp) Commit(req abci.RequestCommit) abci.ResponseCommit {
-	if gcInterval := appconfig.GetOkbcConfig().GetGcInterval(); gcInterval > 0 {
+func (app *FURYChainApp) Commit(req abci.RequestCommit) abci.ResponseCommit {
+	if gcInterval := appconfig.GetFurycConfig().GetGcInterval(); gcInterval > 0 {
 		if (app.BaseApp.LastBlockHeight()+1)%int64(gcInterval) == 0 {
 			startTime := time.Now()
 			runtime.GC()
