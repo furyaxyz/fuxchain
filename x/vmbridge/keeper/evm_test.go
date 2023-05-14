@@ -194,7 +194,7 @@ func (suite *KeeperTestSuite) TestKeeper_SendToEvm() {
 }
 
 func (suite *KeeperTestSuite) TestSendToWasmEventHandler_Handle() {
-	contractAccAddr, err := sdk.AccAddressFromBech32("ex1fnkz39vpxmukf6mp78essh8g0hrzp3gylyd2u8")
+	contractAccAddr, err := sdk.AccAddressFromBech32("did:fury:ex1fnkz39vpxmukf6mp78essh8g0hrzp3gylyd2u8")
 	suite.Require().NoError(err)
 	contract := common.BytesToAddress(contractAccAddr.Bytes())
 	//addr := sdk.AccAddress{0x1}
@@ -294,7 +294,7 @@ func (suite *KeeperTestSuite) TestSendToWasmEventHandler_Handle() {
 			"recipient  is a error addr",
 			func() {
 				wasmAddrStr := suite.wasmContract.String()
-				input, err := getSendToWasmEventData(wasmAddrStr, "ex111", big.NewInt(1))
+				input, err := getSendToWasmEventData(wasmAddrStr, "did:fury:ex111", big.NewInt(1))
 				suite.Require().NoError(err)
 				data = input
 			},

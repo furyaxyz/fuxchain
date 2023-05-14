@@ -70,7 +70,7 @@ Where proposal.json contains:
     }
   ],
   "validator": {
-    "delegator_address": "ex1ve4mwgq9967gk338yptsg2fheur4ke32u0gqh3",
+    "delegator_address": "did:fury:ex1ve4mwgq9967gk338yptsg2fheur4ke32u0gqh3",
     "description": {
       "details": "",
       "identity": "",
@@ -81,8 +81,8 @@ Where proposal.json contains:
       "amount": "0.000000000000000000",
       "denom": "%s"
     },
-    "pubkey": "exvalconspub1zcjduepqc4l9dy4g3ghtc6g2wdy0m24tmjju2lggfd0wjpl055tx4knq82squ8ukzn=",
-    "validator_address": "exvaloper1tfwvmtfkfzrla52w0u0u07gadkegre9gqk9nel"
+    "pubkey": "did:fury:exvalconspub1zcjduepqc4l9dy4g3ghtc6g2wdy0m24tmjju2lggfd0wjpl055tx4knq82squ8ukzn=",
+    "validator_address": "did:fury:exvaloper1tfwvmtfkfzrla52w0u0u07gadkegre9gqk9nel"
   }
 }
 `, version.ClientName, sdk.DefaultBondDenom,

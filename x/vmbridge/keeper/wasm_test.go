@@ -14,7 +14,7 @@ import (
 )
 
 func (suite *KeeperTestSuite) TestKeeper_SendToWasm() {
-	contractAccAddr, err := sdk.AccAddressFromBech32("ex1fnkz39vpxmukf6mp78essh8g0hrzp3gylyd2u8")
+	contractAccAddr, err := sdk.AccAddressFromBech32("did:fury:ex1fnkz39vpxmukf6mp78essh8g0hrzp3gylyd2u8")
 	suite.Require().NoError(err)
 	contract := common.BytesToAddress(contractAccAddr.Bytes())
 	//addr := sdk.AccAddress{0x1}
@@ -135,7 +135,7 @@ func (suite *KeeperTestSuite) TestKeeper_SendToWasm() {
 		{
 			"recipient  is a error addr",
 			func() {
-				recipient = "ex111"
+				recipient = "did:fury:ex111"
 			},
 			func() {
 			},
