@@ -13,7 +13,7 @@ import (
 
 const (
 	exfuryPrefix = "fuxchain"
-	exPrefix  = "ex"
+	exPrefix  = "did:fury:ex"
 	rawPrefix = "0x"
 )
 
