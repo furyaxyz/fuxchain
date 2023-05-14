@@ -74,7 +74,7 @@ ifeq ($(WITH_ROCKSDB),true)
 endif
 
 ifeq ($(MAKECMDGOALS),testnet)
-  ldflags += -X github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server.ChainID=fuxchaintest-195
+  ldflags += -X github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server.ChainID=clockend-4200
 endif
 
 ifeq ($(LINK_STATICALLY),true)
