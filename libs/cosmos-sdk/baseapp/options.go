@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 // File for storing in-package BaseApp optional functions,

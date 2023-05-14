@@ -3,8 +3,8 @@ package evidence
 import (
 	amino "github.com/tendermint/go-amino"
 
-	cryptoamino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cryptoamino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var cdc = amino.NewCodec()

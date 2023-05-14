@@ -1,6 +1,6 @@
 package types
 
-import sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+import sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
 // querier keys
 const (

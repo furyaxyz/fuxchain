@@ -2,7 +2,7 @@ package types
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

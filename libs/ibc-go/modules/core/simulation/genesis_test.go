@@ -2,9 +2,9 @@ package simulation_test
 
 import (
 	"encoding/json"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	simtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	simtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 	"math/rand"
 	"testing"
 
@@ -14,9 +14,9 @@ import (
 	// codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	// "github.com/cosmos/cosmos-sdk/types/module"
 	// simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/simulation"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/simulation"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/types"
 )
 
 // TestRandomizedGenState tests the normal scenario of applying RandomizedGenState.

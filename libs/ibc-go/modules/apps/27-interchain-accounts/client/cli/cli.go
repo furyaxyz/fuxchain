@@ -1,10 +1,10 @@
 package cli
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	controllercli "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/client/cli"
-	hostcli "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/client/cli"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	controllercli "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/client/cli"
+	hostcli "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/client/cli"
 	"github.com/spf13/cobra"
 )
 

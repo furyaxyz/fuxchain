@@ -1,10 +1,10 @@
 package feesplit
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/x/feesplit/keeper"
-	"github.com/exfury/fuxchain/x/feesplit/types"
+	"github.com/furyaxyz/fuxchain/x/feesplit/keeper"
+	"github.com/furyaxyz/fuxchain/x/feesplit/types"
 )
 
 // InitGenesis import module genesis

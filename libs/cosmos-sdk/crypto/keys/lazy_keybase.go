@@ -3,10 +3,10 @@ package keys
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 var _ Keybase = lazyKeybase{}

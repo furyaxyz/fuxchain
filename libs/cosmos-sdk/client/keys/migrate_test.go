@@ -3,13 +3,13 @@ package keys
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/tests"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/tests"
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
 )
 
 func Test_runMigrateCmd(t *testing.T) {

@@ -4,13 +4,13 @@ import (
 	"fmt"
 
 	"github.com/gogo/protobuf/proto"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/kv"
-	types2 "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/wasm/keeper"
-	"github.com/exfury/fuxchain/x/wasm/types"
-	"github.com/exfury/fuxchain/x/wasm/watcher"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
+	types2 "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/keeper"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/watcher"
 )
 
 // NewHandler returns a handler for "wasm" type messages.

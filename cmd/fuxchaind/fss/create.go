@@ -2,15 +2,15 @@ package fss
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/cmd/fuxchaind/mpt"
+	"github.com/furyaxyz/fuxchain/cmd/fuxchaind/mpt"
 	"log"
 	"path/filepath"
 
-	"github.com/exfury/fuxchain/app/utils/appstatus"
-	"github.com/exfury/fuxchain/cmd/fuxchaind/base"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/iavl"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/app/utils/appstatus"
+	"github.com/furyaxyz/fuxchain/cmd/fuxchaind/base"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

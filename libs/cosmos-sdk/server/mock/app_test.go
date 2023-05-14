@@ -3,12 +3,12 @@ package mock
 import (
 	"testing"
 
-	appconfig "github.com/exfury/fuxchain/app/config"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	appconfig "github.com/furyaxyz/fuxchain/app/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 // TestInitApp makes sure we can initialize this thing without an error

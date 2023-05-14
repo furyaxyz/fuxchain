@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"net/http"
 
-	clientCtx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	govtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
-	govrest "github.com/exfury/fuxchain/x/gov/client/rest"
-	"github.com/exfury/fuxchain/x/wasm/client/utils"
-	"github.com/exfury/fuxchain/x/wasm/types"
+	clientCtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	govtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
+	govrest "github.com/furyaxyz/fuxchain/x/gov/client/rest"
+	"github.com/furyaxyz/fuxchain/x/wasm/client/utils"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 type StoreCodeProposalJSONReq struct {

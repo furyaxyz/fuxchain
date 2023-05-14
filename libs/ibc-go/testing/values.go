@@ -8,16 +8,16 @@ import (
 	"strconv"
 	"time"
 
-	ibcfeetypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
+	ibcfeetypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	ibctransfertypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/mock"
+	ibctransfertypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/mock"
 )
 
 const (

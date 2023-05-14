@@ -2,7 +2,7 @@ package types
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 	"strings"
 )
 

@@ -3,8 +3,8 @@ package types
 import (
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 )
 
 // Canonical* wraps the structs in types for amino encoding them for use in SignBytes / the Signable interface.

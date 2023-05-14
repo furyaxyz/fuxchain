@@ -2,7 +2,7 @@ package types
 
 import (
 	ethaccounts "github.com/ethereum/go-ethereum/accounts"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 const (

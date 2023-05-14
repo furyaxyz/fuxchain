@@ -1,12 +1,12 @@
 // nolint
 // aliases generated for the following subdirectories:
-// ALIASGEN: github.com/exfury/fuxchain/x/distribution/types
-// ALIASGEN: github.com/exfury/fuxchain/x/distribution/client
+// ALIASGEN: github.com/furyaxyz/fuxchain/x/distribution/types
+// ALIASGEN: github.com/furyaxyz/fuxchain/x/distribution/client
 package distribution
 
 import (
-	"github.com/exfury/fuxchain/x/distribution/client"
-	"github.com/exfury/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/client"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 )
 
 var (

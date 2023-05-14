@@ -7,14 +7,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmnet "github.com/exfury/fuxchain/libs/tendermint/libs/net"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmnet "github.com/furyaxyz/fuxchain/libs/tendermint/libs/net"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
 
-	"github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p/conn"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p/conn"
 )
 
 const testCh = 0x01

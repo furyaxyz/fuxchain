@@ -1,9 +1,9 @@
 package capability
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

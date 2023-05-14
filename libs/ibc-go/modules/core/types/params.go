@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	paramtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
+	paramtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
 )
 
 // DefaultIbcEnabled enabled

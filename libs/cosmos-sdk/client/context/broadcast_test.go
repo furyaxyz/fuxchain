@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/mempool"
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/client/mock"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/mock"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 )
 
 type MockClient struct {

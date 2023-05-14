@@ -2,13 +2,13 @@ package capability
 
 import (
 	"encoding/json"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	capabilityModule "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/keeper"
-	types2 "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp/adapter"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	capabilityModule "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/keeper"
+	types2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp/adapter"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 type CapabilityModuleAdapter struct {

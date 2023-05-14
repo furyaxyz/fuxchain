@@ -1,10 +1,10 @@
 package crisis
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/crisis/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/crisis/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/crisis/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/crisis/internal/types"
 )
 
 // RouterKey

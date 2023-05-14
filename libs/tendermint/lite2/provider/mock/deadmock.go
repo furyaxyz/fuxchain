@@ -3,8 +3,8 @@ package mock
 import (
 	"errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/provider"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type deadMock struct {

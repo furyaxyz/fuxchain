@@ -1,15 +1,15 @@
 package keeper_test
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 	"testing"
 
 	"github.com/stretchr/testify/suite"
 	// "github.com/tendermint/tendermint/crypto"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 type KeeperTestSuite struct {

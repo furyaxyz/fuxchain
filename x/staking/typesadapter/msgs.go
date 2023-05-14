@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 	"sigs.k8s.io/yaml"
 )
 

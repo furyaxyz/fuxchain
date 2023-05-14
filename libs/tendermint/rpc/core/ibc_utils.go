@@ -1,9 +1,9 @@
 package core
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/proto/version"
-	coretypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proto/version"
+	coretypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func ConvBlock2CM40Block(r *types.Block) *types.CM40Block {

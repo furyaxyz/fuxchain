@@ -4,20 +4,20 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	coretypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	coretypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/eth/filters"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
 
-	rpcfilters "github.com/exfury/fuxchain/app/rpc/namespaces/eth/filters"
-	rpctypes "github.com/exfury/fuxchain/app/rpc/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	rpcfilters "github.com/furyaxyz/fuxchain/app/rpc/namespaces/eth/filters"
+	rpctypes "github.com/furyaxyz/fuxchain/app/rpc/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 // PubSubAPI is the eth_ prefixed set of APIs in the Web3 JSON-RPC spec

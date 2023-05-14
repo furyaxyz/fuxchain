@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"testing"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/crisis"
-	distr "github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/crisis"
+	distr "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
 )
 
 var (

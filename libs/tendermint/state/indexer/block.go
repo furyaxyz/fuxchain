@@ -3,8 +3,8 @@ package indexer
 import (
 	"context"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // BlockIndexer defines an interface contract for indexing block events.

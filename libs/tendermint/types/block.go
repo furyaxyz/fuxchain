@@ -10,23 +10,23 @@ import (
 	"time"
 
 	gogotypes "github.com/gogo/protobuf/types"
-	"github.com/exfury/fuxchain/libs/system/trace"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/compress"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/compress"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 
 	"github.com/tendermint/go-amino"
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bits"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
-	tmversion "github.com/exfury/fuxchain/libs/tendermint/proto/version"
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bits"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
+	tmversion "github.com/furyaxyz/fuxchain/libs/tendermint/proto/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 const (

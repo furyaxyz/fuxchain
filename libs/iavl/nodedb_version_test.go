@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/exfury/fuxchain/libs/iavl/mock"
+	"github.com/furyaxyz/fuxchain/libs/iavl/mock"
 	"github.com/stretchr/testify/require"
 )
 

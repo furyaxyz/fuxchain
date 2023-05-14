@@ -8,11 +8,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	flow "github.com/exfury/fuxchain/libs/tendermint/libs/flowrate"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	flow "github.com/furyaxyz/fuxchain/libs/tendermint/libs/flowrate"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 /*

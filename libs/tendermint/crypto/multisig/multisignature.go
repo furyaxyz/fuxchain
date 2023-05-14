@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/multisig/bitarray"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/multisig/bitarray"
 )
 
 // Multisignature is used to represent the signature object used in the multisigs.

@@ -2,7 +2,7 @@ package port
 
 import (
 	"github.com/gogo/protobuf/grpc"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/05-port/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/05-port/types"
 )
 
 // Name returns the IBC port ICS name.

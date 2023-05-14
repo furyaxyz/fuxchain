@@ -4,10 +4,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	clientCtx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/x/wasm/client/utils"
-	"github.com/exfury/fuxchain/x/wasm/types"
+	clientCtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/x/wasm/client/utils"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 func registerNewTxRoutes(cliCtx clientCtx.CLIContext, r *mux.Router) {

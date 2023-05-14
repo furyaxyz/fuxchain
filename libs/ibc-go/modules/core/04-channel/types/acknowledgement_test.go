@@ -1,6 +1,6 @@
 package types_test
 
-import "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+import "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 
 // tests acknowledgement.ValidateBasic and acknowledgement.GetBytes
 func (suite TypesTestSuite) TestAcknowledgement() {

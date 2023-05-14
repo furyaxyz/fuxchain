@@ -3,8 +3,8 @@ package keeper_test
 import (
 	"errors"
 
-	erc20Keeper "github.com/exfury/fuxchain/x/erc20/keeper"
-	"github.com/exfury/fuxchain/x/erc20/types"
+	erc20Keeper "github.com/furyaxyz/fuxchain/x/erc20/keeper"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
 )
 
 func (suite *KeeperTestSuite) TestGetSourceChannelID() {

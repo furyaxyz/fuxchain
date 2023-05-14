@@ -5,13 +5,13 @@ import (
 	"os"
 	"testing"
 
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // Profile with:
-// /usr/local/go/bin/go test -benchmem -run=^$ github.com/exfury/fuxchain/libs/ibc-go/modules/testing/simapp -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
+// /usr/local/go/bin/go test -benchmem -run=^$ github.com/furyaxyz/fuxchain/libs/ibc-go/modules/testing/simapp -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
 func BenchmarkFullAppSimulation(b *testing.B) {
 	b.ReportAllocs()
 	config, db, dir, logger, _, err := SetupSimulation("goleveldb-app-sim", "Simulation")

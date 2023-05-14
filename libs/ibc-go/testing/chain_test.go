@@ -3,11 +3,11 @@ package ibctesting_test
 import (
 	"testing"
 
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/require"
 
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/mock"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/mock"
 )
 
 func TestCreateSortedSignerArray(t *testing.T) {

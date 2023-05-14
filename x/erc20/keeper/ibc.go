@@ -8,13 +8,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	ethermint "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	ibctransfertypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	ibcclienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/erc20/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	ibctransfertypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	ibcclienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 // OnMintVouchers after minting vouchers on this chain

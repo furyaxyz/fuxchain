@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evidence/exported"
-	"github.com/exfury/fuxchain/x/evidence/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evidence/exported"
+	"github.com/furyaxyz/fuxchain/x/evidence/internal/types"
 )
 
 func testHandler(sdk.Context, exported.Evidence) error { return nil }

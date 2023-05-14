@@ -1,16 +1,16 @@
 package codec
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	cosmoscryptocodec "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/vesting"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	cosmoscryptocodec "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/vesting"
 
-	cryptocodec "github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	ethermint "github.com/exfury/fuxchain/app/types"
+	cryptocodec "github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
 )
 
 // MakeCodec registers the necessary types and interfaces for an sdk.App. This

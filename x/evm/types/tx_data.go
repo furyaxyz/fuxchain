@@ -7,7 +7,7 @@ import (
 
 	"github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/app/utils"
+	"github.com/furyaxyz/fuxchain/app/utils"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 )

@@ -3,8 +3,8 @@ package module
 import (
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	clientCtx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
+	clientCtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
 )
 
 // RegisterInterfaces registers all module interface types

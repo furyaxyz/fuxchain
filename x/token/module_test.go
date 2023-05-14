@@ -1,15 +1,15 @@
 package token
 
 import (
-	"github.com/exfury/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/common"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 
-	cliLcd "github.com/exfury/fuxchain/libs/cosmos-sdk/client/lcd"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/common/version"
-	"github.com/exfury/fuxchain/x/token/types"
+	cliLcd "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/lcd"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/common/version"
+	"github.com/furyaxyz/fuxchain/x/token/types"
 	"github.com/stretchr/testify/require"
 )
 

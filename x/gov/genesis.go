@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/gov/keeper"
-	"github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/gov/keeper"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // GenesisState - all staking state that must be provided at genesis

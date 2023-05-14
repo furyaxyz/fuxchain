@@ -4,7 +4,7 @@
 package params
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
 )
 
 // MakeTestEncodingConfig creates an EncodingConfig for a non-amino based test configuration.

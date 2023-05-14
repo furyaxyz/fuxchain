@@ -1,9 +1,9 @@
 package wasmtesting
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	storetypes "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	storetypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // MockCommitMultiStore mock with a CacheMultiStore to capture commits

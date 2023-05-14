@@ -1,7 +1,7 @@
 package signing
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
 )
 
 // SignatureData represents either a *SingleSignatureData or *MultiSignatureData.

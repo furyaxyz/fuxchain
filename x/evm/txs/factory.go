@@ -2,10 +2,10 @@ package txs
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/x/evm/txs/base"
-	"github.com/exfury/fuxchain/x/evm/txs/check"
-	"github.com/exfury/fuxchain/x/evm/txs/deliver"
-	"github.com/exfury/fuxchain/x/evm/txs/tracetxlog"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/base"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/check"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/deliver"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/tracetxlog"
 )
 
 type factory struct {

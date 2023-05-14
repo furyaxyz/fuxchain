@@ -2,9 +2,9 @@ package consensus
 
 import (
 	"fmt"
-	cstypes "github.com/exfury/fuxchain/libs/tendermint/consensus/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/automation"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cstypes "github.com/furyaxyz/fuxchain/libs/tendermint/consensus/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/automation"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // Enter: `timeoutPrevote` after any +2/3 prevotes.

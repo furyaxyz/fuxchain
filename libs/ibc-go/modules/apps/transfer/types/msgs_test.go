@@ -2,15 +2,15 @@ package types
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 	"math/big"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
-	//"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/secp256k1"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	//"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/secp256k1"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
 )
 
 // define constants used for testing

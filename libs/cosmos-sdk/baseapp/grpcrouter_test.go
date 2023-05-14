@@ -2,22 +2,22 @@ package baseapp_test
 
 import (
 	"context"
-	chaincodec "github.com/exfury/fuxchain/app/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	simapp2 "github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
-	"github.com/exfury/fuxchain/x/evm"
+	chaincodec "github.com/furyaxyz/fuxchain/app/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	simapp2 "github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
+	"github.com/furyaxyz/fuxchain/x/evm"
 	"os"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	//"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evm/types/testdata"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	//"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types/testdata"
 )
 
 func TestGRPCGatewayRouter(t *testing.T) {

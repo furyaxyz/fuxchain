@@ -3,8 +3,8 @@ package consensus
 import (
 	"bytes"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/automation"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/automation"
 	"reflect"
 	"sync"
 	"time"
@@ -13,14 +13,14 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	cstypes "github.com/exfury/fuxchain/libs/tendermint/consensus/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bits"
-	tmevents "github.com/exfury/fuxchain/libs/tendermint/libs/events"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	cstypes "github.com/furyaxyz/fuxchain/libs/tendermint/consensus/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bits"
+	tmevents "github.com/furyaxyz/fuxchain/libs/tendermint/libs/events"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 )
 
 type bpType int

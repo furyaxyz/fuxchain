@@ -3,10 +3,10 @@ package server
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
 
-	clkeys "github.com/exfury/fuxchain/libs/cosmos-sdk/client/keys"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	clkeys "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/keys"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // GenerateCoinKey returns the address of a public key, along with the secret

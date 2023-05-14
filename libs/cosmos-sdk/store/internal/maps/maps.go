@@ -2,10 +2,10 @@ package maps
 
 import (
 	"encoding/binary"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/kv"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
-	merkle2 "github.com/exfury/fuxchain/libs/tendermint/proto/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/kv"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
+	merkle2 "github.com/furyaxyz/fuxchain/libs/tendermint/proto/crypto/merkle"
 )
 
 // merkleMap defines a merkle-ized tree from a map. Leave values are treated as

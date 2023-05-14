@@ -5,7 +5,7 @@ package testdata
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
 
 	"github.com/gogo/protobuf/proto"
 )

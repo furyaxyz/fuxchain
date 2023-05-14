@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmnet "github.com/exfury/fuxchain/libs/tendermint/libs/net"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmnet "github.com/furyaxyz/fuxchain/libs/tendermint/libs/net"
 )
 
 // IsConnTimeout returns a boolean indicating whether the error is known to

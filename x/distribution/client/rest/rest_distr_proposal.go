@@ -3,15 +3,15 @@ package rest
 import (
 	"net/http"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
 
-	comm "github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/distribution/types"
-	"github.com/exfury/fuxchain/x/gov"
-	govrest "github.com/exfury/fuxchain/x/gov/client/rest"
+	comm "github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/x/gov"
+	govrest "github.com/furyaxyz/fuxchain/x/gov/client/rest"
 )
 
 // ChangeDistributionTypeProposalRESTHandler returns a ChangeDistributionTypeProposal that exposes the change distribution type REST handler with a given sub-route.

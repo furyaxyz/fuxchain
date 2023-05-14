@@ -3,15 +3,15 @@ package staking
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	keep "github.com/exfury/fuxchain/x/staking/keeper"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	keep "github.com/furyaxyz/fuxchain/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 //______________________________________________________________________

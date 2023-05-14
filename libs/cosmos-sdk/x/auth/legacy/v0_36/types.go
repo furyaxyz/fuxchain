@@ -2,7 +2,7 @@
 // nolint
 package v0_36
 
-import v034auth "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/legacy/v0_34"
+import v034auth "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/legacy/v0_34"
 
 const (
 	ModuleName = "auth"

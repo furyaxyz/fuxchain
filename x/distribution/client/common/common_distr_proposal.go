@@ -3,10 +3,10 @@ package common
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 )
 
 // QueryDelegatorValidators returns delegator's list of validators

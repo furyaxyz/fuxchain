@@ -3,10 +3,10 @@ package simulation
 import (
 	"math/rand"
 
-	simappparams "github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/params"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	simappparams "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/params"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // OpWeightSubmitTextProposal app params key for text proposal

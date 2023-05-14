@@ -11,12 +11,12 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/exfury/fuxchain/app/crypto/ethkeystore"
-	"github.com/exfury/fuxchain/app/crypto/hd"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/input"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethkeystore"
+	"github.com/furyaxyz/fuxchain/app/crypto/hd"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/input"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // UnsafeExportEthKeyCommand exports a key with the given name as a private key in hex format.

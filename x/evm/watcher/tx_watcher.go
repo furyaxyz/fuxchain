@@ -4,8 +4,8 @@ import (
 	"sync"
 
 	"github.com/ethereum/go-ethereum/common"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
 )
 
 // TxWatcher cache watch data when run tx

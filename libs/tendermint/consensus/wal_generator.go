@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 	"io"
 	"path/filepath"
 	"testing"
@@ -12,18 +12,18 @@ import (
 
 	"github.com/pkg/errors"
 
-	db "github.com/exfury/fuxchain/libs/tm-db"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	"github.com/exfury/fuxchain/libs/tendermint/mock"
-	"github.com/exfury/fuxchain/libs/tendermint/privval"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/store"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/mock"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/privval"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/store"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // WALGenerateNBlocks generates a consensus WAL. It does this by spinning up a

@@ -9,11 +9,11 @@ import (
 
 	"encoding/json"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	"github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
 )
 
 const (

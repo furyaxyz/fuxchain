@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	types "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	ibc_tx "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	types "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	ibc_tx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
 )
 
 func Query40Tx(cliCtx context.CLIContext, hashHexStr string) (*types.TxResponse, error) {

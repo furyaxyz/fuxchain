@@ -1,8 +1,8 @@
 package bank
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/keeperadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/keeperadapter"
 )
 
 var (

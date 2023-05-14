@@ -3,8 +3,8 @@ package keeper
 import (
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/slashing/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/slashing/internal/types"
 )
 
 // SignedBlocksWindow - sliding window for downtime slashing

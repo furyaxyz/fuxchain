@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 // KeeperTestSuite is a testing suite to test keeper functions.

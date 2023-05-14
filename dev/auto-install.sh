@@ -102,8 +102,8 @@ GetArchitecture() {
 download() {
   rm -rf "$HOME"/.fuxchain/src
   mkdir -p "$HOME"/.fuxchain/src
-  tag=`wget -qO- -t1 -T2 --no-check-certificate "https://api.github.com/repos/exfury/fuxchain/releases/latest" | grep "tag_name" | head -n 1 | awk -F ":" '{print $2}' | sed 's/\"//g;s/,//g;s/ //g'`
-  wget --no-check-certificate "https://github.com/exfury/fuxchain/archive/refs/tags/${tag}.tar.gz" -O "$HOME"/.fuxchain/src/fuxchain.tar.gz
+  tag=`wget -qO- -t1 -T2 --no-check-certificate "https://api.github.com/repos/furyaxyz/fuxchain/releases/latest" | grep "tag_name" | head -n 1 | awk -F ":" '{print $2}' | sed 's/\"//g;s/,//g;s/ //g'`
+  wget --no-check-certificate "https://github.com/furyaxyz/fuxchain/archive/refs/tags/${tag}.tar.gz" -O "$HOME"/.fuxchain/src/fuxchain.tar.gz
   ver=$(echo $tag| sed 's/v//g')
   cd "$HOME"/.fuxchain/src && tar zxvf fuxchain.tar.gz &&  cd fuxchain-"$ver"
 }

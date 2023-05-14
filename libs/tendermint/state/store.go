@@ -7,11 +7,11 @@ import (
 
 	"github.com/tendermint/go-amino"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/pkg/errors"
 )
 

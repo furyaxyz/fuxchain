@@ -3,7 +3,7 @@ package indexer
 import (
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
 )
 
 type QueryRanges map[string]QueryRange

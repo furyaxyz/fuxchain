@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 )
 

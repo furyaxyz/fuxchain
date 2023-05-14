@@ -1,6 +1,6 @@
 package infura
 
-import "github.com/exfury/fuxchain/x/infura/types"
+import "github.com/furyaxyz/fuxchain/x/infura/types"
 
 const (
 	ModuleName   = types.ModuleName

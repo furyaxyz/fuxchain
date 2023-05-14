@@ -5,7 +5,7 @@
 package vesting
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/vesting/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/vesting/types"
 )
 
 var (

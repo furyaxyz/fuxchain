@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

@@ -1,8 +1,8 @@
 package feesplit
 
 import (
-	"github.com/exfury/fuxchain/x/feesplit/keeper"
-	"github.com/exfury/fuxchain/x/feesplit/types"
+	"github.com/furyaxyz/fuxchain/x/feesplit/keeper"
+	"github.com/furyaxyz/fuxchain/x/feesplit/types"
 )
 
 const (

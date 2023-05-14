@@ -3,7 +3,7 @@ package baseapp
 import (
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	"github.com/tendermint/go-amino"
 )
 

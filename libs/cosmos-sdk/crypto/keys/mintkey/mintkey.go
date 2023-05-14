@@ -6,14 +6,14 @@ import (
 
 	"github.com/tendermint/crypto/bcrypt"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/armor"
-	cryptoAmino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/xsalsa20symmetric"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/armor"
+	cryptoAmino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/xsalsa20symmetric"
 
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/keyerror"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/keyerror"
 )
 
 const (

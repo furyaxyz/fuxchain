@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	cryptoAmino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
+	cryptoAmino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bech32"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bech32"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 const (

@@ -3,8 +3,8 @@ package distribution
 import (
 	"testing"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/distribution/keeper"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/keeper"
 	"github.com/stretchr/testify/require"
 )
 

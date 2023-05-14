@@ -1,10 +1,10 @@
 package vmbridge
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/x/vmbridge/keeper"
-	"github.com/exfury/fuxchain/x/wasm"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/x/vmbridge/keeper"
+	"github.com/furyaxyz/fuxchain/x/wasm"
 )
 
 func RegisterServices(cfg module.Configurator, keeper keeper.Keeper) {

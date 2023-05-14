@@ -8,11 +8,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
 
-	ethermint "github.com/exfury/fuxchain/app/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
 )
 
 // InitConfig adds the chain-id, encoding and output flags to the persistent flag set.

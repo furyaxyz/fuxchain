@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/tm-db/common"
+	"github.com/furyaxyz/fuxchain/libs/tm-db/common"
 	"github.com/pkg/errors"
 
-	db "github.com/exfury/fuxchain/libs/tm-db"
-	"github.com/exfury/fuxchain/libs/tm-db/remotedb/grpcdb"
-	protodb "github.com/exfury/fuxchain/libs/tm-db/remotedb/proto"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/tm-db/remotedb/grpcdb"
+	protodb "github.com/furyaxyz/fuxchain/libs/tm-db/remotedb/proto"
 )
 
 type RemoteDB struct {

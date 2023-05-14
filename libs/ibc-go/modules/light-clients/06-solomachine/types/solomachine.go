@@ -1,9 +1,9 @@
 package types
 
 import (
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 )
 
 // Interface implementation checks.

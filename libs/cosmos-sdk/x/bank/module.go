@@ -8,18 +8,18 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/client/cli"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/client/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/simulation"
-	sim "github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/client/cli"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/client/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/simulation"
+	sim "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 )
 
 var (

@@ -3,9 +3,9 @@ package coregrpc
 import (
 	"context"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	core "github.com/exfury/fuxchain/libs/tendermint/rpc/core"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	core "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 type broadcastAPI struct {

@@ -2,9 +2,9 @@ package types
 
 import (
 	fmt "fmt"
-	sdkmaps "github.com/exfury/fuxchain/libs/cosmos-sdk/store/internal/maps"
-	sdkproofs "github.com/exfury/fuxchain/libs/cosmos-sdk/store/internal/proofs"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
+	sdkmaps "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/internal/maps"
+	sdkproofs "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/internal/proofs"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
 
 	ics23 "github.com/confio/ics23/go"
 )

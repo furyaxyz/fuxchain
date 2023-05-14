@@ -1,8 +1,8 @@
 package coretypes
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 type CM40ResultBlock struct {

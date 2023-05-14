@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"testing"
 
-	cmn "github.com/exfury/fuxchain/libs/iavl/common"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	db "github.com/exfury/fuxchain/libs/tm-db"
+	cmn "github.com/furyaxyz/fuxchain/libs/iavl/common"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

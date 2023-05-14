@@ -9,22 +9,22 @@ import (
 	"sync"
 
 	"github.com/VictoriaMetrics/fastcache"
-	ethermint "github.com/exfury/fuxchain/app/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
 	"github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
 
 	"github.com/ethereum/go-ethereum/common"
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethstate "github.com/ethereum/go-ethereum/core/state"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	ethvm "github.com/ethereum/go-ethereum/core/vm"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
 )
 
 var (

@@ -1,7 +1,7 @@
 package behaviour
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
 )
 
 // PeerBehaviour is a struct describing a behaviour a peer performed.

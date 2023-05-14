@@ -4,10 +4,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/x/feesplit/keeper"
-	"github.com/exfury/fuxchain/x/feesplit/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/x/feesplit/keeper"
+	"github.com/furyaxyz/fuxchain/x/feesplit/types"
 )
 
 // NewHandler defines the fees module handler instance

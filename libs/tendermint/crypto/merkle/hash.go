@@ -2,7 +2,7 @@ package merkle
 
 import (
 	"bytes"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
 	"sync"
 )
 

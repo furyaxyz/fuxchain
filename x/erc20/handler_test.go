@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/app"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/erc20"
-	"github.com/exfury/fuxchain/x/erc20/types"
+	"github.com/furyaxyz/fuxchain/app"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/erc20"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
 	"github.com/stretchr/testify/suite"
 )
 

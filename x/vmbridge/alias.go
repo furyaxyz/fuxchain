@@ -1,8 +1,8 @@
 package vmbridge
 
 import (
-	"github.com/exfury/fuxchain/x/vmbridge/keeper"
-	"github.com/exfury/fuxchain/x/vmbridge/types"
+	"github.com/furyaxyz/fuxchain/x/vmbridge/keeper"
+	"github.com/furyaxyz/fuxchain/x/vmbridge/types"
 )
 
 var (

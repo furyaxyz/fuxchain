@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/x/distribution/types"
-	"github.com/exfury/fuxchain/x/staking"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/x/staking"
 )
 
 func TestAllocateTokensToValidatorWithCommission(t *testing.T) {

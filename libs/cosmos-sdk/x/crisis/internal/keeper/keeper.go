@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/crisis/internal/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/crisis/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
 )
 
 // Keeper - crisis keeper

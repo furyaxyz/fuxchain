@@ -1,11 +1,11 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/upgrade"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/upgrade"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	stakingtypes "github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	stakingtypes "github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 // StakingKeeper expected staking keeper

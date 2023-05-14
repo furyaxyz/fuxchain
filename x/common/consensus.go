@@ -3,7 +3,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/x/params/subspace"
+	"github.com/furyaxyz/fuxchain/x/params/subspace"
 )
 
 type ConsensusType string

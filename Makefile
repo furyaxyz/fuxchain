@@ -59,22 +59,22 @@ endif
 build_tags += $(BUILD_TAGS)
 build_tags := $(strip $(build_tags))
 
-ldflags = -X $(GithubTop)/exfury/fuxchain/libs/cosmos-sdk/version.Version=$(Version) \
-	-X $(GithubTop)/exfury/fuxchain/libs/cosmos-sdk/version.Name=$(Name) \
-  -X $(GithubTop)/exfury/fuxchain/libs/cosmos-sdk/version.ServerName=$(ServerName) \
-  -X $(GithubTop)/exfury/fuxchain/libs/cosmos-sdk/version.ClientName=$(ClientName) \
-  -X $(GithubTop)/exfury/fuxchain/libs/cosmos-sdk/version.Commit=$(COMMIT) \
-  -X $(GithubTop)/exfury/fuxchain/libs/cosmos-sdk/version.CosmosSDK=$(CosmosSDK) \
-  -X $(GithubTop)/exfury/fuxchain/libs/cosmos-sdk/version.Tendermint=$(Tendermint) \
-  -X "$(GithubTop)/exfury/fuxchain/libs/cosmos-sdk/version.BuildTags=$(build_tags)"
+ldflags = -X $(GithubTop)/furyaxyz/fuxchain/libs/cosmos-sdk/version.Version=$(Version) \
+	-X $(GithubTop)/furyaxyz/fuxchain/libs/cosmos-sdk/version.Name=$(Name) \
+  -X $(GithubTop)/furyaxyz/fuxchain/libs/cosmos-sdk/version.ServerName=$(ServerName) \
+  -X $(GithubTop)/furyaxyz/fuxchain/libs/cosmos-sdk/version.ClientName=$(ClientName) \
+  -X $(GithubTop)/furyaxyz/fuxchain/libs/cosmos-sdk/version.Commit=$(COMMIT) \
+  -X $(GithubTop)/furyaxyz/fuxchain/libs/cosmos-sdk/version.CosmosSDK=$(CosmosSDK) \
+  -X $(GithubTop)/furyaxyz/fuxchain/libs/cosmos-sdk/version.Tendermint=$(Tendermint) \
+  -X "$(GithubTop)/furyaxyz/fuxchain/libs/cosmos-sdk/version.BuildTags=$(build_tags)"
 
 
 ifeq ($(WITH_ROCKSDB),true)
-  ldflags += -X github.com/exfury/fuxchain/libs/tendermint/types.DBBackend=rocksdb
+  ldflags += -X github.com/furyaxyz/fuxchain/libs/tendermint/types.DBBackend=rocksdb
 endif
 
 ifeq ($(MAKECMDGOALS),testnet)
-  ldflags += -X github.com/exfury/fuxchain/libs/cosmos-sdk/server.ChainID=fuxchaintest-195
+  ldflags += -X github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server.ChainID=fuxchaintest-195
 endif
 
 ifeq ($(LINK_STATICALLY),true)

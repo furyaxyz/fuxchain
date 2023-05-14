@@ -2,7 +2,7 @@ package reflection
 
 import (
 	"context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

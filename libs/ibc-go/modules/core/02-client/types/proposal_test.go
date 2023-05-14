@@ -1,14 +1,14 @@
 package types_test
 
 import (
-	govtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
+	govtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
 	// "github.com/cosmos/cosmos-sdk/codec"
 	// codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	// govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	// upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 func (suite *TypesTestSuite) testValidateBasic() {

@@ -3,7 +3,7 @@ package node
 import (
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 type ID struct {

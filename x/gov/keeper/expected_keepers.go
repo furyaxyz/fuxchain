@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	supplyexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
-	stakingexported "github.com/exfury/fuxchain/x/staking/exported"
+	supplyexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	stakingexported "github.com/furyaxyz/fuxchain/x/staking/exported"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // BankKeeper defines expected bank keeper

@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	tmquery "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	coretypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	tmquery "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	coretypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/spf13/viper"
 
 	"github.com/ethereum/go-ethereum/common"
@@ -18,10 +18,10 @@ import (
 	"github.com/ethereum/go-ethereum/eth/filters"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	rpctypes "github.com/exfury/fuxchain/app/rpc/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	rpctypes "github.com/furyaxyz/fuxchain/app/rpc/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 var (

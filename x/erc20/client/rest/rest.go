@@ -6,11 +6,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	comm "github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/erc20/types"
-	govRest "github.com/exfury/fuxchain/x/gov/client/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	comm "github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
+	govRest "github.com/furyaxyz/fuxchain/x/gov/client/rest"
 )
 
 // RegisterRoutes - Central function to define routes that get registered by the main application

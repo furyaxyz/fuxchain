@@ -3,7 +3,7 @@ package types
 import (
 	"bytes"
 	"github.com/ethereum/go-ethereum/trie"
-	"github.com/exfury/fuxchain/libs/iavl"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
 	"math"
 	"testing"
 	"time"

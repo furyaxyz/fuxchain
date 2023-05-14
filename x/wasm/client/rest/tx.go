@@ -2,15 +2,15 @@ package rest
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/exfury/fuxchain/x/wasm/ioutils"
+	"github.com/furyaxyz/fuxchain/x/wasm/ioutils"
 	"net/http"
 	"strconv"
 
-	clientCtx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	wasmUtils "github.com/exfury/fuxchain/x/wasm/client/utils"
-	"github.com/exfury/fuxchain/x/wasm/types"
+	clientCtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	wasmUtils "github.com/furyaxyz/fuxchain/x/wasm/client/utils"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 func registerTxRoutes(cliCtx clientCtx.CLIContext, r *mux.Router) {

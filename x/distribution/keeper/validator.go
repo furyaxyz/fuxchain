@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/x/staking/exported"
+	"github.com/furyaxyz/fuxchain/x/staking/exported"
 )
 
 // initialize rewards for a new validator

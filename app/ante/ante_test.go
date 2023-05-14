@@ -10,15 +10,15 @@ import (
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmcrypto "github.com/exfury/fuxchain/libs/tendermint/crypto"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmcrypto "github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/app"
-	"github.com/exfury/fuxchain/app/ante"
-	"github.com/exfury/fuxchain/app/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/app"
+	"github.com/furyaxyz/fuxchain/app/ante"
+	"github.com/furyaxyz/fuxchain/app/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 func requireValidTx(

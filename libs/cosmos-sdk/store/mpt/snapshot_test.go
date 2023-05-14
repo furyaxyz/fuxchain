@@ -6,7 +6,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/core/state"
 	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	tmlog "github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	tmlog "github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

@@ -3,12 +3,12 @@ package keeper
 import (
 	"encoding/json"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	comm "github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	comm "github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 )
 
 func queryDelegationRewards(ctx sdk.Context, _ []string, req abci.RequestQuery, k Keeper) ([]byte, error) {

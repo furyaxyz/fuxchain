@@ -3,8 +3,8 @@ package lite
 import (
 	"time"
 
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func IBCVerify(

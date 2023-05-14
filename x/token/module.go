@@ -3,13 +3,13 @@ package token
 import (
 	"encoding/json"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	authTypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	authTypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/x/common/version"
-	tokenTypes "github.com/exfury/fuxchain/x/token/types"
+	"github.com/furyaxyz/fuxchain/x/common/version"
+	tokenTypes "github.com/furyaxyz/fuxchain/x/token/types"
 )
 
 var (

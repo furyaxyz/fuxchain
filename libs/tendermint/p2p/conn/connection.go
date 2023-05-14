@@ -19,11 +19,11 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	flow "github.com/exfury/fuxchain/libs/tendermint/libs/flowrate"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/timer"
+	flow "github.com/furyaxyz/fuxchain/libs/tendermint/libs/flowrate"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/timer"
 )
 
 const (

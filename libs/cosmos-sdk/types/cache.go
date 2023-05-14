@@ -4,7 +4,7 @@ import (
 	"time"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 type Account interface {

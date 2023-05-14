@@ -1,9 +1,9 @@
 package connection
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
 )
 
 // InitGenesis initializes the ibc connection submodule's state from a provided genesis

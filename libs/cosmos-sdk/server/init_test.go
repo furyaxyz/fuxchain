@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/keys"
-	crkeys "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/tests"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/keys"
+	crkeys "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/tests"
 )
 
 func TestGenerateCoinKey(t *testing.T) {

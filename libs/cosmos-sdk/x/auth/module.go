@@ -3,22 +3,22 @@ package auth
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/base"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/base"
 	"math/rand"
 
 	"github.com/gorilla/mux"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 	"github.com/spf13/cobra"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/cli"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/simulation"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	sim "github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/cli"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	sim "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 )
 
 var (

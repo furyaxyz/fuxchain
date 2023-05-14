@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/slashing"
-	"github.com/exfury/fuxchain/x/staking"
-	"github.com/exfury/fuxchain/x/staking/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/slashing"
+	"github.com/furyaxyz/fuxchain/x/staking"
+	"github.com/furyaxyz/fuxchain/x/staking/exported"
 	//slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
 	//stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 )

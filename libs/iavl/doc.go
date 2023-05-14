@@ -9,8 +9,8 @@
 //
 // Basic usage of MutableTree:
 //
-//  import "github.com/exfury/fuxchain/libs/iavl"
-//  import "github.com/exfury/fuxchain/libs/tm-db"
+//  import "github.com/furyaxyz/fuxchain/libs/iavl"
+//  import "github.com/furyaxyz/fuxchain/libs/tm-db"
 //  ...
 //
 //  tree := iavl.NewMutableTree(db.NewMemDB(), 128)

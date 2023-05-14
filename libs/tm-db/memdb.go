@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/google/btree"
-	"github.com/exfury/fuxchain/libs/tm-db/common"
+	"github.com/furyaxyz/fuxchain/libs/tm-db/common"
 )
 
 const (

@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"testing"
 
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/cachekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/cachekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 )
 
 func newCacheKVStore() types.CacheKVStore {

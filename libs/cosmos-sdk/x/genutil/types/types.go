@@ -3,7 +3,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 // DONTCOVER

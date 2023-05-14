@@ -5,7 +5,7 @@
 package genutil
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil/types"
 )
 
 const (

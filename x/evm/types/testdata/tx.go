@@ -2,9 +2,9 @@ package testdata
 
 import (
 	"encoding/json"
-	ibcmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	ibcmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // KeyTestPubAddr generates a new secp256k1 keypair.

@@ -3,7 +3,7 @@ package pex
 import (
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
 )
 
 // knownAddress tracks information about a known network address

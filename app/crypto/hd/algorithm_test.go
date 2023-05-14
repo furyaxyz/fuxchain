@@ -11,12 +11,12 @@ import (
 
 	hdwallet "github.com/miguelmota/go-ethereum-hdwallet"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/tests"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/tests"
 
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	ethermint "github.com/exfury/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
 )
 
 func TestEthermintKeygenFunc(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"testing"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
-	"github.com/exfury/fuxchain/x/common"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/x/common"
 	"github.com/stretchr/testify/require"
 )
 

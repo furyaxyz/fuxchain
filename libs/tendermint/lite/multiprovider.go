@@ -1,9 +1,9 @@
 package lite
 
 import (
-	log "github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	lerr "github.com/exfury/fuxchain/libs/tendermint/lite/errors"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	log "github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	lerr "github.com/furyaxyz/fuxchain/libs/tendermint/lite/errors"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var _ PersistentProvider = (*multiProvider)(nil)

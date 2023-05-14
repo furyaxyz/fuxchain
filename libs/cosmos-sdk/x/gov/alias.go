@@ -3,8 +3,8 @@ package gov
 // nolint
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
 )
 
 const (

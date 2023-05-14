@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmamino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmamino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bech32"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bech32"
 )
 
 const (

@@ -2,7 +2,7 @@ package iavl
 
 import (
 	"bytes"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 )
 
 type traversal struct {

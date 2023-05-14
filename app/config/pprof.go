@@ -1,14 +1,14 @@
 package config
 
 import (
-	"github.com/exfury/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
 	"path"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
 
 	"github.com/mosn/holmes"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
 	"github.com/spf13/viper"
 )
 

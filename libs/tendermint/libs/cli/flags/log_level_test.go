@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	tmflags "github.com/exfury/fuxchain/libs/tendermint/libs/cli/flags"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	tmflags "github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli/flags"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 )
 
 const (

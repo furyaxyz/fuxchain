@@ -1,11 +1,11 @@
 package transfer
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 // NewHandler returns sdk.Handler for IBC token transfer module messages

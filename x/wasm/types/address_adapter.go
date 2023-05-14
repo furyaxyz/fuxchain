@@ -2,8 +2,8 @@ package types
 
 import (
 	"crypto/sha256"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 )
 
 // Module is a specialized version of a composed address for modules. Each module account

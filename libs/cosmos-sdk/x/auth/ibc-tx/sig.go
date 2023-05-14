@@ -2,11 +2,11 @@ package ibc_tx
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
 )
 
 // SignatureDataToModeInfoAndSig converts a SignatureData to a ModeInfo and raw bytes signature

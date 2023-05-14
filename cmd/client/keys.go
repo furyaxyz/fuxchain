@@ -4,18 +4,18 @@ import (
 	"bufio"
 	"encoding/hex"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
 	"io"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	clientkeys "github.com/exfury/fuxchain/libs/cosmos-sdk/client/keys"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	clientkeys "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/app/crypto/hd"
+	"github.com/furyaxyz/fuxchain/app/crypto/hd"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	params "github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/subspace"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	params "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/subspace"
 )
 
 // Default period for deposits & voting

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/gogo/protobuf/proto"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/protoio"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/protoio"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 	"time"
 )
 

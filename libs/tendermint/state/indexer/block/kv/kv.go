@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"strings"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/libs/tendermint/state/indexer"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/indexer"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
 	"github.com/google/orderedcode"
 )

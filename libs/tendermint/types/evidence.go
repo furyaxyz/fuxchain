@@ -9,12 +9,12 @@ import (
 	"github.com/pkg/errors"
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	cryptoenc "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding"
-	cryptoamino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	cryptoenc "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding"
+	cryptoamino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
 )
 
 const (

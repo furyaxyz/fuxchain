@@ -1,8 +1,8 @@
 package types
 
 import (
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 )
 
 // RegisterInterfaces registers the commitment interfaces to protobuf Any.

@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/app"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	evm_types "github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/app"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	evm_types "github.com/furyaxyz/fuxchain/x/evm/types"
 	"github.com/stretchr/testify/suite"
 )
 

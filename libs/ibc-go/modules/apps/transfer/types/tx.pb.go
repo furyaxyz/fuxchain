@@ -6,8 +6,8 @@ package types
 import (
 	context "context"
 	fmt "fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	types1 "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	types1 "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
 	//types "github.com/cosmos/cosmos-sdk/types"
 	//types1 "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
 	_ "github.com/gogo/protobuf/gogoproto"

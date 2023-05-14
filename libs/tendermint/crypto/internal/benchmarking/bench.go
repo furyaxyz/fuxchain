@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 // The code in this file is adapted from agl/ed25519.

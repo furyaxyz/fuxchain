@@ -1,10 +1,10 @@
 package infura
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/x/common/monitor"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
-	evm "github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/x/common/monitor"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
+	evm "github.com/furyaxyz/fuxchain/x/evm/watcher"
 )
 
 // nolint

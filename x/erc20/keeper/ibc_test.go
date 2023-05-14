@@ -6,10 +6,10 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	erc20Keeper "github.com/exfury/fuxchain/x/erc20/keeper"
-	"github.com/exfury/fuxchain/x/erc20/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	erc20Keeper "github.com/furyaxyz/fuxchain/x/erc20/keeper"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 const (

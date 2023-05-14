@@ -8,12 +8,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/tracekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/tracekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 )
 
 func bz(s string) []byte { return []byte(s) }

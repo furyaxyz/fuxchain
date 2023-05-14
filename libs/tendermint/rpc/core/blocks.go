@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"sort"
 
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 
-	nullblockindexer "github.com/exfury/fuxchain/libs/tendermint/state/indexer/block/null"
+	nullblockindexer "github.com/furyaxyz/fuxchain/libs/tendermint/state/indexer/block/null"
 
-	tmquery "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
+	tmquery "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
 
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // BlockchainInfo gets block headers for minHeight <= height <= maxHeight.

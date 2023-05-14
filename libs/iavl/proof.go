@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	cmn "github.com/exfury/fuxchain/libs/iavl/common"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
+	cmn "github.com/furyaxyz/fuxchain/libs/iavl/common"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
 	amino "github.com/tendermint/go-amino"
 )
 

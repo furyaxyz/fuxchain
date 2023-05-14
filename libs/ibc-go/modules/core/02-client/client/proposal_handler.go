@@ -1,11 +1,11 @@
 package client
 
 import (
-	cliContext "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/client/cli"
-	govclient "github.com/exfury/fuxchain/x/gov/client"
-	govrest "github.com/exfury/fuxchain/x/gov/client/rest"
+	cliContext "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/client/cli"
+	govclient "github.com/furyaxyz/fuxchain/x/gov/client"
+	govrest "github.com/furyaxyz/fuxchain/x/gov/client/rest"
 	"net/http"
 )
 

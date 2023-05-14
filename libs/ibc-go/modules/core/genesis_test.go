@@ -3,22 +3,22 @@ package ibc_test
 import (
 	"testing"
 
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	// tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/tendermint/types"
+	// tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/tendermint/types"
 	"github.com/stretchr/testify/suite"
 
-	ibc "github.com/exfury/fuxchain/libs/ibc-go/modules/core"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/types"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	localhosttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
+	ibc "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/types"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	localhosttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
 )
 
 const (

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/evidence/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/evidence/exported"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
 	"gopkg.in/yaml.v2"
 )
 

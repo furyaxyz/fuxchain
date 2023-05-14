@@ -1,5 +1,5 @@
 BIN_NAME=fuxchaind
-OKCHAIN_TOP=${GOPATH}/src/github.com/exfury/fuxchain
+OKCHAIN_TOP=${GOPATH}/src/github.com/furyaxyz/fuxchain
 OKCHAIN_BIN=${OKCHAIN_TOP}/build
 OKCHAIN_BIN=${GOPATH}/bin
 OKCHAIN_NET_TOP=`pwd`

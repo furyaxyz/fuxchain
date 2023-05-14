@@ -3,7 +3,7 @@ package sr25519
 import (
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 var _ crypto.PrivKey = PrivKeySr25519{}

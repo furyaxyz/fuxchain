@@ -3,10 +3,10 @@ package proxy
 import (
 	"sync"
 
-	abcicli "github.com/exfury/fuxchain/libs/tendermint/abci/client"
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/counter"
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-	"github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abcicli "github.com/furyaxyz/fuxchain/libs/tendermint/abci/client"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/counter"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 // NewABCIClient returns newly connected client

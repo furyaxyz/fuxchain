@@ -10,12 +10,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cstypes "github.com/exfury/fuxchain/libs/tendermint/consensus/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmpubsub "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	p2pmock "github.com/exfury/fuxchain/libs/tendermint/p2p/mock"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cstypes "github.com/furyaxyz/fuxchain/libs/tendermint/consensus/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmpubsub "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	p2pmock "github.com/furyaxyz/fuxchain/libs/tendermint/p2p/mock"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 /*

@@ -3,10 +3,10 @@ package simulation
 import (
 	"math/rand"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	govtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	govtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // SimulateParamChangeProposalContent returns random parameter change content.

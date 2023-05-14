@@ -1,12 +1,12 @@
 package fee_test
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	txmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
-	transfertypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	txmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
+	transfertypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 // Integration test to ensure ics29 works with ics20

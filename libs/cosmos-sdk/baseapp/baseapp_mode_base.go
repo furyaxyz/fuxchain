@@ -3,11 +3,11 @@ package baseapp
 import (
 	"encoding/json"
 	"fmt"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	//"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	//"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type modeHandler interface {

@@ -4,7 +4,7 @@ import (
 	_ "embed"
 
 	typwasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 //go:embed reflect.wasm

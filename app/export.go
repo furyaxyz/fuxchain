@@ -4,17 +4,17 @@ import (
 	"encoding/json"
 	"log"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/slashing"
-	"github.com/exfury/fuxchain/x/staking"
-	"github.com/exfury/fuxchain/x/staking/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/slashing"
+	"github.com/furyaxyz/fuxchain/x/staking"
+	"github.com/furyaxyz/fuxchain/x/staking/exported"
 
-	ethcdc "github.com/exfury/fuxchain/app/codec"
+	ethcdc "github.com/furyaxyz/fuxchain/app/codec"
 )
 
 // NewDefaultGenesisState generates the default state for the application.

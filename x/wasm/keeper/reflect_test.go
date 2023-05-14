@@ -2,9 +2,9 @@ package keeper
 
 import (
 	"encoding/json"
-	ibcadapter "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	"github.com/exfury/fuxchain/x/wasm/keeper/testdata"
+	ibcadapter "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	"github.com/furyaxyz/fuxchain/x/wasm/keeper/testdata"
 	"io/ioutil"
 	"strings"
 	"testing"
@@ -12,17 +12,17 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	authkeeper "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/keeper"
-	//bankkeeper "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/keeper"
-	//banktypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	authkeeper "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/keeper"
+	//bankkeeper "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/keeper"
+	//banktypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 func buildReflectQuery(t *testing.T, query *testdata.ReflectQueryMsg) []byte {

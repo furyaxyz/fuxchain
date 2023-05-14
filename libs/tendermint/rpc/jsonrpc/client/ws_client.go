@@ -15,9 +15,9 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	types "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	types "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 const (

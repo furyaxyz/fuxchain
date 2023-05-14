@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	icatypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	icatypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 func (suite *KeeperTestSuite) TestRegisterInterchainAccount() {

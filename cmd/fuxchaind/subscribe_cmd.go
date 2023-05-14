@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/app/logevents"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/app/logevents"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"github.com/spf13/cobra"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 )
 
 func subscribeCmd(cdc *codec.Codec) *cobra.Command {

@@ -1,11 +1,11 @@
 package transient
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	"github.com/exfury/fuxchain/libs/iavl"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/dbadapter"
 )
 
 var _ types.Committer = (*Store)(nil)

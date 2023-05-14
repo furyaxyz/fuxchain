@@ -14,14 +14,14 @@ import (
 	"github.com/99designs/keyring"
 	"github.com/pkg/errors"
 
-	tmcrypto "github.com/exfury/fuxchain/libs/tendermint/crypto"
-	cryptoAmino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
+	tmcrypto "github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	cryptoAmino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
 	"github.com/tendermint/crypto/bcrypt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/input"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/keyerror"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/mintkey"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/input"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/keyerror"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/mintkey"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 const (

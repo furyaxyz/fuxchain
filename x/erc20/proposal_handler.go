@@ -2,13 +2,13 @@ package erc20
 
 import (
 	ethcmm "github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/erc20/types"
-	govTypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
+	govTypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // NewProposalHandler handles "gov" type message in "erc20"

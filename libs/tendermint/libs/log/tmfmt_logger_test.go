@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	kitlog "github.com/go-kit/kit/log"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 )
 
 //func TestTMFmtLogger(t *testing.T) {

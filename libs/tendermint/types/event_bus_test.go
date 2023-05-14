@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/kv"
-	tmpubsub "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub"
-	tmquery "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
+	tmpubsub "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub"
+	tmquery "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
 )
 
 func TestEventBusPublishEventTx(t *testing.T) {

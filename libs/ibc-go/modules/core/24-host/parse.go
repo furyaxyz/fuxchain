@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 )
 
 // ParseIdentifier parses the sequence from the identifier using the provided prefix. This function

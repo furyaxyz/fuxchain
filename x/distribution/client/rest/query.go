@@ -6,13 +6,13 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
 
-	comm "github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/distribution/client/common"
-	"github.com/exfury/fuxchain/x/distribution/types"
+	comm "github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/distribution/client/common"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 )
 
 func registerQueryRoutes(cliCtx context.CLIContext, r *mux.Router, queryRoute string) {

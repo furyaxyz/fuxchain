@@ -3,11 +3,11 @@ package types
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"regexp"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 )
 
 var (

@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 type EvmKeeper interface {

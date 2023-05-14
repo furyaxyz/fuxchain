@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	bh "github.com/exfury/fuxchain/libs/tendermint/behaviour"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
+	bh "github.com/furyaxyz/fuxchain/libs/tendermint/behaviour"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
 )
 
 // TestMockReporter tests the MockReporter's ability to store reported

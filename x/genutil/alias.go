@@ -1,10 +1,10 @@
 package genutil
 
 import (
-	"github.com/exfury/fuxchain/x/genutil/types"
+	"github.com/furyaxyz/fuxchain/x/genutil/types"
 
-	sdkgenutil "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil"
-	sdkgenutiltypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil/types"
+	sdkgenutil "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil"
+	sdkgenutiltypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil/types"
 )
 
 // const

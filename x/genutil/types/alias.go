@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdkgenutiltypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil/types"
+	sdkgenutiltypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil/types"
 )
 
 // const

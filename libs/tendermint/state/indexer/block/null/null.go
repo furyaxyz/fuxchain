@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
-	"github.com/exfury/fuxchain/libs/tendermint/state/indexer"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/indexer"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var _ indexer.BlockIndexer = (*BlockerIndexer)(nil)

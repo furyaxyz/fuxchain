@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 
 	"github.com/gorilla/mux"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
 	"github.com/spf13/cobra"
 
-	"github.com/exfury/fuxchain/x/token/client/cli"
-	"github.com/exfury/fuxchain/x/token/client/rest"
-	tokenTypes "github.com/exfury/fuxchain/x/token/types"
+	"github.com/furyaxyz/fuxchain/x/token/client/cli"
+	"github.com/furyaxyz/fuxchain/x/token/client/rest"
+	tokenTypes "github.com/furyaxyz/fuxchain/x/token/types"
 )
 
 var (

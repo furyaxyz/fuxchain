@@ -3,14 +3,14 @@ package v0_36
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	v034distr "github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/legacy/v0_34"
-	v034accounts "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genaccounts/legacy/v0_34"
-	v034gov "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/legacy/v0_34"
-	v034staking "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/legacy/v0_34"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	v034distr "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/legacy/v0_34"
+	v034accounts "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genaccounts/legacy/v0_34"
+	v034gov "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/legacy/v0_34"
+	v034staking "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/legacy/v0_34"
 
 	"github.com/stretchr/testify/require"
 )

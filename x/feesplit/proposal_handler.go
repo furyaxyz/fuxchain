@@ -2,11 +2,11 @@ package feesplit
 
 import (
 	ethcommon "github.com/ethereum/go-ethereum/common"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/feesplit/types"
-	govTypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/feesplit/types"
+	govTypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // NewProposalHandler handles "gov" type message in "feesplit"

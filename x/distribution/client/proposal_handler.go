@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/exfury/fuxchain/x/distribution/client/cli"
-	"github.com/exfury/fuxchain/x/distribution/client/rest"
-	govclient "github.com/exfury/fuxchain/x/gov/client"
+	"github.com/furyaxyz/fuxchain/x/distribution/client/cli"
+	"github.com/furyaxyz/fuxchain/x/distribution/client/rest"
+	govclient "github.com/furyaxyz/fuxchain/x/gov/client"
 )
 
 // param change proposal handler

@@ -7,15 +7,15 @@ import (
 	"strings"
 	"testing"
 
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 
 	"github.com/stretchr/testify/require"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 var invalidStrs = []string{

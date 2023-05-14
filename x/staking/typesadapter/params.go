@@ -1,7 +1,7 @@
 package typesadapter
 
 import (
-	"github.com/exfury/fuxchain/x/staking/types"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 func (p *Params) From(pp types.Params) {

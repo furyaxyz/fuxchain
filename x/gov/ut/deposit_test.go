@@ -4,10 +4,10 @@ import (
 	ethcmm "github.com/ethereum/go-ethereum/common"
 	"testing"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/gov/types"
-	"github.com/exfury/fuxchain/x/params"
-	paramsTypes "github.com/exfury/fuxchain/x/params/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/params"
+	paramsTypes "github.com/furyaxyz/fuxchain/x/params/types"
 	"github.com/stretchr/testify/require"
 )
 

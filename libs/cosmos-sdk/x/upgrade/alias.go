@@ -3,8 +3,8 @@ package upgrade
 // nolint
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/upgrade/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/upgrade/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/upgrade/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/upgrade/internal/types"
 )
 
 const (

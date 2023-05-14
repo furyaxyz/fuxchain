@@ -1,9 +1,9 @@
 package ibc
 
 import (
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/common"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/common"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/types"
 )
 
 type (

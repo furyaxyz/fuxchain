@@ -5,12 +5,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmnet "github.com/exfury/fuxchain/libs/tendermint/libs/net"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmnet "github.com/furyaxyz/fuxchain/libs/tendermint/libs/net"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
 
-	"github.com/exfury/fuxchain/libs/tendermint/privval"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/privval"
 )
 
 func main() {

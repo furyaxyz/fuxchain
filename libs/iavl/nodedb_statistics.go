@@ -2,7 +2,7 @@ package iavl
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
 	"sync/atomic"
 )
 

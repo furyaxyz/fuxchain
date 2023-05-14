@@ -3,8 +3,8 @@ package params
 // nolint
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/subspace"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/subspace"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/types"
 )
 
 const (

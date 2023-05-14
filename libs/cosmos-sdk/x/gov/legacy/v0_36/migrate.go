@@ -1,7 +1,7 @@
 package v0_36
 
 import (
-	v034gov "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/legacy/v0_34"
+	v034gov "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/legacy/v0_34"
 )
 
 // Migrate accepts exported genesis state from v0.34 and migrates it to v0.36

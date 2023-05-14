@@ -1,9 +1,9 @@
 package types_test
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	banktypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	banktypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
 )
 
 // caseRawBytes defines a helper struct, used for testing codec operations

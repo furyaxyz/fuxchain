@@ -3,7 +3,7 @@ package types
 import (
 	"bytes"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"math/big"
 	"math/rand"
 	"strings"
@@ -11,30 +11,30 @@ import (
 
 	"encoding/hex"
 
-	ibcfee "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee"
+	ibcfee "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"
-	chaincodec "github.com/exfury/fuxchain/app/codec"
+	chaincodec "github.com/furyaxyz/fuxchain/app/codec"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	ibctxdecode "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	ibctransfer "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer"
-	ibc "github.com/exfury/fuxchain/libs/ibc-go/modules/core"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	ibctxdecode "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	ibctransfer "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer"
+	ibc "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func newSdkAddress() sdk.AccAddress {

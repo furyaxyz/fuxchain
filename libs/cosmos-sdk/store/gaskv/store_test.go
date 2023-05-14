@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/gaskv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/gaskv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 
 	"github.com/stretchr/testify/require"
 )

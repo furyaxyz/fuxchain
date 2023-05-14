@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // GovKeeper defines the expected gov Keeper

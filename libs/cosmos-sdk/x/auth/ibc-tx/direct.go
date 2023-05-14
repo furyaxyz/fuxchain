@@ -2,10 +2,10 @@ package ibc_tx
 
 import (
 	"fmt"
-	ibctx "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	signing2 "github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
-	signing "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	ibctx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	signing2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	signing "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // signModeDirectHandler defines the SIGN_MODE_DIRECT SignModeHandler

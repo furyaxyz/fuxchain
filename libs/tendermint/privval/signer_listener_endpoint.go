@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
 )
 
 // SignerListenerEndpointOption sets an optional parameter on the SignerListenerEndpoint.

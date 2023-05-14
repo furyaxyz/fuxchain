@@ -1,9 +1,9 @@
 package utils
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	cm40types "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	cm40types "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 func ConvCM39SimulateResultTCM40(cm39 *types.Result) *cm40types.Result {

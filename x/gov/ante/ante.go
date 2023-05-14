@@ -2,18 +2,18 @@ package ante
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
-	"github.com/exfury/fuxchain/x/gov/types"
-	"github.com/exfury/fuxchain/x/params"
-	paramstypes "github.com/exfury/fuxchain/x/params/types"
-	stakingkeeper "github.com/exfury/fuxchain/x/staking/exported"
-	stakingtypes "github.com/exfury/fuxchain/x/staking/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/params"
+	paramstypes "github.com/furyaxyz/fuxchain/x/params/types"
+	stakingkeeper "github.com/furyaxyz/fuxchain/x/staking/exported"
+	stakingtypes "github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 type AnteDecorator struct {

@@ -11,9 +11,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
-	rpchttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
+	rpchttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
 )
 
 var dumpCmd = &cobra.Command{

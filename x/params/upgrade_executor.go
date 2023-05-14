@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"math"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/x/common"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
-	"github.com/exfury/fuxchain/x/params/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/x/common"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/params/types"
 )
 
 func NewUpgradeProposalHandler(k *Keeper) govtypes.Handler {

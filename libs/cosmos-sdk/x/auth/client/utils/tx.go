@@ -8,23 +8,23 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	types2 "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	txmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
-	ibctx "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	signingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	types2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	txmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	ibctx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	signingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
 
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/input"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/keys"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/input"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // GasEstimateResponse defines a response definition for tx gas estimation.

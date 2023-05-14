@@ -1,8 +1,8 @@
 package p2p
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p/conn"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p/conn"
 )
 
 // Reactor is responsible for handling incoming messages on one or more

@@ -17,8 +17,8 @@ package types
 
 import (
 	"encoding/binary"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"

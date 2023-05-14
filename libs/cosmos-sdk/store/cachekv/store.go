@@ -8,14 +8,14 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/exfury/fuxchain/libs/iavl"
-	"github.com/exfury/fuxchain/libs/system/trace"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/tracekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	kv "github.com/exfury/fuxchain/libs/cosmos-sdk/types/kv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/tracekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	kv "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/kv"
 )
 
 // If value is nil but deleted is false, it means the parent doesn't have the

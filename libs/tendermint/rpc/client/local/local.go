@@ -7,16 +7,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmpubsub "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub"
-	tmquery "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
-	nm "github.com/exfury/fuxchain/libs/tendermint/node"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/core"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmpubsub "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub"
+	tmquery "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
+	nm "github.com/furyaxyz/fuxchain/libs/tendermint/node"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 /*

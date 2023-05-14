@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	paramtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	paramtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 )
 
 var (

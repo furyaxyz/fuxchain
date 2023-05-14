@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/exfury/fuxchain/libs/system/trace"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/gaskv"
-	stypes "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/gaskv"
+	stypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 )
 
 /*

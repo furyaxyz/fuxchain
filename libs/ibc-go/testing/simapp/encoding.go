@@ -1,9 +1,9 @@
 package simapp
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	ibc_tx "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	simappparams "github.com/exfury/fuxchain/libs/ibc-go/testing/simapp/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	ibc_tx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	simappparams "github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp/params"
 )
 
 // MakeTestEncodingConfig creates an EncodingConfig for testing. This function

@@ -4,8 +4,8 @@ import (
 	"crypto/sha256"
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/clist"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/clist"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type ITransactionQueue interface {

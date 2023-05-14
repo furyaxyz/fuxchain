@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type mockValidator struct {

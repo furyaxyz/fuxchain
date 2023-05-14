@@ -3,7 +3,7 @@ package log
 import (
 	"bytes"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"io"
 	"sync"
 	"time"

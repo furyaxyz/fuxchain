@@ -1,20 +1,20 @@
 package ante
 
 import (
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	authante "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ante"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	ibc "github.com/exfury/fuxchain/libs/ibc-go/modules/core"
-	ibcante "github.com/exfury/fuxchain/libs/ibc-go/modules/core/ante"
-	"github.com/exfury/fuxchain/libs/system/trace"
-	tmcrypto "github.com/exfury/fuxchain/libs/tendermint/crypto"
-	govante "github.com/exfury/fuxchain/x/gov/ante"
-	"github.com/exfury/fuxchain/x/params"
-	"github.com/exfury/fuxchain/x/staking"
-	wasmkeeper "github.com/exfury/fuxchain/x/wasm/keeper"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	authante "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ante"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	ibc "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core"
+	ibcante "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/ante"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	tmcrypto "github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	govante "github.com/furyaxyz/fuxchain/x/gov/ante"
+	"github.com/furyaxyz/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/x/staking"
+	wasmkeeper "github.com/furyaxyz/fuxchain/x/wasm/keeper"
 )
 
 func init() {

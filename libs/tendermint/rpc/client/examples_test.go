@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-	rpchttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctest "github.com/exfury/fuxchain/libs/tendermint/rpc/test"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+	rpchttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctest "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/test"
 )
 
 func ExampleHTTP_simple() {

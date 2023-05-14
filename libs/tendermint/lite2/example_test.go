@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-	lite "github.com/exfury/fuxchain/libs/tendermint/lite2"
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/provider"
-	httpp "github.com/exfury/fuxchain/libs/tendermint/lite2/provider/http"
-	dbs "github.com/exfury/fuxchain/libs/tendermint/lite2/store/db"
-	rpctest "github.com/exfury/fuxchain/libs/tendermint/rpc/test"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+	lite "github.com/furyaxyz/fuxchain/libs/tendermint/lite2"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider"
+	httpp "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider/http"
+	dbs "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/store/db"
+	rpctest "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/test"
 )
 
 // Automatically getting new headers and verifying them.

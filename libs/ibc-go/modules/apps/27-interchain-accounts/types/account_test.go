@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 	"github.com/stretchr/testify/suite"
 )
 

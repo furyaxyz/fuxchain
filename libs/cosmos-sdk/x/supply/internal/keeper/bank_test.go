@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	keep "github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	keep "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/internal/types"
 )
 
 const initialPower = int64(100)

@@ -3,7 +3,7 @@ package eth
 import (
 	"testing"
 
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 
 	"github.com/stretchr/testify/require"
 )

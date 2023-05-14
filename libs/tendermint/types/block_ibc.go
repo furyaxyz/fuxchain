@@ -1,7 +1,7 @@
 package types
 
 import (
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
 )
 
 func (sh SignedHeader) ValidateBasicForIBC(chainID string) error {

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
 
-	sdkGov "github.com/exfury/fuxchain/x/gov"
-	govKeeper "github.com/exfury/fuxchain/x/gov/keeper"
-	govTypes "github.com/exfury/fuxchain/x/gov/types"
+	sdkGov "github.com/furyaxyz/fuxchain/x/gov"
+	govKeeper "github.com/furyaxyz/fuxchain/x/gov/keeper"
+	govTypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 var _ govKeeper.ProposalHandler = (*Keeper)(nil)

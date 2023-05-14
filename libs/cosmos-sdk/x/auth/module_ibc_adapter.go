@@ -6,15 +6,15 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	cliContext "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	cosmost "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/upgrade"
+	cliContext "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	cosmost "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/upgrade"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	authinternaltypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/typesadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	authinternaltypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/typesadapter"
 	"github.com/spf13/cobra"
 )
 

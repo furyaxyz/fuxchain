@@ -1,8 +1,8 @@
 package state
 
 import (
-	mempl "github.com/exfury/fuxchain/libs/tendermint/mempool"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	mempl "github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // TxPreCheck returns a function to filter transactions before processing.

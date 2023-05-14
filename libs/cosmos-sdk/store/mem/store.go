@@ -3,13 +3,13 @@ package mem
 import (
 	"io"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/cachekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/listenkv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/tracekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/cachekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/listenkv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/tracekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/dbadapter"
 )
 
 var (

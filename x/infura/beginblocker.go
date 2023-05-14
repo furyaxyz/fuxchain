@@ -1,7 +1,7 @@
 package infura
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // BeginBlocker runs the logic of BeginBlocker with version 0.

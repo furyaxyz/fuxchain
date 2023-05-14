@@ -1,6 +1,6 @@
 package types
 
-import "github.com/exfury/fuxchain/x/params"
+import "github.com/furyaxyz/fuxchain/x/params"
 
 var (
 	_ params.ParamSet = KeyHistoricalEntriesParamsSet{}

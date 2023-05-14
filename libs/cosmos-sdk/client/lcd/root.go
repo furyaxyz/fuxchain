@@ -5,7 +5,7 @@ import (
 	"github.com/gogo/gateway"
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	grpctypes "github.com/exfury/fuxchain/libs/cosmos-sdk/types/grpc"
+	grpctypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/grpc"
 	"net"
 	"net/http"
 	"os"
@@ -14,21 +14,21 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/node"
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/client/local"
-	tmrpcserver "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/server"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/node"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/local"
+	tmrpcserver "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/server"
 	"github.com/rakyll/statik/fs"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	keybase "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	keybase "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
 
 	// unnamed import of statik for swagger UI support
-	_ "github.com/exfury/fuxchain/libs/cosmos-sdk/client/lcd/statik"
+	_ "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/lcd/statik"
 )
 
 // RestServer represents the Light Client Rest server

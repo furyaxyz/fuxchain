@@ -1,7 +1,7 @@
 package lite
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // Verifier checks the votes to make sure the block really is signed properly.

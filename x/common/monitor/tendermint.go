@@ -2,9 +2,9 @@ package monitor
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	tmcli "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	tmhttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	tmcli "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	tmhttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
 	"github.com/spf13/viper"
 	"strings"
 	"sync"

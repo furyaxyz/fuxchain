@@ -3,11 +3,11 @@ package net
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/app/rpc/monitor"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
+	"github.com/furyaxyz/fuxchain/app/rpc/monitor"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
 	"github.com/spf13/viper"
 )
 

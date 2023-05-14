@@ -2,7 +2,7 @@ package logevents
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"os"
 	"time"
 )

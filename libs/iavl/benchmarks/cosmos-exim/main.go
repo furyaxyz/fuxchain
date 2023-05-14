@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/iavl"
-	tmdb "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	tmdb "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 // stores is the list of stores in the CosmosHub database

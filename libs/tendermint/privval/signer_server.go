@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // ValidationRequestHandlerFunc handles different remoteSigner requests

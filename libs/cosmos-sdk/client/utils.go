@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/query"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/query"
 	"github.com/spf13/pflag"
 )
 

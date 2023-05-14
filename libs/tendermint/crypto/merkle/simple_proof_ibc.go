@@ -1,6 +1,6 @@
 package merkle
 
-import cryptomerkel "github.com/exfury/fuxchain/libs/tendermint/proto/crypto/merkle"
+import cryptomerkel "github.com/furyaxyz/fuxchain/libs/tendermint/proto/crypto/merkle"
 
 func (sp *SimpleProof) ToProto() *cryptomerkel.SimpleProof {
 	if sp == nil {

@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	clientsims "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/simulation"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectionsims "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/simulation"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channelsims "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/simulation"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	clientsims "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/simulation"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectionsims "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/simulation"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channelsims "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/simulation"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/types"
 )
 
 // DONTCOVER

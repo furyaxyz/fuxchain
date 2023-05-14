@@ -2,13 +2,13 @@ package keeper_test
 
 import (
 	"fmt"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
 	//	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/05-port/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/mock"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/05-port/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/mock"
 )
 
 func (suite *KeeperTestSuite) TestAppVersion() {

@@ -8,13 +8,13 @@ package client
 import (
 	"fmt"
 
-	log "github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/lite"
-	lerr "github.com/exfury/fuxchain/libs/tendermint/lite/errors"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	rpchttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	log "github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite"
+	lerr "github.com/furyaxyz/fuxchain/libs/tendermint/lite/errors"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	rpchttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // SignStatusClient combines a SignClient and StatusClient.

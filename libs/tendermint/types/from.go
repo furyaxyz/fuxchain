@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/proto/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proto/version"
 )
 
 func (e CM40EventDataNewBlock) From(block EventDataNewBlock) CM40EventDataNewBlock {

@@ -1,7 +1,7 @@
 package check
 
 import (
-	"github.com/exfury/fuxchain/x/evm/txs/base"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/base"
 )
 
 type Tx struct {

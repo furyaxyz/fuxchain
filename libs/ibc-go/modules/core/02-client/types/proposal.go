@@ -2,12 +2,12 @@ package types
 
 import (
 	"fmt"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	govtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
-	types "github.com/exfury/fuxchain/libs/cosmos-sdk/x/upgrade/typesadapter"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	chaingov "github.com/exfury/fuxchain/x/gov/types"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	govtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
+	types "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/upgrade/typesadapter"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	chaingov "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 const (

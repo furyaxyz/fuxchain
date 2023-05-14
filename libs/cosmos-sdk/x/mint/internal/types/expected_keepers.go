@@ -1,9 +1,9 @@
 package types // noalias
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // StakingKeeper defines the expected staking keeper

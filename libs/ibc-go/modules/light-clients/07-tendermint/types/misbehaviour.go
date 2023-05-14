@@ -3,12 +3,12 @@ package types
 import (
 	"time"
 
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var _ exported.Misbehaviour = &Misbehaviour{}

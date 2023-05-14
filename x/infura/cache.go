@@ -1,8 +1,8 @@
 package infura
 
 import (
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
-	evm "github.com/exfury/fuxchain/x/evm/watcher"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
+	evm "github.com/furyaxyz/fuxchain/x/evm/watcher"
 )
 
 const defaultCacheCap = 2000

@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/version"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/version"
 )
 
 // DefaultKeyringServiceName defines a default service name for the keyring.

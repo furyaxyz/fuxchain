@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
+import "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
 
 // NormalizeVoteOption - normalize user specified vote option
 func NormalizeVoteOption(option string) string {

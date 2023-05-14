@@ -3,8 +3,8 @@ package slashing
 // nolint
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/slashing/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/slashing/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/slashing/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/slashing/internal/types"
 )
 
 const (

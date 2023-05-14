@@ -3,8 +3,8 @@ package baseapp
 import (
 	"fmt"
 
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func (m *modeHandlerSimulate) handleStartHeight(info *runTxInfo, height int64) error {

@@ -1,11 +1,11 @@
 package client
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // NewClientUpdateProposalHandler defines the client update proposal handler

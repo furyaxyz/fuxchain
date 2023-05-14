@@ -3,8 +3,8 @@ package keeper
 import (
 	"encoding/binary"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 /*

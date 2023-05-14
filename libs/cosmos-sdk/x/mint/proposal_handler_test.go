@@ -1,14 +1,14 @@
 package mint_test
 
 import (
-	"github.com/exfury/fuxchain/app"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdktypes "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/app"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdktypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 	"github.com/stretchr/testify/suite"
 	"testing"
 	"time"
@@ -104,7 +104,7 @@ func (suite *MintTestSuite) TestModifyMintedPerBlockProposal() {
 		expectError error
 	}{
 		{"amount -1", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"-1.000000000000000000\"}}", sdktypes.NewDec(0), types.ErrExtraProposalParams("coin is negative")},
-		{"not fury", "{\"coin\":{\"denom\":\"exfury\",\"amount\":\"1.000000000000000000\"}}", sdktypes.NewDec(0), types.ErrExtraProposalParams("coin is nil")},
+		{"not fury", "{\"coin\":{\"denom\":\"furyaxyz\",\"amount\":\"1.000000000000000000\"}}", sdktypes.NewDec(0), types.ErrExtraProposalParams("coin is nil")},
 		{"amount 1 ok", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"1.000000000000000000\"}}", sdktypes.NewDec(1), nil},
 		{"amount 0.5 ok", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"0.500000000000000000\"}}", sdktypes.NewDecWithPrec(5, 1), nil},
 		{"amount 0.0 ok", "{\"coin\":{\"denom\":\"fury\",\"amount\":\"0.000000000000000000\"}}", sdktypes.NewDec(0), nil},

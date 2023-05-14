@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 
 	yaml "gopkg.in/yaml.v2"
 )

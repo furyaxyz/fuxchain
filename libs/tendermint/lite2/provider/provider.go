@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // Provider provides information for the lite client to sync (verification

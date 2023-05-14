@@ -2,11 +2,11 @@ package ibc_tx
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	ibctx "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	signing2 "github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
-	signing "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	ibctx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	signing2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	signing "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
 )
 
 type config struct {

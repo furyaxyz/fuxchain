@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	ce "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	ce "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
 )
 
 // Volatile state for each Validator

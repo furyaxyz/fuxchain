@@ -1,12 +1,12 @@
 package core
 
 import (
-	cm "github.com/exfury/fuxchain/libs/tendermint/consensus"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cm "github.com/furyaxyz/fuxchain/libs/tendermint/consensus"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // Validators gets the validator set at the given block height.

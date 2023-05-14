@@ -4,8 +4,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	p2pconn "github.com/exfury/fuxchain/libs/tendermint/p2p/conn"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	p2pconn "github.com/furyaxyz/fuxchain/libs/tendermint/p2p/conn"
 )
 
 const (

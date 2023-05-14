@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 )
 
 type Capabilities struct {

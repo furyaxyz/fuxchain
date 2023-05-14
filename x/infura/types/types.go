@@ -3,10 +3,10 @@ package types
 import (
 	"time"
 
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	evm "github.com/exfury/fuxchain/x/evm/watcher"
+	evm "github.com/furyaxyz/fuxchain/x/evm/watcher"
 	"gorm.io/gorm"
 )
 

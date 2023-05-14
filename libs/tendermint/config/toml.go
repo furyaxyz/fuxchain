@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"text/template"
 
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
 )
 
 // DefaultDirPerm is the default permissions used when creating directories.

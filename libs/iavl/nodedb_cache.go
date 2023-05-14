@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/iavl/config"
+	"github.com/furyaxyz/fuxchain/libs/iavl/config"
 	"github.com/tendermint/go-amino"
 )
 

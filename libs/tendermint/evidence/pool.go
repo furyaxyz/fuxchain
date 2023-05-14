@@ -5,13 +5,13 @@ import (
 	"sync"
 	"time"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/consensus"
-	clist "github.com/exfury/fuxchain/libs/tendermint/libs/clist"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/consensus"
+	clist "github.com/furyaxyz/fuxchain/libs/tendermint/libs/clist"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // Pool maintains a pool of valid evidence

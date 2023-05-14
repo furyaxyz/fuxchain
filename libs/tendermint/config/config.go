@@ -2,13 +2,13 @@ package config
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"net/http"
 	"os"
 	"path/filepath"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
 	"github.com/pkg/errors"
 )

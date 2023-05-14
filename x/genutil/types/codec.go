@@ -1,11 +1,11 @@
 package types
 
 import (
-	stakingtypes "github.com/exfury/fuxchain/x/staking/types"
+	stakingtypes "github.com/furyaxyz/fuxchain/x/staking/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // ModuleCdc defines a generic sealed codec to be used throughout this module

@@ -4,11 +4,11 @@ import (
 	"errors"
 
 	"github.com/golang/protobuf/ptypes/wrappers"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	anytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdktypes "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	types "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	anytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdktypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	types "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
 )
 
 var (

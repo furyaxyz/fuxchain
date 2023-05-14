@@ -1,7 +1,7 @@
 package p2p
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/p2p/conn"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p/conn"
 )
 
 type ChannelDescriptor = conn.ChannelDescriptor

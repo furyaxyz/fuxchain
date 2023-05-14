@@ -3,7 +3,7 @@
 KEY1="alice"
 KEY2="bob"
 CHAINID="fuxchainevm-65"
-MONIKER="exfury"
+MONIKER="furyaxyz"
 CURDIR=$(dirname $0)
 HOME_BASE=$CURDIR/"_cache_evm"
 HOME_SERVER=$HOME_BASE/".fuxchaind"

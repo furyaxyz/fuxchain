@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	apptypes "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	apptypes "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )
 

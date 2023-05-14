@@ -3,7 +3,7 @@ package proxy
 import (
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
 )
 
 //-----------------------------

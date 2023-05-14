@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	keeper2 "github.com/exfury/fuxchain/x/vmbridge/keeper"
-	"github.com/exfury/fuxchain/x/vmbridge/types"
-	wasmtypes "github.com/exfury/fuxchain/x/wasm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	keeper2 "github.com/furyaxyz/fuxchain/x/vmbridge/keeper"
+	"github.com/furyaxyz/fuxchain/x/vmbridge/types"
+	wasmtypes "github.com/furyaxyz/fuxchain/x/wasm/types"
 
 	"math/big"
 )

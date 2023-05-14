@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmkv "github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmkv "github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 )
 
 // ----------------------------------------------------------------------------

@@ -3,8 +3,8 @@ package mempool
 import (
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/clist"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/clist"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type elementManager interface {

@@ -3,10 +3,10 @@ package types
 import (
 	"encoding/json"
 	"fmt"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/system"
-	"github.com/exfury/fuxchain/libs/tendermint/global"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 	"strings"
 )
 

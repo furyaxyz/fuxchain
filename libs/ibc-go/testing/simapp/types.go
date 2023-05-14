@@ -2,12 +2,12 @@ package simapp
 
 import (
 	"encoding/json"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	//"github.com/exfury/fuxchain/libs/cosmos-sdk/server/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
+	//"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
 )
 
 // App implements the common methods for a Cosmos SDK-based application

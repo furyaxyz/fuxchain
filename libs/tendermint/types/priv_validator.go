@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
 )
 
 // PrivValidator defines the functionality of a local Tendermint validator

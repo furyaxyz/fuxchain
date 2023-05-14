@@ -1,7 +1,7 @@
 syntax = "proto3";
 package x.evm.watcher.proto;
 
-option go_package = "github.com/exfury/fuxchain/x/evm/watcher/proto";
+option go_package = "github.com/furyaxyz/fuxchain/x/evm/watcher/proto";
 
 message Transaction {
     bytes BlockHash = 1;

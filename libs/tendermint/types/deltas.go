@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/ethereum/go-ethereum/trie"
-	"github.com/exfury/fuxchain/libs/iavl"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/compress"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/compress"
 	"github.com/tendermint/go-amino"
 )
 

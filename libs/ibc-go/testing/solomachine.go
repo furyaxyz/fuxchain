@@ -1,17 +1,17 @@
 package ibctesting
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
-	ibc_tx "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	solomachinetypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	ibc_tx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	solomachinetypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 	"testing"
 )
@@ -28,11 +28,11 @@ import (
 // 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 // 	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
 // 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-// 	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-// 	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-// 	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-// 	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-// 	solomachinetypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
+// 	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+// 	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+// 	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+// 	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+// 	solomachinetypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
 // )
 
 // Solomachine is a testing helper used to simulate a counterparty

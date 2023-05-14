@@ -3,7 +3,7 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/exfury/fuxchain/libs/tendermint/consensus"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/consensus"
 )
 
 // ReplayCmd allows replaying of messages from the WAL.

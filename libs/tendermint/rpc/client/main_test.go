@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-	nm "github.com/exfury/fuxchain/libs/tendermint/node"
-	rpctest "github.com/exfury/fuxchain/libs/tendermint/rpc/test"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+	nm "github.com/furyaxyz/fuxchain/libs/tendermint/node"
+	rpctest "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/test"
 )
 
 var node *nm.Node

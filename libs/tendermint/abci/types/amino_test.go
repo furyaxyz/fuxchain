@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/go-amino"

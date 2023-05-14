@@ -6,9 +6,9 @@ import (
 	"github.com/spf13/viper"
 
 	"github.com/google/uuid"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/x/infura/distrlock"
-	"github.com/exfury/fuxchain/x/infura/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/x/infura/distrlock"
+	"github.com/furyaxyz/fuxchain/x/infura/types"
 )
 
 const (

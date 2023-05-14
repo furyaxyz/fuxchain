@@ -1,7 +1,7 @@
 package version
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 // TODO: eliminate this after some version refactor

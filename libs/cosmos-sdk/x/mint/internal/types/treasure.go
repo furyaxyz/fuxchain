@@ -3,7 +3,7 @@ package types
 import (
 	"bytes"
 	"fmt"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	"github.com/pkg/errors"
 	"sort"
 )

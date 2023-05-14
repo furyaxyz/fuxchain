@@ -27,7 +27,7 @@
 package rest
 
 import (
-	"github.com/exfury/fuxchain/x/token/types"
+	"github.com/furyaxyz/fuxchain/x/token/types"
 )
 
 // A Products is the info of the market.

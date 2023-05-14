@@ -9,14 +9,14 @@ package rpc
 //	"github.com/stretchr/testify/assert"
 //	"github.com/stretchr/testify/require"
 
-//	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-//	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-//	"github.com/exfury/fuxchain/libs/tendermint/lite"
-//	certclient "github.com/exfury/fuxchain/libs/tendermint/lite/client"
-//	nm "github.com/exfury/fuxchain/libs/tendermint/node"
-//	"github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-//	rpctest "github.com/exfury/fuxchain/libs/tendermint/rpc/test"
-//	"github.com/exfury/fuxchain/libs/tendermint/types"
+//	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+//	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+//	"github.com/furyaxyz/fuxchain/libs/tendermint/lite"
+//	certclient "github.com/furyaxyz/fuxchain/libs/tendermint/lite/client"
+//	nm "github.com/furyaxyz/fuxchain/libs/tendermint/node"
+//	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+//	rpctest "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/test"
+//	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 //)
 
 //var node *nm.Node

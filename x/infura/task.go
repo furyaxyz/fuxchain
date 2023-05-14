@@ -3,7 +3,7 @@ package infura
 import (
 	"encoding/json"
 
-	"github.com/exfury/fuxchain/x/infura/types"
+	"github.com/furyaxyz/fuxchain/x/infura/types"
 )
 
 type TaskConst int

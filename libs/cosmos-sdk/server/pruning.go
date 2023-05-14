@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
 
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	tmiavl "github.com/exfury/fuxchain/libs/iavl"
-	iavlcfg "github.com/exfury/fuxchain/libs/iavl/config"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	tmiavl "github.com/furyaxyz/fuxchain/libs/iavl"
+	iavlcfg "github.com/furyaxyz/fuxchain/libs/iavl/config"
 )
 
 // GetPruningOptionsFromFlags parses command flags and returns the correct

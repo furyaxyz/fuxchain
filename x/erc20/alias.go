@@ -1,8 +1,8 @@
 package erc20
 
 import (
-	"github.com/exfury/fuxchain/x/erc20/keeper"
-	"github.com/exfury/fuxchain/x/erc20/types"
+	"github.com/furyaxyz/fuxchain/x/erc20/keeper"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
 )
 
 // nolint

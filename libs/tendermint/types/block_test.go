@@ -19,14 +19,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bits"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bits"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 func TestMain(m *testing.M) {

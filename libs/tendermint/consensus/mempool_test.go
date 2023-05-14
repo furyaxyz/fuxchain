@@ -11,13 +11,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/code"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	mempl "github.com/exfury/fuxchain/libs/tendermint/mempool"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/code"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	mempl "github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // for testing

@@ -1,9 +1,9 @@
 package common
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	conntypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	conntypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 func MustMarshalChannel(cdc *codec.CodecProxy, c *types.Channel) []byte {

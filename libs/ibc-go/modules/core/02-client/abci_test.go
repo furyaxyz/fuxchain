@@ -3,16 +3,16 @@ package client_test
 import (
 	"testing"
 
-	client "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client"
+	client "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client"
 
 	"github.com/stretchr/testify/suite"
 	// abci "github.com/tendermint/tendermint/abci/types"
 	// tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	localhosttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	localhosttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 type ClientTestSuite struct {

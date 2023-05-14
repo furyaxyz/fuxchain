@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"sync"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/pkg/errors"
 	"github.com/tendermint/go-amino"
 
-	cryptoAmino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/store"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cryptoAmino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/store"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var (

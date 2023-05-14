@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmstrings "github.com/exfury/fuxchain/libs/tendermint/libs/strings"
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmstrings "github.com/furyaxyz/fuxchain/libs/tendermint/libs/strings"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 const (

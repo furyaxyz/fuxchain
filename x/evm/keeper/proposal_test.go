@@ -4,12 +4,12 @@ import (
 	"time"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/x/evm/types"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
-	staking_types "github.com/exfury/fuxchain/x/staking/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
+	staking_types "github.com/furyaxyz/fuxchain/x/staking/types"
 	"github.com/stretchr/testify/require"
 )
 

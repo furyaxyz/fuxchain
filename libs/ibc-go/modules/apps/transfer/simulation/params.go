@@ -4,8 +4,8 @@ import (
 	"math/rand"
 
 	gogotypes "github.com/gogo/protobuf/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 // ParamChanges defines the parameters that can be modified by param change proposals

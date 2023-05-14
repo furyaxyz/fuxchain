@@ -1,8 +1,8 @@
 package types_test
 
 import (
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 // use TestVersion as metadata being compared against

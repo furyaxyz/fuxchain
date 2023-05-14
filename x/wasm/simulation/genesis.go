@@ -1,9 +1,9 @@
 package simulation
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 // RandomizeGenState generates a random GenesisState for wasm

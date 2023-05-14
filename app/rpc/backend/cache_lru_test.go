@@ -3,11 +3,11 @@ package backend
 import (
 	"testing"
 
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 )

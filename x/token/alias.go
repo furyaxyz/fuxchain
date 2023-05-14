@@ -1,6 +1,6 @@
 package token
 
-import "github.com/exfury/fuxchain/x/token/types"
+import "github.com/furyaxyz/fuxchain/x/token/types"
 
 const (
 	// ModuleName is the module name constant used in many places

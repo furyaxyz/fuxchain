@@ -1,6 +1,6 @@
 package types
 
-import host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
+import host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
 
 // NewGenesisState creates a new ibc-transfer GenesisState instance.
 func NewGenesisState(portID string, denomTraces Traces, params Params) *GenesisState {

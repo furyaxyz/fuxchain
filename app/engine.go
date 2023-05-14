@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/exfury/fuxchain/x/common/monitor"
+	"github.com/furyaxyz/fuxchain/x/common/monitor"
 )
 
 var (

@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	slashingkeeper "github.com/exfury/fuxchain/libs/cosmos-sdk/x/slashing/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/slashing/internal/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	slashingkeeper "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/slashing/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/slashing/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking"
 )
 
 func TestCannotUnjailUnlessJailed(t *testing.T) {

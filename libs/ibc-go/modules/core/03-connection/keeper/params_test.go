@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
 )
 
 func (suite *KeeperTestSuite) TestParams() {

@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
 	"github.com/stretchr/testify/require"
 )
 

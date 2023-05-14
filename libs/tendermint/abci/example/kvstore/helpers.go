@@ -1,8 +1,8 @@
 package kvstore
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
 )
 
 // RandVal creates one random validator, with a key derived

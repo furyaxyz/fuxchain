@@ -7,16 +7,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmliteErr "github.com/exfury/fuxchain/libs/tendermint/lite/errors"
-	tmliteProxy "github.com/exfury/fuxchain/libs/tendermint/lite/proxy"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmliteErr "github.com/furyaxyz/fuxchain/libs/tendermint/lite/errors"
+	tmliteProxy "github.com/furyaxyz/fuxchain/libs/tendermint/lite/proxy"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/rootmulti"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/rootmulti"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // GetNode returns an RPC client. If the context's client is not defined, an

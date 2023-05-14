@@ -3,7 +3,7 @@ package host
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 )
 
 const (

@@ -4,18 +4,18 @@ import (
 	"testing"
 	"time"
 
-	blockindexer "github.com/exfury/fuxchain/libs/tendermint/state/indexer/block/kv"
+	blockindexer "github.com/furyaxyz/fuxchain/libs/tendermint/state/indexer/block/kv"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	db "github.com/exfury/fuxchain/libs/tm-db"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/state/txindex"
-	"github.com/exfury/fuxchain/libs/tendermint/state/txindex/kv"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/txindex"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/txindex/kv"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func TestIndexerServiceIndexesBlocks(t *testing.T) {

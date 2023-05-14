@@ -8,14 +8,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	simapparams "github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/params"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	simapparams "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // AppStateFn returns the initial application state using a genesis or the simulation parameters.

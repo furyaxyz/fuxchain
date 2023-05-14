@@ -5,7 +5,7 @@ package types
 
 import (
 	"github.com/ethereum/go-ethereum/ethdb"
-	tmdb "github.com/exfury/fuxchain/libs/tm-db"
+	tmdb "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 var _ ethdb.Iterator = (*WrapRocksDBIterator)(nil)

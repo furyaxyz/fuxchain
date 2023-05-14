@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
 	"github.com/stretchr/testify/require"
 )
 

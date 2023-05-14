@@ -7,7 +7,7 @@ import (
 	"hash"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/iavl"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
 
 	_ "crypto/sha256"
 

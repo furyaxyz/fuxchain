@@ -5,14 +5,14 @@ import (
 	"reflect"
 	"strings"
 
-	tmcrypto "github.com/exfury/fuxchain/libs/tendermint/crypto"
-	cryptoAmino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	tmcrypto "github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	cryptoAmino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/keyerror"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/mintkey"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/keyerror"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/mintkey"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 var _ Keybase = dbKeybase{}

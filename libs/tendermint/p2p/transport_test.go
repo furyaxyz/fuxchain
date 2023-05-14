@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p/conn"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p/conn"
 )
 
 var defaultNodeName = "host_peer"

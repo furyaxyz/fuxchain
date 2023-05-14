@@ -1,10 +1,10 @@
 package base
 
 import (
-	cosmost "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/upgrade"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
+	cosmost "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/upgrade"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
 )
 
 var (

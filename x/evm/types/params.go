@@ -7,7 +7,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/vm"
 
-	"github.com/exfury/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/x/params"
 )
 
 const (

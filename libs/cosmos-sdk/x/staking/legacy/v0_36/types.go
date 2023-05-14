@@ -5,11 +5,11 @@ package v0_36
 import (
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	v034staking "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/legacy/v0_34"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	v034staking "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/legacy/v0_34"
 )
 
 const (

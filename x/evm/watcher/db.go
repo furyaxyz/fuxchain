@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"sync"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 	"github.com/spf13/viper"
 )
 

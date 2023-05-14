@@ -1,7 +1,7 @@
 package rootmulti
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 )
 
 var cdc = codec.New()

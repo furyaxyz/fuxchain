@@ -3,12 +3,12 @@ package gov
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
 
-	"github.com/exfury/fuxchain/x/common/perf"
-	"github.com/exfury/fuxchain/x/gov/keeper"
+	"github.com/furyaxyz/fuxchain/x/common/perf"
+	"github.com/furyaxyz/fuxchain/x/gov/keeper"
 )
 
 // EndBlocker called every block, process inflation, update validator set.

@@ -1,7 +1,7 @@
 package state
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 func (v Version) UpgradeToIBCVersion() Version {

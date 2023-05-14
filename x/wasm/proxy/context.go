@@ -5,15 +5,15 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	clientcontext "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmlog "github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
-	evmwatcher "github.com/exfury/fuxchain/x/evm/watcher"
+	clientcontext "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmlog "github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
+	evmwatcher "github.com/furyaxyz/fuxchain/x/evm/watcher"
 )
 
 const (

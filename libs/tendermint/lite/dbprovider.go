@@ -5,13 +5,13 @@ import (
 	"regexp"
 	"strconv"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	amino "github.com/tendermint/go-amino"
 
-	cryptoamino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
-	log "github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	lerr "github.com/exfury/fuxchain/libs/tendermint/lite/errors"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cryptoamino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
+	log "github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	lerr "github.com/furyaxyz/fuxchain/libs/tendermint/lite/errors"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var _ PersistentProvider = (*DBProvider)(nil)

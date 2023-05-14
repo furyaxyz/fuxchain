@@ -9,8 +9,8 @@ import (
 	math "math"
 	math_bits "math/bits"
 
-	github_com_cosmos_cosmos_sdk_types "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	types1 "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	types1 "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"

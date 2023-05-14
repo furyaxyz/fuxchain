@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	"github.com/exfury/fuxchain/x/vmbridge/types"
+	"github.com/furyaxyz/fuxchain/x/vmbridge/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 )
 
 type Keeper struct {

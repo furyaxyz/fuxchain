@@ -2,8 +2,8 @@ package consensus
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system/trace"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 	"sync"
 	"time"
 )

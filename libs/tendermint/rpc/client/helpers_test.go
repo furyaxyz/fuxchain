@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/client/mock"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/mock"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
 )
 
 func TestWaitForHeight(t *testing.T) {

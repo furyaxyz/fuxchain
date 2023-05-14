@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/iavl"
-	db "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 const historySize = 20

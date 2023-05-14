@@ -1,6 +1,6 @@
 package types
 
-import sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+import sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 
 // IBC port sentinel errors
 var (

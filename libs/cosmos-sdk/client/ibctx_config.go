@@ -1,10 +1,10 @@
 package client
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	ibcmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
-	signingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	ibcmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	signingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
 )
 
 type (

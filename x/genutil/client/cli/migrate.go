@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/spf13/cobra"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/version"
-	extypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil"
-	v018 "github.com/exfury/fuxchain/x/genutil/client/legacy/v0_18"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/version"
+	extypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil"
+	v018 "github.com/furyaxyz/fuxchain/x/genutil/client/legacy/v0_18"
 )
 
 var migrationMap = extypes.MigrationMap{

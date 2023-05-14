@@ -6,10 +6,10 @@ package types
 import (
 	fmt "fmt"
 	_go "github.com/confio/ics23/go"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	types1 "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	types2 "github.com/exfury/fuxchain/libs/tendermint/proto/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	types1 "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	types2 "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
 
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"

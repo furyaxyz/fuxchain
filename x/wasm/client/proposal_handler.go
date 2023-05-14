@@ -1,9 +1,9 @@
 package client
 
 import (
-	govclient "github.com/exfury/fuxchain/x/gov/client"
-	"github.com/exfury/fuxchain/x/wasm/client/cli"
-	"github.com/exfury/fuxchain/x/wasm/client/rest"
+	govclient "github.com/furyaxyz/fuxchain/x/gov/client"
+	"github.com/furyaxyz/fuxchain/x/wasm/client/cli"
+	"github.com/furyaxyz/fuxchain/x/wasm/client/rest"
 )
 
 // ProposalHandlers define the wasm cli proposal types and rest handler.

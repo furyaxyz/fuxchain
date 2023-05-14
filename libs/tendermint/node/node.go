@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	blockindex "github.com/exfury/fuxchain/libs/tendermint/state/indexer"
-	bloxkindexnull "github.com/exfury/fuxchain/libs/tendermint/state/indexer/block/null"
+	blockindex "github.com/furyaxyz/fuxchain/libs/tendermint/state/indexer"
+	bloxkindexnull "github.com/furyaxyz/fuxchain/libs/tendermint/state/indexer/block/null"
 
-	"github.com/exfury/fuxchain/libs/tendermint/global"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
@@ -22,39 +22,39 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	bcv0 "github.com/exfury/fuxchain/libs/tendermint/blockchain/v0"
-	bcv1 "github.com/exfury/fuxchain/libs/tendermint/blockchain/v1"
-	bcv2 "github.com/exfury/fuxchain/libs/tendermint/blockchain/v2"
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/consensus"
-	cs "github.com/exfury/fuxchain/libs/tendermint/consensus"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/evidence"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmpubsub "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	mempl "github.com/exfury/fuxchain/libs/tendermint/mempool"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p/pex"
-	"github.com/exfury/fuxchain/libs/tendermint/privval"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	rpccore "github.com/exfury/fuxchain/libs/tendermint/rpc/core"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	grpccore "github.com/exfury/fuxchain/libs/tendermint/rpc/grpc"
-	rpcserver "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/server"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	blockindexer "github.com/exfury/fuxchain/libs/tendermint/state/indexer/block/kv"
-	"github.com/exfury/fuxchain/libs/tendermint/state/txindex"
-	"github.com/exfury/fuxchain/libs/tendermint/state/txindex/kv"
-	"github.com/exfury/fuxchain/libs/tendermint/state/txindex/null"
-	"github.com/exfury/fuxchain/libs/tendermint/store"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	bcv0 "github.com/furyaxyz/fuxchain/libs/tendermint/blockchain/v0"
+	bcv1 "github.com/furyaxyz/fuxchain/libs/tendermint/blockchain/v1"
+	bcv2 "github.com/furyaxyz/fuxchain/libs/tendermint/blockchain/v2"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/consensus"
+	cs "github.com/furyaxyz/fuxchain/libs/tendermint/consensus"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/evidence"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmpubsub "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	mempl "github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p/pex"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/privval"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	rpccore "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	grpccore "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/grpc"
+	rpcserver "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/server"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	blockindexer "github.com/furyaxyz/fuxchain/libs/tendermint/state/indexer/block/kv"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/txindex"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/txindex/kv"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/txindex/null"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/store"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 //------------------------------------------------------------------------------
@@ -591,7 +591,7 @@ func createPEXReactorAndAddToSwitch(addrBook pex.AddrBook, config *cfg.Config,
 			// blocks assuming 10s blocks ~ 28 hours.
 			// TODO (melekes): make it dynamic based on the actual block latencies
 			// from the live network.
-			// https://github.com/exfury/fuxchain/libs/tendermint/issues/3523
+			// https://github.com/furyaxyz/fuxchain/libs/tendermint/issues/3523
 			SeedDisconnectWaitPeriod:     28 * time.Hour,
 			PersistentPeersMaxDialPeriod: config.P2P.PersistentPeersMaxDialPeriod,
 		})
@@ -1048,7 +1048,7 @@ func (n *Node) startRPC() ([]net.Listener, error) {
 	config.MaxOpenConnections = n.config.RPC.MaxOpenConnections
 	// If necessary adjust global WriteTimeout to ensure it's greater than
 	// TimeoutBroadcastTxCommit.
-	// See https://github.com/exfury/fuxchain/libs/tendermint/issues/3435
+	// See https://github.com/furyaxyz/fuxchain/libs/tendermint/issues/3435
 	if config.WriteTimeout <= n.config.RPC.TimeoutBroadcastTxCommit {
 		config.WriteTimeout = n.config.RPC.TimeoutBroadcastTxCommit + 1*time.Second
 	}
@@ -1119,7 +1119,7 @@ func (n *Node) startRPC() ([]net.Listener, error) {
 		config.MaxOpenConnections = n.config.RPC.GRPCMaxOpenConnections
 		// If necessary adjust global WriteTimeout to ensure it's greater than
 		// TimeoutBroadcastTxCommit.
-		// See https://github.com/exfury/fuxchain/libs/tendermint/issues/3435
+		// See https://github.com/furyaxyz/fuxchain/libs/tendermint/issues/3435
 		if config.WriteTimeout <= n.config.RPC.TimeoutBroadcastTxCommit {
 			config.WriteTimeout = n.config.RPC.TimeoutBroadcastTxCommit + 1*time.Second
 		}

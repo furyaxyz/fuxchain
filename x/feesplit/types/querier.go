@@ -2,8 +2,8 @@ package types
 
 import (
 	_ "github.com/gogo/protobuf/gogoproto"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	query "github.com/exfury/fuxchain/libs/cosmos-sdk/types/query"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	query "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/query"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 )
 

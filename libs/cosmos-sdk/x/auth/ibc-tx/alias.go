@@ -1,8 +1,8 @@
 package ibc_tx
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/adapter"
-	ibccodec "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/pb-codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/adapter"
+	ibccodec "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/pb-codec"
 )
 
 var (

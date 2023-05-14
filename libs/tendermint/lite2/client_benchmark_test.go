@@ -4,13 +4,13 @@ import (
 	"testing"
 	"time"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	lite "github.com/exfury/fuxchain/libs/tendermint/lite2"
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/provider"
-	mockp "github.com/exfury/fuxchain/libs/tendermint/lite2/provider/mock"
-	dbs "github.com/exfury/fuxchain/libs/tendermint/lite2/store/db"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	lite "github.com/furyaxyz/fuxchain/libs/tendermint/lite2"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider"
+	mockp "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider/mock"
+	dbs "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/store/db"
 )
 
 // NOTE: block is produced every minute. Make sure the verification time

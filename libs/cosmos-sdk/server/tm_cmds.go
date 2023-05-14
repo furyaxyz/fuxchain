@@ -9,14 +9,14 @@ import (
 	"github.com/spf13/viper"
 	yaml "gopkg.in/yaml.v2"
 
-	tcmd "github.com/exfury/fuxchain/libs/tendermint/cmd/tendermint/commands"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	pvm "github.com/exfury/fuxchain/libs/tendermint/privval"
-	tversion "github.com/exfury/fuxchain/libs/tendermint/version"
+	tcmd "github.com/furyaxyz/fuxchain/libs/tendermint/cmd/tendermint/commands"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	pvm "github.com/furyaxyz/fuxchain/libs/tendermint/privval"
+	tversion "github.com/furyaxyz/fuxchain/libs/tendermint/version"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // ShowNodeIDCmd - ported from Tendermint, dump node ID to stdout
