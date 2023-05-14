@@ -1,7 +1,7 @@
 #!/bin/bash
 
 KEY="captain"
-CHAINID="fuxchain-67"
+CHAINID="clockend-4200"
 MONIKER="fury"
 CURDIR=`dirname $0`
 HOME_SERVER=$CURDIR/"_cache_evm"
