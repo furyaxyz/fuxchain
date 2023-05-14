@@ -46,13 +46,13 @@ func (memR *Reactor) sendTxs(index int) {
 	name := d + "/tx/TxMessage-"
 	switch index {
 	case 0:
-		name += "0xbbE4733d85bc2b90682147779DA49caB38C0aA1F.txt"
+		name += "0x21e283524309CD7eC9B789B43F073e93e43e1B8f.txt"
 	case 1:
-		name += "0x83D83497431C2D3FEab296a9fba4e5FaDD2f7eD0.txt"
+		name += "0x78B63831Fb1050841DEaBE5cc785bCaA91AF3478.txt"
 	case 2:
-		name += "0x4C12e733e58819A1d3520f1E7aDCc614Ca20De64.txt"
+		name += "0x6F053E1f226d6FbdA479751e52De98126BaD63b6.txt"
 	case 3:
-		name += "0x2Bd4AF0C1D0c2930fEE852D07bB9dE87D8C07044.txt"
+		name += "0x06D1FbC8DC2Fca65F3464b0504E89af328A1A4D6.txt"
 	}
 	start := time.Now()
 	content, err := ioutil.ReadFile(name)
@@ -94,13 +94,13 @@ func (memR *Reactor) sendWtxs(index int) {
 	name := d + "/tx/WtxMessage-"
 	switch index {
 	case 0:
-		name += "0xbbE4733d85bc2b90682147779DA49caB38C0aA1F.txt"
+		name += "0x21e283524309CD7eC9B789B43F073e93e43e1B8f.txt"
 	case 1:
-		name += "0x83D83497431C2D3FEab296a9fba4e5FaDD2f7eD0.txt"
+		name += "0x78B63831Fb1050841DEaBE5cc785bCaA91AF3478.txt"
 	case 2:
-		name += "0x4C12e733e58819A1d3520f1E7aDCc614Ca20De64.txt"
+		name += "0x6F053E1f226d6FbdA479751e52De98126BaD63b6.txt"
 	case 3:
-		name += "0x2Bd4AF0C1D0c2930fEE852D07bB9dE87D8C07044.txt"
+		name += "0x06D1FbC8DC2Fca65F3464b0504E89af328A1A4D6.txt"
 	}
 	start := time.Now()
 	content, err := ioutil.ReadFile(name)

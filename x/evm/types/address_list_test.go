@@ -11,7 +11,7 @@ import (
 
 const (
 	addr           = "did:fury:ex1k0wwsg7xf9tjt3rvxdewz42e74sp286agrf9qc"
-	addr1          = "0x83D83497431C2D3FEab296a9fba4e5FaDD2f7eD0"
+	addr1          = "0x78B63831Fb1050841DEaBE5cc785bCaA91AF3478"
 	expectedOutput = `Address List:
 did:fury:ex1k0wwsg7xf9tjt3rvxdewz42e74sp286agrf9qc
 did:fury:ex1k0wwsg7xf9tjt3rvxdewz42e74sp286agrf9qc`

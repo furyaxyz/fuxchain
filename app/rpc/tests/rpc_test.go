@@ -875,7 +875,7 @@ func (suite *RPCTestSuite) TestEth_Call_Overrides() {
 
 	callArgs["data"] = "0xf8b2cb4f000000000000000000000000bbe4733d85bc2b90682147779da49cab38c0aa1f" // get balance of bbe4733d85bc2b90682147779da49cab38c0aa1f
 	expectedBal := "0x10000000000000000000000000000000000000000000000000000000003e8000"
-	overridesArgs["0xbbE4733d85bc2b90682147779DA49caB38C0aA1F"] = map[string]string{"balance": expectedBal}
+	overridesArgs["0x21e283524309CD7eC9B789B43F073e93e43e1B8f"] = map[string]string{"balance": expectedBal}
 	resp, err = CallWithError(suite.addr, "eth_call", []interface{}{callArgs, latestBlockNumber, overridesArgs})
 	suite.Require().NoError(err)
 

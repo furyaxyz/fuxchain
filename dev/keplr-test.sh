@@ -79,11 +79,11 @@ fuxchaincli config keyring-backend test
 
 # if $KEY exists it should be deleted
 #
-#    "eth_address": "0xbbE4733d85bc2b90682147779DA49caB38C0aA1F",
+#    "eth_address": "0x21e283524309CD7eC9B789B43F073e93e43e1B8f",
 #     prikey: 8ff3ca2d9985c3a52b459e2f6e7822b23e1af845961e22128d5f372fb9aa5f17
 fuxchaincli keys add --recover captain -m "puzzle glide follow cruel say burst deliver wild tragic galaxy lumber offer" -y
 
-#    "eth_address": "0x83D83497431C2D3FEab296a9fba4e5FaDD2f7eD0",
+#    "eth_address": "0x78B63831Fb1050841DEaBE5cc785bCaA91AF3478",
 fuxchaincli keys add --recover admin16 -m "palace cube bitter light woman side pave cereal donor bronze twice work" -y --algo="" --coin-type 118
 
 fuxchaincli keys add --recover admin17 -m "antique onion adult slot sad dizzy sure among cement demise submit scare" -y
