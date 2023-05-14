@@ -1,9 +1,9 @@
 BIN_NAME=fuxchaind
-OKCHAIN_TOP=${GOPATH}/src/github.com/furyaxyz/fuxchain
-OKCHAIN_BIN=${OKCHAIN_TOP}/build
-OKCHAIN_BIN=${GOPATH}/bin
-OKCHAIN_NET_TOP=`pwd`
-OKCHAIN_NET_CACHE=${OKCHAIN_NET_TOP}/cache
+FUCHAIN_TOP=${GOPATH}/src/github.com/furyaxyz/fuxchain
+FUCHAIN_BIN=${FUCHAIN_TOP}/build
+FUCHAIN_BIN=${GOPATH}/bin
+FUCHAIN_NET_TOP=`pwd`
+FUCHAIN_NET_CACHE=${FUCHAIN_NET_TOP}/cache
 CHAIN_ID="clockend-4200"
 
 

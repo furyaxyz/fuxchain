@@ -29,8 +29,8 @@ testnet-node-ids
 while getopts "r:isn:b:p:c:Sxwk:" opt; do
   case $opt in
   i)
-    echo "OKCHAIN_INIT"
-    OKCHAIN_INIT=1
+    echo "FUCHAIN_INIT"
+    FUCHAIN_INIT=1
     ;;
   r)
     echo "NUM_RPC=$OPTARG"
@@ -45,8 +45,8 @@ while getopts "r:isn:b:p:c:Sxwk:" opt; do
     PRERUN=true
     ;;
   s)
-    echo "OKCHAIN_START"
-    OKCHAIN_START=1
+    echo "FUCHAIN_START"
+    FUCHAIN_START=1
     ;;
   k)
     echo "LOG_SERVER"
@@ -95,7 +95,7 @@ killbyname() {
 init() {
   killbyname ${BIN_NAME}
 
-  (cd ${OKCHAIN_TOP} && make install VenusHeight=1)
+  (cd ${FUCHAIN_TOP} && make install VenusHeight=1)
 
   rm -rf cache
 
@@ -109,7 +109,7 @@ init() {
 }
 recover() {
   killbyname ${BIN_NAME}
-  (cd ${OKCHAIN_TOP} && make install VenusHeight=1)
+  (cd ${FUCHAIN_TOP} && make install VenusHeight=1)
   rm -rf cache
   cp -rf nodecache cache
 }
@@ -202,15 +202,15 @@ if [ -z ${IP} ]; then
   IP="127.0.0.1"
 fi
 
-if [ ! -z "${OKCHAIN_INIT}" ]; then
+if [ ! -z "${FUCHAIN_INIT}" ]; then
 	((NUM_VAL=NUM_NODE-NUM_RPC))
   init ${NUM_VAL} ${NUM_RPC}
 fi
 
-if [ ! -z "${OKCHAIN_RECOVER}" ]; then
+if [ ! -z "${FUCHAIN_RECOVER}" ]; then
   recover ${NUM_NODE}
 fi
 
-if [ ! -z "${OKCHAIN_START}" ]; then
+if [ ! -z "${FUCHAIN_START}" ]; then
   start ${NUM_NODE}
 fi
