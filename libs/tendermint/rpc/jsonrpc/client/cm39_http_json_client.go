@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	coretypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	coretypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 type decoder interface {

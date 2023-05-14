@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/exfury/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/common"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 )
 

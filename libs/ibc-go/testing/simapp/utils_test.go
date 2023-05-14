@@ -2,17 +2,17 @@ package simapp
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	ibc_tx "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	tmkv "github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	ibc_tx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	tmkv "github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 func makeCodec(bm module.BasicManager) types.InterfaceRegistry {

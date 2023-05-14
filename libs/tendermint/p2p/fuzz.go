@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/config"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
 )
 
 // FuzzedConnection wraps any net.Conn and depending on the mode either delays

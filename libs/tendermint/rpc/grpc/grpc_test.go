@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-	core_grpc "github.com/exfury/fuxchain/libs/tendermint/rpc/grpc"
-	rpctest "github.com/exfury/fuxchain/libs/tendermint/rpc/test"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+	core_grpc "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/grpc"
+	rpctest "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/test"
 	"github.com/stretchr/testify/require"
 )
 

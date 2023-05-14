@@ -3,8 +3,8 @@ package privval
 import (
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // SignerMessage is sent between Signer Clients and Servers.

@@ -1,6 +1,6 @@
 package context
 
-import "github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+import "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 
 type TxRequest interface {
 	GetData() []byte

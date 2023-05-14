@@ -6,12 +6,12 @@ import (
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/gorilla/mux"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	clientCtx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	comm "github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/evm/client/utils"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	clientCtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	comm "github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/evm/client/utils"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 func registerQueryRoutes(cliCtx clientCtx.CLIContext, r *mux.Router) {

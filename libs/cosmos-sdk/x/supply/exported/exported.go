@@ -1,9 +1,9 @@
 package exported
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
 )
 
 // ModuleAccountI defines an account interface for modules that hold tokens in an escrow

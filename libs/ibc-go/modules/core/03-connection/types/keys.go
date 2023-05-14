@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
 )
 
 const (

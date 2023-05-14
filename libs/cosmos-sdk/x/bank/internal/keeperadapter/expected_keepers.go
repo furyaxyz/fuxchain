@@ -1,8 +1,8 @@
 package keeperadapter
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	supplyexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	supplyexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
 )
 
 type SupplyKeeper interface {

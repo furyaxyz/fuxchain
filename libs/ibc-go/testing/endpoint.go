@@ -3,18 +3,18 @@ package ibctesting
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
 	//	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
 )
 
 // Endpoint is a which represents a channel endpoint and its associated

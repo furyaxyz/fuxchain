@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 func TestABCIResults(t *testing.T) {

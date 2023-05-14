@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // SetParams sets the auth module's parameters.

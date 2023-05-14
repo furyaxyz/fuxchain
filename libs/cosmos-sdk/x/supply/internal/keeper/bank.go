@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/internal/types"
 )
 
 // SendCoinsFromModuleToAccount transfers coins from a ModuleAccount to an AccAddress.

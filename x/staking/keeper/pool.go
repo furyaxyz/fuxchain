@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 // GetBondedPool returns the bonded tokens pool's module account

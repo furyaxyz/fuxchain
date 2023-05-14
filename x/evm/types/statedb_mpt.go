@@ -4,16 +4,16 @@ import (
 	"errors"
 	"fmt"
 
-	ethermint "github.com/exfury/fuxchain/app/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/ethereum/go-ethereum/trie"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 )
 
 func (csdb *CommitStateDB) CommitMpt(prefetcher *mpt.TriePrefetcher) (ethcmn.Hash, error) {

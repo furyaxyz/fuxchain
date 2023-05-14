@@ -2,7 +2,7 @@ package types
 
 import (
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 var ripemd = ethcmn.HexToAddress("0000000000000000000000000000000000000003")

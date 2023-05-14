@@ -1,6 +1,6 @@
 package types_test
 
-import "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+import "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
 
 func (suite *TypesTestSuite) TestKeyActiveChannel() {
 	key := types.KeyActiveChannel("port-id", "connection-id")

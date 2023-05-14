@@ -1,8 +1,8 @@
 package types
 
 import (
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	"time"
 )
 

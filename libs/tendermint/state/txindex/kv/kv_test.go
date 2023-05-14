@@ -10,14 +10,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	db "github.com/exfury/fuxchain/libs/tm-db"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/kv"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	"github.com/exfury/fuxchain/libs/tendermint/state/txindex"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/txindex"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func TestTxIndex(t *testing.T) {

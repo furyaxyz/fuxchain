@@ -2,12 +2,12 @@ package adapter
 
 import (
 	"errors"
-	ethsecp256k12 "github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/ethsecp256k1"
-	secp256k1 "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/secp256k1"
-	LagacyPubKey "github.com/exfury/fuxchain/libs/tendermint/crypto"
-	secp256k12 "github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	ethsecp256k12 "github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/ethsecp256k1"
+	secp256k1 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/secp256k1"
+	LagacyPubKey "github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	secp256k12 "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 )
 
 func LagacyPubkey2ProtoBuffPubkey(pubKey LagacyPubKey.PubKey) types.PubKey {

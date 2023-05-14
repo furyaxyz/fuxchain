@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	cstypes "github.com/exfury/fuxchain/libs/tendermint/consensus/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/automation"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	cstypes "github.com/furyaxyz/fuxchain/libs/tendermint/consensus/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/automation"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // SetProposal inputs a proposal.

@@ -2,14 +2,14 @@ package cli
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	"github.com/exfury/fuxchain/x/token/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/x/token/types"
 	"github.com/spf13/cobra"
 )
 

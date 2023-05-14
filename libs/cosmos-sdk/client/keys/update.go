@@ -6,8 +6,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/input"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/input"
 )
 
 // UpdateKeyCommand changes the password of a key in the keybase.

@@ -1,12 +1,12 @@
 package types
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	supplyexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	ibcexported "github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	supplyexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibcexported "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 )
 
 // AccountKeeper defines the expected account keeper

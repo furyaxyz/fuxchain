@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strings"
 
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 )
 
 // initialized is a global variable used by GetCapability to ensure that the memory store

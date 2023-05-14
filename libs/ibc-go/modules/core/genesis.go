@@ -1,12 +1,12 @@
 package ibc
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	client "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client"
-	connection "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection"
-	channel "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	client "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client"
+	connection "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection"
+	channel "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/types"
 )
 
 // InitGenesis initializes the ibc state from a provided genesis

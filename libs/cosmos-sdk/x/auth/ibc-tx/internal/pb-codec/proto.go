@@ -1,15 +1,15 @@
 package codec
 
 import (
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/ethsecp256k1"
-	ibckey "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/secp256k1"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/ethsecp256k1"
+	ibckey "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/secp256k1"
 
-	//"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/ed25519"
-	//"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/multisig"
-	//"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/secp256k1"
-	//"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/secp256r1"
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
+	//"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/ed25519"
+	//"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/multisig"
+	//"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/secp256k1"
+	//"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/secp256r1"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
 )
 
 // RegisterInterfaces registers the sdk.Tx interface.

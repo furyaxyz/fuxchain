@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	log "github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	lerr "github.com/exfury/fuxchain/libs/tendermint/lite/errors"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	log "github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	lerr "github.com/furyaxyz/fuxchain/libs/tendermint/lite/errors"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // missingProvider doesn't store anything, always a miss.

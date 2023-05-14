@@ -1,10 +1,10 @@
 package keeperadapter
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
 )
 
 var (

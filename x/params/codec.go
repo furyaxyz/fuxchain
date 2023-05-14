@@ -1,9 +1,9 @@
 package params
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/system"
-	"github.com/exfury/fuxchain/x/params/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/x/params/types"
 )
 
 // ModuleCdc is the codec of module

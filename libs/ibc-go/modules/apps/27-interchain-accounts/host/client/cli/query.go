@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"strconv"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/version"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/version"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/types"
-	icatypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/types"
+	icatypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
 	"github.com/spf13/cobra"
 )
 

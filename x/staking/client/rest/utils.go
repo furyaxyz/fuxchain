@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/exfury/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/common"
 
 	"github.com/gorilla/mux"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
-	"github.com/exfury/fuxchain/x/staking/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 // contains checks if the a given query contains one of the tx types

@@ -3,10 +3,10 @@ package icamauth
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/icamauth/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/icamauth/types"
 )
 
 // NewHandler returns sdk.Handler for IBC token transfer module messages

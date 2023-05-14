@@ -1,7 +1,7 @@
 package core
 
 import (
-	rpc "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/server"
+	rpc "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/server"
 )
 
 // TODO: better system than "unsafe" prefix

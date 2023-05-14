@@ -1,10 +1,10 @@
 package types
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	supplyexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
-	stakingexported "github.com/exfury/fuxchain/x/staking/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	supplyexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	stakingexported "github.com/furyaxyz/fuxchain/x/staking/exported"
 )
 
 // AccountKeeper defines the expected account keeper (noalias)

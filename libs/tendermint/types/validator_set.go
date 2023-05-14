@@ -10,9 +10,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
 )
 
 const (

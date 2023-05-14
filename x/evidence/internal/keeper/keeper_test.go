@@ -2,25 +2,25 @@ package keeper_test
 
 import (
 	"encoding/hex"
-	staking "github.com/exfury/fuxchain/x/staking/types"
+	staking "github.com/furyaxyz/fuxchain/x/staking/types"
 	"os"
 	"testing"
 
-	"github.com/exfury/fuxchain/app"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/app"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
-	"github.com/exfury/fuxchain/x/evidence"
-	"github.com/exfury/fuxchain/x/evidence/exported"
-	"github.com/exfury/fuxchain/x/evidence/internal/keeper"
-	"github.com/exfury/fuxchain/x/evidence/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
+	"github.com/furyaxyz/fuxchain/x/evidence"
+	"github.com/furyaxyz/fuxchain/x/evidence/exported"
+	"github.com/furyaxyz/fuxchain/x/evidence/internal/keeper"
+	"github.com/furyaxyz/fuxchain/x/evidence/internal/types"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
 	"github.com/stretchr/testify/suite"
 )
 

@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/common"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	tm "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	tm "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 type WatchTx interface {

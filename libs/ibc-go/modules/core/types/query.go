@@ -2,14 +2,14 @@ package types
 
 import (
 	"github.com/gogo/protobuf/grpc"
-	client "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connection "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channel "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	port "github.com/exfury/fuxchain/libs/ibc-go/modules/core/05-port"
-	porttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/05-port/types"
+	client "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connection "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channel "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	port "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/05-port"
+	porttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/05-port/types"
 )
 
 // QueryService defines the IBC interfaces that the gRPC query server must implement

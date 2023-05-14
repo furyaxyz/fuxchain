@@ -1,11 +1,11 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 // ValidatorSetSource is a subset of the staking keeper

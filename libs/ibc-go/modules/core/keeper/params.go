@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/types"
 )
 
 // GetIbcEnabled retrieves the ibc enabled boolean from the param store

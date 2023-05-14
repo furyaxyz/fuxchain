@@ -6,9 +6,9 @@ package types
 import (
 	context "context"
 	fmt "fmt"
-	types1 "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/query"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	types1 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/query"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
 
 	//types1 "github.com/cosmos/cosmos-sdk/codec/types"
 	//query "github.com/cosmos/cosmos-sdk/types/query"

@@ -8,14 +8,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	lite "github.com/exfury/fuxchain/libs/tendermint/lite2"
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/provider"
-	mockp "github.com/exfury/fuxchain/libs/tendermint/lite2/provider/mock"
-	dbs "github.com/exfury/fuxchain/libs/tendermint/lite2/store/db"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	lite "github.com/furyaxyz/fuxchain/libs/tendermint/lite2"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider"
+	mockp "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider/mock"
+	dbs "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/store/db"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 const (

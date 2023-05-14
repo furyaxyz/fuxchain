@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/common"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/common"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

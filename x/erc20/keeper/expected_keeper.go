@@ -1,14 +1,14 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // GovKeeper defines the expected gov Keeper

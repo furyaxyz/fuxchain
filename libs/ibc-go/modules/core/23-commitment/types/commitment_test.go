@@ -3,10 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/iavl"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/rootmulti"
-	storetypes "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/iavl"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/rootmulti"
+	storetypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
 	"github.com/stretchr/testify/suite"
 	// "github.com/cosmos/cosmos-sdk/store/iavl"

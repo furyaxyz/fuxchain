@@ -3,12 +3,12 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	simappparams "github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/params"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
-	"github.com/exfury/fuxchain/x/slashing/internal/keeper"
-	"github.com/exfury/fuxchain/x/slashing/internal/types"
-	stakingkeeper "github.com/exfury/fuxchain/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	simappparams "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/x/slashing/internal/keeper"
+	"github.com/furyaxyz/fuxchain/x/slashing/internal/types"
+	stakingkeeper "github.com/furyaxyz/fuxchain/x/staking/keeper"
 )
 
 // Simulation operation weights constants

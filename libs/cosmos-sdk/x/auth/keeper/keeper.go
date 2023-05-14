@@ -6,14 +6,14 @@ import (
 	"fmt"
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/subspace"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/subspace"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 )
 
 // AccountKeeper encodes/decodes accounts using the go-amino (binary)

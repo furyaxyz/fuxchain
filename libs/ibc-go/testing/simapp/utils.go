@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 
 	//	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	simtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp/helpers"
+	simtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp/helpers"
 )
 
 // SetupSimulation creates the config, db (levelDB), temporary directory and logger for

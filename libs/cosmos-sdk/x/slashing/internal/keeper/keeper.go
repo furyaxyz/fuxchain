@@ -3,12 +3,12 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/slashing/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/slashing/internal/types"
 )
 
 // Keeper of the slashing store

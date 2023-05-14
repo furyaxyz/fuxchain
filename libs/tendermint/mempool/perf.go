@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
 	"github.com/spf13/viper"
 	"io/ioutil"
 	"os"
 	"time"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
 )
 
 func (memR *Reactor) press() {

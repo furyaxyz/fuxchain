@@ -3,16 +3,16 @@ package types
 import (
 	"context"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	stakingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	ibcexported "github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	ptypes "github.com/exfury/fuxchain/x/params/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	stakingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibcexported "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	ptypes "github.com/furyaxyz/fuxchain/x/params/types"
 )
 
 // BankViewKeeper defines a subset of methods implemented by the cosmos-sdk bank keeper

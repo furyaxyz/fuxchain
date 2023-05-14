@@ -9,17 +9,17 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	lite "github.com/exfury/fuxchain/libs/tendermint/lite2"
-	lproxy "github.com/exfury/fuxchain/libs/tendermint/lite2/proxy"
-	lrpc "github.com/exfury/fuxchain/libs/tendermint/lite2/rpc"
-	dbs "github.com/exfury/fuxchain/libs/tendermint/lite2/store/db"
-	rpchttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
-	rpcserver "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/server"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	lite "github.com/furyaxyz/fuxchain/libs/tendermint/lite2"
+	lproxy "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/proxy"
+	lrpc "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/rpc"
+	dbs "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/store/db"
+	rpchttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
+	rpcserver "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/server"
 )
 
 // LiteCmd represents the base command when called without any subcommands

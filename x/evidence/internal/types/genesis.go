@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/x/evidence/exported"
+	"github.com/furyaxyz/fuxchain/x/evidence/exported"
 )
 
 // DONTCOVER

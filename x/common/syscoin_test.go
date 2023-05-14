@@ -1,12 +1,12 @@
 package common
 
 import (
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"github.com/stretchr/testify/require"
 	"strings"
 	"testing"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // ----------------------------------------------------------------------------

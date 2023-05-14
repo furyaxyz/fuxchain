@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"errors"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"math/big"
 	"strconv"
 	"strings"
@@ -15,23 +15,23 @@ import (
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/exfury/fuxchain/app"
-	types3 "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/helpers"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	banktypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
-	"github.com/exfury/fuxchain/libs/tendermint/global"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
-	types2 "github.com/exfury/fuxchain/x/evm/types"
-	wasmtypes "github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/app"
+	types3 "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/helpers"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	banktypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
+	types2 "github.com/furyaxyz/fuxchain/x/evm/types"
+	wasmtypes "github.com/furyaxyz/fuxchain/x/wasm/types"
 	"github.com/stretchr/testify/require"
 )
 
@@ -143,11 +143,11 @@ func InitializeEXFURYApp(b testing.TB, db dbm.DB, numAccounts int) AppInfo {
 			PubKey:  priv.PubKey(),
 		}
 	}
-	exfuryApp := SetupWithGenesisAccounts(b, db, genAccs)
+	furyaxyzApp := SetupWithGenesisAccounts(b, db, genAccs)
 
 	info := AppInfo{
 		height:      1,
-		App:         exfuryApp,
+		App:         furyaxyzApp,
 		evmMintKey:  evmMinter,
 		evmMintAddr: evmMinterAddr,
 		MinterKey:   minter,
@@ -162,19 +162,19 @@ func InitializeEXFURYApp(b testing.TB, db dbm.DB, numAccounts int) AppInfo {
 }
 
 func setup(db dbm.DB, withGenesis bool, invCheckPeriod uint) (*app.FURYChainApp, simapp.GenesisState) {
-	exfuryApp := app.NewFURYChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, invCheckPeriod)
+	furyaxyzApp := app.NewFURYChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, invCheckPeriod)
 	if withGenesis {
-		return exfuryApp, app.NewDefaultGenesisState()
+		return furyaxyzApp, app.NewDefaultGenesisState()
 	}
-	return exfuryApp, simapp.GenesisState{}
+	return furyaxyzApp, simapp.GenesisState{}
 }
 
 // SetupWithGenesisAccounts initializes a new FURYChainApp with the provided genesis
 // accounts and possible balances.
 func SetupWithGenesisAccounts(b testing.TB, db dbm.DB, genAccs []authexported.GenesisAccount) *app.FURYChainApp {
-	exfuryApp, genesisState := setup(db, true, 0)
+	furyaxyzApp, genesisState := setup(db, true, 0)
 	authGenesis := authtypes.NewGenesisState(authtypes.DefaultParams(), genAccs)
-	appCodec := exfuryApp.Codec()
+	appCodec := furyaxyzApp.Codec()
 
 	genesisState[authtypes.ModuleName] = appCodec.MustMarshalJSON(authGenesis)
 
@@ -196,7 +196,7 @@ func SetupWithGenesisAccounts(b testing.TB, db dbm.DB, genAccs []authexported.Ge
 		panic(err)
 	}
 
-	exfuryApp.InitChain(
+	furyaxyzApp.InitChain(
 		abci.RequestInitChain{
 			Validators:      []abci.ValidatorUpdate{},
 			ConsensusParams: types.TM2PB.ConsensusParams(types.DefaultConsensusParams()),
@@ -204,10 +204,10 @@ func SetupWithGenesisAccounts(b testing.TB, db dbm.DB, genAccs []authexported.Ge
 		},
 	)
 
-	exfuryApp.Commit(abci.RequestCommit{})
-	exfuryApp.BeginBlock(abci.RequestBeginBlock{Header: abci.Header{Height: exfuryApp.LastBlockHeight() + 1}})
+	furyaxyzApp.Commit(abci.RequestCommit{})
+	furyaxyzApp.BeginBlock(abci.RequestBeginBlock{Header: abci.Header{Height: furyaxyzApp.LastBlockHeight() + 1}})
 
-	return exfuryApp
+	return furyaxyzApp
 }
 
 func deployOip20(info *AppInfo) error {

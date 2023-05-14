@@ -1,9 +1,9 @@
 package types
 
 import (
-	interfacetypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	txmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/msgservice"
+	interfacetypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	txmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/msgservice"
 )
 
 func RegisterInterface(registry interfacetypes.InterfaceRegistry) {

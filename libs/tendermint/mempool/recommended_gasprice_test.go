@@ -7,10 +7,10 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // tx for recommended gas price test

@@ -1,8 +1,8 @@
 package params
 
 import (
-	sdkparams "github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	"github.com/exfury/fuxchain/x/params/types"
+	sdkparams "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	"github.com/furyaxyz/fuxchain/x/params/types"
 )
 
 // const

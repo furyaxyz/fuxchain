@@ -3,11 +3,11 @@ package keeper_test
 import (
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/evidence/internal/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/evidence/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 func newTestMsgCreateValidator(address sdk.ValAddress, pubKey crypto.PubKey, amt sdk.Int) staking.MsgCreateValidator {

@@ -5,11 +5,11 @@ import (
 
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	bam "github.com/exfury/fuxchain/libs/system/trace"
-	"github.com/exfury/fuxchain/x/evm/keeper"
-	"github.com/exfury/fuxchain/x/evm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	bam "github.com/furyaxyz/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/x/evm/keeper"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 // Keeper alias of keeper.Keeper, to solve import circle. also evm.Keeper is alias keeper.Keeper

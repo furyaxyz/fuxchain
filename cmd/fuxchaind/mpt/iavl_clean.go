@@ -5,12 +5,12 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	iavlstore "github.com/exfury/fuxchain/libs/cosmos-sdk/store/iavl"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/rootmulti"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/iavl"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	iavlstore "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/iavl"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/rootmulti"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/spf13/cobra"
 )
 

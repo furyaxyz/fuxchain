@@ -1,4 +1,4 @@
-module github.com/exfury/fuxchain
+module github.com/furyaxyz/fuxchain
 
 go 1.20
 

@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
 )
 
 var (

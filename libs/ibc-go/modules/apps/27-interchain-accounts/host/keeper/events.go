@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	icatypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	icatypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 )
 
 // EmitAcknowledgementEvent emits an event signalling a successful or failed acknowledgement and including the error

@@ -3,11 +3,11 @@ package mock
 import (
 	"io"
 
-	store "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	store "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 var _ sdk.MultiStore = multiStore{}

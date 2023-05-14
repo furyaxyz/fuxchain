@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	keep "github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
+	keep "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 func TestNewQuerier(t *testing.T) {

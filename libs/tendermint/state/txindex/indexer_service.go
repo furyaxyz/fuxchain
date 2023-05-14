@@ -3,10 +3,10 @@ package txindex
 import (
 	"context"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	"github.com/exfury/fuxchain/libs/tendermint/state/indexer"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/indexer"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 const (

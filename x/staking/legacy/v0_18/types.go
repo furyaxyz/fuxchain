@@ -1,12 +1,12 @@
 package v0_18
 
 import (
-	"github.com/exfury/fuxchain/x/staking/legacy/v0_11"
+	"github.com/furyaxyz/fuxchain/x/staking/legacy/v0_11"
 	"time"
 
-	"github.com/exfury/fuxchain/x/staking/legacy/v0_10"
+	"github.com/furyaxyz/fuxchain/x/staking/legacy/v0_10"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 var DefaultMinSelfDelegation = sdk.NewDec(10000)

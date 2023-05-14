@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdkerror "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdkerror "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 	"testing"
 
 	"github.com/stretchr/testify/require"

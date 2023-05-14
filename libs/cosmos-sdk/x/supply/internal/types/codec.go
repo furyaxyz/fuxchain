@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
 	"github.com/tendermint/go-amino"
 )
 

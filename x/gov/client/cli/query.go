@@ -8,15 +8,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/version"
-	"github.com/exfury/fuxchain/x/gov/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/version"
+	"github.com/furyaxyz/fuxchain/x/gov/client/utils"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

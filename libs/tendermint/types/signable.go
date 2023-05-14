@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
 )
 
 var (

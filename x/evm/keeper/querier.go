@@ -6,14 +6,14 @@ import (
 	"strconv"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	apptypes "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/app/utils"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	apptypes "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/app/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 // NewQuerier is the module level router for state queries

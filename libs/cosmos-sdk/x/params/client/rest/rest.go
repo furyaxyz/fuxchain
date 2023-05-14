@@ -3,14 +3,14 @@ package rest
 import (
 	"net/http"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
-	govrest "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/client/rest"
-	govtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	paramscutils "github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	govrest "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/client/rest"
+	govtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	paramscutils "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/client/utils"
 )
 
 // ProposalRESTHandler returns a ProposalRESTHandler that exposes the param

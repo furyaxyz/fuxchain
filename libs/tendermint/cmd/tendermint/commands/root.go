@@ -7,10 +7,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
-	tmflags "github.com/exfury/fuxchain/libs/tendermint/libs/cli/flags"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
+	tmflags "github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli/flags"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 )
 
 var (

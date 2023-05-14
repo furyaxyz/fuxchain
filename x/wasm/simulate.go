@@ -1,15 +1,15 @@
 package wasm
 
 import (
-	"github.com/exfury/fuxchain/app/rpc/simulator"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	types2 "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	"github.com/exfury/fuxchain/x/wasm/keeper"
-	"github.com/exfury/fuxchain/x/wasm/proxy"
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/app/rpc/simulator"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	types2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	"github.com/furyaxyz/fuxchain/x/wasm/keeper"
+	"github.com/furyaxyz/fuxchain/x/wasm/proxy"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 type Simulator struct {

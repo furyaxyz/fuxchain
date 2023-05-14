@@ -3,13 +3,13 @@ package token
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/common"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/x/common/perf"
-	"github.com/exfury/fuxchain/x/common/version"
-	"github.com/exfury/fuxchain/x/token/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/x/common/perf"
+	"github.com/furyaxyz/fuxchain/x/common/version"
+	"github.com/furyaxyz/fuxchain/x/token/types"
 )
 
 // NewTokenHandler returns a handler for "token" type messages.

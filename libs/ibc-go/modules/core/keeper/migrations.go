@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	//clientkeeper "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/keeper"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	//clientkeeper "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/keeper"
 )
 
 // Migrator is a struct for handling in-place store migrations.

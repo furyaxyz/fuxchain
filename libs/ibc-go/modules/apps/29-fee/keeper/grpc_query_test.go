@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/query"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/query"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 )
 
 func (suite *KeeperTestSuite) TestQueryIncentivizedPackets() {

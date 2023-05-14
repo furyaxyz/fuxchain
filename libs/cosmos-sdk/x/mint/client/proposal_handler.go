@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/client/cli"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/client/rest"
-	govcli "github.com/exfury/fuxchain/x/gov/client"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/client/cli"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/client/rest"
+	govcli "github.com/furyaxyz/fuxchain/x/gov/client"
 )
 
 var (

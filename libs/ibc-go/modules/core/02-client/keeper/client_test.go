@@ -9,13 +9,13 @@ import (
 	// tmtypes "github.com/tendermint/tendermint/types"
 
 	// 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	localhosttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	localhosttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 const (

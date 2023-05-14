@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"strconv"
 	"sync"
 )

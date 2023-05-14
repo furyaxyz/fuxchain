@@ -6,18 +6,18 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	types2 "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	"github.com/exfury/fuxchain/x/erc20/keeper"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	types2 "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/furyaxyz/fuxchain/x/erc20/keeper"
 )
 
 const CorrectIbcDenom2 = "ibc/3EF3B49764DB0E2284467F8BF7A08C18EACACB30E1AD7ABA8E892F1F679443F9"

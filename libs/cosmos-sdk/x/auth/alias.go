@@ -7,10 +7,10 @@
 package auth
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ante"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ante"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 const (

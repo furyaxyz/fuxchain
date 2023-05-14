@@ -1,10 +1,10 @@
 package mock
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
 )
 
 var _ tmtypes.PrivValidator = PV{}

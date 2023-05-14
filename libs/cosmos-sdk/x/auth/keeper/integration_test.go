@@ -1,11 +1,11 @@
 package keeper_test
 
 import (
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // returns context and app with params set on account keeper

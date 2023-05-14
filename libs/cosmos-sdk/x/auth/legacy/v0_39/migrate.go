@@ -3,7 +3,7 @@ package v039
 import (
 	"fmt"
 
-	v038auth "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/legacy/v0_38"
+	v038auth "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/legacy/v0_38"
 )
 
 // Migrate accepts exported genesis state from v0.38 and migrates it to v0.39

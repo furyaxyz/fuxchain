@@ -2,17 +2,17 @@ package keeper_test
 
 import (
 	"fmt"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 	"math/big"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 func (suite *KeeperTestSuite) TestBloomFilter() {

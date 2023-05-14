@@ -1,8 +1,8 @@
 package evidence
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/evidence/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/evidence/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/evidence/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/evidence/internal/types"
 )
 
 // nolint

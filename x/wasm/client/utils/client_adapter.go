@@ -1,12 +1,12 @@
 package utils
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	clientCtx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	authUtils "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	clientCtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	authUtils "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"net/http"

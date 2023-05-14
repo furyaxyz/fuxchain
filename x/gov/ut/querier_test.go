@@ -4,13 +4,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli/flags"
-	"github.com/exfury/fuxchain/x/gov/keeper"
-	"github.com/exfury/fuxchain/x/gov/types"
-	"github.com/exfury/fuxchain/x/staking"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli/flags"
+	"github.com/furyaxyz/fuxchain/x/gov/keeper"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/staking"
 	"github.com/stretchr/testify/require"
 )
 

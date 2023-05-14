@@ -3,11 +3,11 @@ package utils
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
 )
 
 const (

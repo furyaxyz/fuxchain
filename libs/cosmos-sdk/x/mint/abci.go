@@ -1,8 +1,8 @@
 package mint
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
 )
 
 // BeginBlocker mints new tokens for the previous block.

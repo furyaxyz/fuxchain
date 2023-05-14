@@ -5,21 +5,21 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/types"
 )
 
 //nolint:deadcode,unused

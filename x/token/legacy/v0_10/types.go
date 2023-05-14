@@ -1,6 +1,6 @@
 package v0_10
 
-import sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+import sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
 const ModuleName = "token"
 

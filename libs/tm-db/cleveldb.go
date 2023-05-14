@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 
 	"github.com/jmhodges/levigo"
-	"github.com/exfury/fuxchain/libs/tm-db/common"
+	"github.com/furyaxyz/fuxchain/libs/tm-db/common"
 )
 
 func init() {

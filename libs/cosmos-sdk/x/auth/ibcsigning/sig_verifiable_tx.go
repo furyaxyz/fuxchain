@@ -1,10 +1,10 @@
 package signing
 
 import (
-	types3 "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	types2 "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	txmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	signing2 "github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	types3 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	types2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	txmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	signing2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
 )
 
 // SigVerifiableTx defines a transaction interface for all signature verification

@@ -6,12 +6,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	tmquery "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/exfury/fuxchain/libs/tendermint/state/txindex/null"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	tmquery "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/txindex/null"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // Tx allows you to query the transaction results. `nil` could mean the

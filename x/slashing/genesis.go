@@ -1,9 +1,9 @@
 package slashing
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/slashing/internal/types"
-	"github.com/exfury/fuxchain/x/staking/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/slashing/internal/types"
+	"github.com/furyaxyz/fuxchain/x/staking/exported"
 )
 
 // InitGenesis initialize default parameters

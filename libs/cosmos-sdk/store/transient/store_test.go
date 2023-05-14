@@ -1,7 +1,7 @@
 package transient
 
 import (
-	"github.com/exfury/fuxchain/libs/iavl"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
 	"testing"
 
 	"github.com/stretchr/testify/require"

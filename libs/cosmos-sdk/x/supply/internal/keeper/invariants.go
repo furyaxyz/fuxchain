@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/internal/types"
 )
 
 // RegisterInvariants register all supply invariants

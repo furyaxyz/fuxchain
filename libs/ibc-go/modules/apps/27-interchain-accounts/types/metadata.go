@@ -1,9 +1,9 @@
 package types
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
 )
 
 const (

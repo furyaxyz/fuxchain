@@ -1,7 +1,7 @@
 package test
 
 import (
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
 )
 
 // Contract: !bytes.Equal(input, output) && len(input) >= len(output)

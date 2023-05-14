@@ -5,13 +5,13 @@ import (
 	"fmt"
 
 	ethcmm "github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	transfertypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/erc20/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	transfertypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
 )
 
 // NewQuerier is the module level router for state queries

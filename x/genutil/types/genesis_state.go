@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	stakingtypes "github.com/exfury/fuxchain/x/staking/types"
+	stakingtypes "github.com/furyaxyz/fuxchain/x/staking/types"
 
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // GenesisState defines the raw genesis transaction in JSON

@@ -3,14 +3,14 @@ package distribution
 import (
 	"testing"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/x/distribution/keeper"
-	"github.com/exfury/fuxchain/x/distribution/types"
-	"github.com/exfury/fuxchain/x/staking"
-	stakingtypes "github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/x/distribution/keeper"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/x/staking"
+	stakingtypes "github.com/furyaxyz/fuxchain/x/staking/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

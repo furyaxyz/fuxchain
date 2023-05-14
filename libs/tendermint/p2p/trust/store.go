@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
 )
 
 const defaultStorePeriodicSaveInterval = 1 * time.Minute

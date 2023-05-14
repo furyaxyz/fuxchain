@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
 )
 
 func TestRevCapabilityKey(t *testing.T) {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx"
 
 	"github.com/gogo/protobuf/proto"
 	"google.golang.org/grpc"

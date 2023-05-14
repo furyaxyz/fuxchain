@@ -1,10 +1,10 @@
 package keys
 
 import (
-	cryptoAmino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
+	cryptoAmino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
 )
 
 // CryptoCdc defines the codec required for keys and info

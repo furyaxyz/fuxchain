@@ -3,10 +3,10 @@ package types
 import (
 	gobytes "bytes"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
 	"github.com/tendermint/go-amino"
 )
 

@@ -4,22 +4,22 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/upgrade"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/common"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/upgrade"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/common"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee/client/cli"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee/client/cli"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee/keeper"
 
-	cliCtx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
+	cliCtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
 
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	anytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	anytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 	"github.com/spf13/cobra"
 )
 

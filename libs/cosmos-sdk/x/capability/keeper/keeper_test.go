@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"testing"
 
-	chaincodec "github.com/exfury/fuxchain/app/codec"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	chaincodec "github.com/furyaxyz/fuxchain/app/codec"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	stakingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	stakingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
 	"github.com/stretchr/testify/suite"
 )
 

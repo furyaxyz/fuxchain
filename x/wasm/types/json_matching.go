@@ -3,7 +3,7 @@ package types
 import (
 	"encoding/json"
 
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 )
 
 // IsJSONObjectWithTopLevelKey checks if the given bytes are a valid JSON object

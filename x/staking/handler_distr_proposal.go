@@ -1,9 +1,9 @@
 package staking
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/staking/keeper"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 func handleMsgEditValidatorCommissionRate(ctx sdk.Context, msg types.MsgEditValidatorCommissionRate, k keeper.Keeper) (*sdk.Result, error) {

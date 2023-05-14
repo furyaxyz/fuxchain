@@ -1,8 +1,8 @@
 package v0_11
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/token/legacy/v0_10"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/token/legacy/v0_10"
 )
 
 const ModuleName = "token"

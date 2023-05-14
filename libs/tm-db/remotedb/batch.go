@@ -3,8 +3,8 @@ package remotedb
 import (
 	"github.com/pkg/errors"
 
-	db "github.com/exfury/fuxchain/libs/tm-db"
-	protodb "github.com/exfury/fuxchain/libs/tm-db/remotedb/proto"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
+	protodb "github.com/furyaxyz/fuxchain/libs/tm-db/remotedb/proto"
 )
 
 type batch struct {

@@ -3,10 +3,10 @@ package types
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 var (

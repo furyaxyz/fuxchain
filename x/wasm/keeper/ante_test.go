@@ -4,20 +4,20 @@ import (
 	"testing"
 	"time"
 
-	types2 "github.com/exfury/fuxchain/libs/tendermint/types"
+	types2 "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/x/wasm/keeper"
+	"github.com/furyaxyz/fuxchain/x/wasm/keeper"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 func TestCountTxDecorator(t *testing.T) {

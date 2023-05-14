@@ -1,6 +1,6 @@
 package watcher
 
-import "github.com/exfury/fuxchain/x/evm/types"
+import "github.com/furyaxyz/fuxchain/x/evm/types"
 
 type InfuraKeeper interface {
 	OnSaveTransactionReceipt(TransactionReceipt)

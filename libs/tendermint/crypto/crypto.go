@@ -1,8 +1,8 @@
 package crypto
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
 )
 
 const (

@@ -9,11 +9,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/provider"
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/store"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/store"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type mode byte

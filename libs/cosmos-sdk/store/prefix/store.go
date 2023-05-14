@@ -5,9 +5,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/cachekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/tracekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/cachekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/tracekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 )
 
 var _ types.KVStore = Store{}

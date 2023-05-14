@@ -5,18 +5,18 @@ import (
 	"sort"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/version"
-	extypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil"
-	v036 "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil/legacy/v0_36"
-	v038 "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil/legacy/v0_38"
-	v039 "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil/legacy/v0_39"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/version"
+	extypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil"
+	v036 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil/legacy/v0_36"
+	v038 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil/legacy/v0_38"
+	v039 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil/legacy/v0_39"
 )
 
 const (

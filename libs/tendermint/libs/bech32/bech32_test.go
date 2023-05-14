@@ -5,7 +5,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bech32"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bech32"
 )
 
 func TestEncodeAndDecode(t *testing.T) {

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/exfury/fuxchain/x/token/types"
+	"github.com/furyaxyz/fuxchain/x/token/types"
 
 	"github.com/gorilla/mux"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/common"
 )
 
 // RegisterRoutesV2, a central function to define routes

@@ -6,10 +6,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/iavl/config"
+	"github.com/furyaxyz/fuxchain/libs/iavl/config"
 
-	"github.com/exfury/fuxchain/libs/system/trace"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 const (

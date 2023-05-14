@@ -3,8 +3,8 @@ package params
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/params/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/params/types"
 )
 
 // ClaimReadyForUpgrade tells Keeper that someone has get ready for the upgrade.

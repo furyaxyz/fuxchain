@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	ethereumTx "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	ethereumTx "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 func Test_getSender(t *testing.T) {

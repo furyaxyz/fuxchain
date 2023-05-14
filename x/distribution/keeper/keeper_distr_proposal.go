@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/distribution/types"
-	govTypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
+	govTypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // withdraw rewards from a delegation

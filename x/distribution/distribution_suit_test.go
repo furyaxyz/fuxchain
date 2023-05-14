@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/distribution/keeper"
-	"github.com/exfury/fuxchain/x/distribution/types"
-	"github.com/exfury/fuxchain/x/staking"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/keeper"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/x/staking"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

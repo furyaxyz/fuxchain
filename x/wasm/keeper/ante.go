@@ -3,11 +3,11 @@ package keeper
 import (
 	"encoding/binary"
 
-	types2 "github.com/exfury/fuxchain/libs/tendermint/types"
+	types2 "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 type HandlerOption struct {

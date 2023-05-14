@@ -3,13 +3,13 @@ package rest
 import (
 	"net/http"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
-	"github.com/exfury/fuxchain/x/gov"
-	govrest "github.com/exfury/fuxchain/x/gov/client/rest"
-	"github.com/exfury/fuxchain/x/params/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/x/gov"
+	govrest "github.com/furyaxyz/fuxchain/x/gov/client/rest"
+	"github.com/furyaxyz/fuxchain/x/params/types"
 )
 
 // UpgradeProposalReq defines a upgrade proposal request body

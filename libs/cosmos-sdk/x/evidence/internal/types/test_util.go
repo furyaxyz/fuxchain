@@ -11,15 +11,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/evidence/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/evidence/exported"
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
 )
 
 var (

@@ -11,16 +11,16 @@ import (
 	//"strings"
 	"time"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	//auto "github.com/exfury/fuxchain/libs/tendermint/libs/autofile"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	//auto "github.com/furyaxyz/fuxchain/libs/tendermint/libs/autofile"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/mock"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/mock"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 var crc32c = crc32.MakeTable(crc32.Castagnoli)

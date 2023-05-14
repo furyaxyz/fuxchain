@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/global"
-	keep "github.com/exfury/fuxchain/x/staking/keeper"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
+	keep "github.com/furyaxyz/fuxchain/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

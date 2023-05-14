@@ -1,12 +1,12 @@
 package staking
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 // nolint:deadcode,unused,varcheck

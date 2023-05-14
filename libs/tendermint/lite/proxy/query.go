@@ -7,14 +7,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	"github.com/exfury/fuxchain/libs/tendermint/global"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	"github.com/exfury/fuxchain/libs/tendermint/lite"
-	lerr "github.com/exfury/fuxchain/libs/tendermint/lite/errors"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite"
+	lerr "github.com/furyaxyz/fuxchain/libs/tendermint/lite/errors"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // GetWithProof will query the key on the given node, and verify it has

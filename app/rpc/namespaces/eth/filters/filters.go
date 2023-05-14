@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/exfury/fuxchain/app/rpc/backend"
+	"github.com/furyaxyz/fuxchain/app/rpc/backend"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/bloombits"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/eth/filters"
-	rpctypes "github.com/exfury/fuxchain/app/rpc/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	rpctypes "github.com/furyaxyz/fuxchain/app/rpc/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/spf13/viper"
 )
 

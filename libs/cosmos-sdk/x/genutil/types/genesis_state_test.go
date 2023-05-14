@@ -3,12 +3,12 @@ package types
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	stakingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	stakingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 var (

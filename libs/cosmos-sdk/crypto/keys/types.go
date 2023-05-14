@@ -3,11 +3,11 @@ package keys
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/multisig"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/multisig"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // Keybase exposes operations on a generic keystore

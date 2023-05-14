@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 //-----------------------------------------------------------------------------

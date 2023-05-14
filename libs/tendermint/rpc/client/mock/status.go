@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
 )
 
 // StatusMock returns the result specified by the Call

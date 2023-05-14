@@ -4,20 +4,20 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/exfury/fuxchain/x/icamauth/keeper"
+	"github.com/furyaxyz/fuxchain/x/icamauth/keeper"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/x/icamauth/client/cli"
+	"github.com/furyaxyz/fuxchain/x/icamauth/client/cli"
 
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	clictx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/x/icamauth/types"
+	clictx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/x/icamauth/types"
 	"github.com/spf13/cobra"
 )
 

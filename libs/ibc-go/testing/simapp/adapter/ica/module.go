@@ -3,15 +3,15 @@ package ica
 import (
 	"encoding/json"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	ica "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts"
-	controllerkeeper "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/keeper"
-	hostkeeper "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	ica "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts"
+	controllerkeeper "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/keeper"
+	hostkeeper "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 type TestICAModuleBaisc struct {

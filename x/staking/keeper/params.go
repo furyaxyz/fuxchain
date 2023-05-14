@@ -3,11 +3,11 @@ package keeper
 import (
 	"time"
 
-	"github.com/exfury/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/common"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/params"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 // Default parameter namespace

@@ -9,30 +9,30 @@ import (
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	cosmossdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authclient "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
-	"github.com/exfury/fuxchain/libs/tendermint/global"
-	"github.com/exfury/fuxchain/x/distribution/keeper"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	cosmossdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authclient "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
+	"github.com/furyaxyz/fuxchain/x/distribution/keeper"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/upgrade"
-	distr "github.com/exfury/fuxchain/x/distribution"
-	"github.com/exfury/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/upgrade"
+	distr "github.com/furyaxyz/fuxchain/x/distribution"
+	"github.com/furyaxyz/fuxchain/x/params"
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	abcitypes "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/x/gov"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	abcitypes "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/x/gov"
 )
 
 var (

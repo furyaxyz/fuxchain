@@ -1,11 +1,11 @@
 package keeper_test
 
 import (
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
 )
 
 func createTestApp(isCheckTx bool) (*simapp.SimApp, sdk.Context) {

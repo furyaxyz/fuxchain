@@ -1,8 +1,8 @@
 package core
 
 import (
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 // Health gets node health. Returns empty result (200 OK) on success, no

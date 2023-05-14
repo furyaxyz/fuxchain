@@ -3,16 +3,16 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/params"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/params"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // Simulation operation weights constants

@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"math/big"
 	"testing"
 	"time"
@@ -10,14 +10,14 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/exfury/fuxchain/app"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/evm/keeper"
-	"github.com/exfury/fuxchain/x/evm/types"
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/app"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/evm/keeper"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/suite"

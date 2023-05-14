@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	. "github.com/exfury/fuxchain/libs/tendermint/libs/test"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	. "github.com/furyaxyz/fuxchain/libs/tendermint/libs/test"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
 )
 
 type testItem []byte

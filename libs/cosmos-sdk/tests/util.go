@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	rpchttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	tmjsonrpc "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/client"
+	rpchttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	tmjsonrpc "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/client"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 )
 
 // Wait for the next tendermint block from the Tendermint RPC

@@ -1,9 +1,9 @@
 package rootmulti
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	"github.com/exfury/fuxchain/libs/iavl"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
 )
 
 var commithash = []byte("FAKE_HASH")

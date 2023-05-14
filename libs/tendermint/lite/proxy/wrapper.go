@@ -3,12 +3,12 @@ package proxy
 import (
 	"context"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	"github.com/exfury/fuxchain/libs/tendermint/lite"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 var _ rpcclient.Client = Wrapper{}

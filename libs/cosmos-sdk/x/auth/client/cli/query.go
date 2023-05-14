@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"strings"
 
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/version"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/version"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 const (

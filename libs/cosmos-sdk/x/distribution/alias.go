@@ -1,9 +1,9 @@
 package distribution
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/client"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/client"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/types"
 )
 
 // nolint

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/cache"
-	iavlstore "github.com/exfury/fuxchain/libs/cosmos-sdk/store/iavl"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/cache"
+	iavlstore "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/iavl"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 
-	"github.com/exfury/fuxchain/libs/iavl"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 )
 

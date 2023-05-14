@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // NewBaseAccountWithAddress - returns a new base account with a given address

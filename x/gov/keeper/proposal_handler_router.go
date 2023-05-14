@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 var (

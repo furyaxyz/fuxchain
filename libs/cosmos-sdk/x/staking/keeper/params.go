@@ -3,9 +3,9 @@ package keeper
 import (
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 // Default parameter namespace

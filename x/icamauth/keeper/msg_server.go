@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	icatypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	"github.com/exfury/fuxchain/x/icamauth/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	icatypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/furyaxyz/fuxchain/x/icamauth/types"
 )
 
 var _ types.MsgServer = msgServer{}

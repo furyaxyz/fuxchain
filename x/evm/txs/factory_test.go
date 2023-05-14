@@ -1,11 +1,11 @@
 package txs
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evm/txs/base"
-	"github.com/exfury/fuxchain/x/evm/txs/check"
-	"github.com/exfury/fuxchain/x/evm/txs/deliver"
-	"github.com/exfury/fuxchain/x/evm/txs/tracetxlog"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/base"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/check"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/deliver"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/tracetxlog"
 	"reflect"
 	"testing"
 )

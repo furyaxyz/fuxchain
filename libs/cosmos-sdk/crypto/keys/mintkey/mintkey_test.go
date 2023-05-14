@@ -6,13 +6,13 @@ import (
 	"io"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/armor"
-	cryptoAmino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/armor"
+	cryptoAmino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/mintkey"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/mintkey"
 )
 
 func TestArmorUnarmorPrivKey(t *testing.T) {

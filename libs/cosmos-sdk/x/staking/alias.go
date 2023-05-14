@@ -3,9 +3,9 @@ package staking
 // nolint
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 const (

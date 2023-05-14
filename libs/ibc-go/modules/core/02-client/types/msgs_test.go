@@ -7,11 +7,11 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	solomachinetypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	solomachinetypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 type TypesTestSuite struct {

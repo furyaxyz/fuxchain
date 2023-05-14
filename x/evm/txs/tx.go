@@ -1,11 +1,11 @@
 package txs
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	bam "github.com/exfury/fuxchain/libs/system/trace"
-	"github.com/exfury/fuxchain/x/evm/txs/base"
-	"github.com/exfury/fuxchain/x/evm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	bam "github.com/furyaxyz/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/base"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 type Tx interface {

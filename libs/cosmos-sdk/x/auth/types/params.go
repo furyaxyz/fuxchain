@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/subspace"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/subspace"
 )
 
 // DefaultParamspace defines the default auth module parameter subspace

@@ -4,10 +4,10 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/feesplit/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/feesplit/types"
 )
 
 // GetFeeSplits returns all registered FeeSplits.

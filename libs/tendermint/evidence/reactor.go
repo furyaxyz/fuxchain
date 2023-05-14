@@ -7,10 +7,10 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	clist "github.com/exfury/fuxchain/libs/tendermint/libs/clist"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	clist "github.com/furyaxyz/fuxchain/libs/tendermint/libs/clist"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 const (

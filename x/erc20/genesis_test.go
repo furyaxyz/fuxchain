@@ -1,8 +1,8 @@
 package erc20_test
 
 import (
-	"github.com/exfury/fuxchain/x/erc20"
-	"github.com/exfury/fuxchain/x/erc20/types"
+	"github.com/furyaxyz/fuxchain/x/erc20"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
 )
 
 func (suite *Erc20TestSuite) TestInitGenesis() {

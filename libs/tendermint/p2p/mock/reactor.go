@@ -1,9 +1,9 @@
 package mock
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p/conn"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p/conn"
 )
 
 type Reactor struct {

@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 )
 

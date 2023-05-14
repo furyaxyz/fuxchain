@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
 )
 
 const (

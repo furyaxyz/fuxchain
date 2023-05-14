@@ -3,12 +3,12 @@ package keeper
 import (
 	"strings"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 // bindIbcPort will reserve the port.

@@ -3,13 +3,13 @@ package proxy
 import (
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	"github.com/exfury/fuxchain/libs/tendermint/lite"
-	lclient "github.com/exfury/fuxchain/libs/tendermint/lite/client"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite"
+	lclient "github.com/furyaxyz/fuxchain/libs/tendermint/lite/client"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 func NewVerifier(

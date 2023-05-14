@@ -1,15 +1,15 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	solomachinetypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	localhosttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	solomachinetypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	localhosttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
 )
 
 var ModuleCdc *codec.Codec

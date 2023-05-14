@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"testing"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mock"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mock"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/token/types"
+	"github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/token/types"
 )
 
 func TestKeeper_GetFeeDetailList(t *testing.T) {

@@ -12,15 +12,15 @@ import (
 	"sort"
 	"strings"
 
-	stakingtypes "github.com/exfury/fuxchain/x/staking/types"
+	stakingtypes "github.com/furyaxyz/fuxchain/x/staking/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil/types"
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil/types"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // GenAppStateFromConfig gets the genesis app state from the config

@@ -9,18 +9,18 @@ import (
 	"strings"
 	"time"
 
-	cryptoamino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
+	cryptoamino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
 
 	"github.com/tendermint/go-amino"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"gopkg.in/yaml.v2"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/staking/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/staking/exported"
 )
 
 // nolint

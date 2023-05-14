@@ -3,8 +3,8 @@ package abcicli
 import (
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
 )
 
 var _ Client = (*localClient)(nil)

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // ErrOldHeaderExpired means the old (trusted) header has expired according to

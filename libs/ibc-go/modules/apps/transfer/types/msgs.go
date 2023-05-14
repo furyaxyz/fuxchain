@@ -1,14 +1,14 @@
 package types
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 
-	//"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	//"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
 	"strings"
 
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
 )
 
 // msg types

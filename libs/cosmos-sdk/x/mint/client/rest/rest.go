@@ -2,9 +2,9 @@ package rest
 
 import (
 	"github.com/gorilla/mux"
-	govRest "github.com/exfury/fuxchain/x/gov/client/rest"
+	govRest "github.com/furyaxyz/fuxchain/x/gov/client/rest"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
 )
 
 // RegisterRoutes registers minting module REST handlers on the provided router.

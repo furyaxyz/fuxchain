@@ -3,18 +3,18 @@ package keeper_test
 import (
 	"errors"
 	"fmt"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
 
 	// sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	// capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
 
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 // TestTimeoutPacket test the TimeoutPacket call on chainA by ensuring the timeout has passed

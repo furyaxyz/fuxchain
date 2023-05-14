@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	"github.com/exfury/fuxchain/libs/tendermint/privval"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/privval"
 )
 
 // ResetAllCmd removes the database of this Tendermint core

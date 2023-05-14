@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	icatypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	icatypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
 )
 
 // InitGenesis initializes the interchain accounts host application state from a provided genesis state

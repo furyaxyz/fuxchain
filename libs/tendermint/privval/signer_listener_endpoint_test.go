@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmnet "github.com/exfury/fuxchain/libs/tendermint/libs/net"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmnet "github.com/furyaxyz/fuxchain/libs/tendermint/libs/net"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var (

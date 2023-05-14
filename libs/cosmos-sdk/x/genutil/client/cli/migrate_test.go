@@ -7,24 +7,24 @@ import (
 	"path/filepath"
 	"testing"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	genutilcli "github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil/client/cli"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	genutilcli "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil/client/cli"
 
-	tcmd "github.com/exfury/fuxchain/libs/tendermint/cmd/tendermint/commands"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	tcmd "github.com/furyaxyz/fuxchain/libs/tendermint/cmd/tendermint/commands"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/tests"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/tests"
 )
 
 // custom tx codec

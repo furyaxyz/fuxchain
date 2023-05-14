@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // CheckMisbehaviourAndUpdateState determines whether or not two conflicting

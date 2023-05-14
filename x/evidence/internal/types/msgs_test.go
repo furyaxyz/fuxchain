@@ -3,11 +3,11 @@ package types_test
 import (
 	"testing"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evidence/exported"
-	"github.com/exfury/fuxchain/x/evidence/internal/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evidence/exported"
+	"github.com/furyaxyz/fuxchain/x/evidence/internal/types"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
 	"github.com/stretchr/testify/require"
 )
 

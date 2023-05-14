@@ -1,7 +1,7 @@
 package crypto
 
 import (
-	cryptoAmino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
+	cryptoAmino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
 	amino "github.com/tendermint/go-amino"
 )
 

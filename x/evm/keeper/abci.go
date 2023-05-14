@@ -3,18 +3,18 @@ package keeper
 import (
 	"math/big"
 
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
 	"github.com/ethereum/go-ethereum/common"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 // BeginBlock sets the block hash -> block height map for the previous block height

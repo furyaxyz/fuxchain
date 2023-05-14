@@ -4,12 +4,12 @@ import (
 	"fmt"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 	"github.com/spf13/viper"
 )
 

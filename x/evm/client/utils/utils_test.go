@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	chain "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	chain "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 	"github.com/stretchr/testify/require"
 )
 

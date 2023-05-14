@@ -5,8 +5,8 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethstate "github.com/ethereum/go-ethereum/core/state"
 	"github.com/ethereum/go-ethereum/core/vm"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 func (suite *StateDBTestSuite) TestContractVerifier_Verify() {

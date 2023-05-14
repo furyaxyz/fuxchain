@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"io"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmkv "github.com/exfury/fuxchain/libs/tendermint/libs/kv"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmstrings "github.com/exfury/fuxchain/libs/tendermint/libs/strings"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmkv "github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmstrings "github.com/furyaxyz/fuxchain/libs/tendermint/libs/strings"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 const (

@@ -16,14 +16,14 @@ import (
 	"github.com/status-im/keycard-go/hexutils"
 	"github.com/tendermint/go-amino"
 
-	app "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	app "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 var (

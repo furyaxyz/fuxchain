@@ -15,11 +15,11 @@ import (
 	strings "strings"
 	time "time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	github_com_cosmos_cosmos_sdk_types "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	types1 "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
+	types1 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
 
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/gogo/protobuf/gogoproto"

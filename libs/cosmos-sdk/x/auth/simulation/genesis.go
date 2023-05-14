@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	vestingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/vesting/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	vestingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/vesting/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // Simulation parameter constants

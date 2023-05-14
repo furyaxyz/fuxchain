@@ -11,17 +11,17 @@ import (
 
 	bip39 "github.com/bartekn/go-bip39"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/input"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/input"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/multisig"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/multisig"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
 )
 
 const (

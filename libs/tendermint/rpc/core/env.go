@@ -4,20 +4,20 @@ import (
 	"fmt"
 	"time"
 
-	blockindex "github.com/exfury/fuxchain/libs/tendermint/state/indexer"
+	blockindex "github.com/furyaxyz/fuxchain/libs/tendermint/state/indexer"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/consensus"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	mempl "github.com/exfury/fuxchain/libs/tendermint/mempool"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/state/txindex"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/consensus"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	mempl "github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/txindex"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 const (

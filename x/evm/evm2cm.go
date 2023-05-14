@@ -6,9 +6,9 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 var (

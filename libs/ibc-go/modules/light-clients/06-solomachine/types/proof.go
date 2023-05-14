@@ -1,16 +1,16 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types/multisig"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types/multisig"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 )
 
 // VerifySignature verifies if the the provided public key generated the signature

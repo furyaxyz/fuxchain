@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/tendermint/mempool"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // BroadcastTx broadcasts a transactions either synchronously or asynchronously

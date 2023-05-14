@@ -4,12 +4,12 @@ import (
 	"fmt"
 
 	ics23 "github.com/confio/ics23/go"
-	storetyeps "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/iavl"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
+	storetyeps "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
 )
 
 func (st *Store) queryWithCM40(req abci.RequestQuery) (res abci.ResponseQuery) {

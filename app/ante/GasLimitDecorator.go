@@ -1,10 +1,10 @@
 package ante
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/innertx"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/innertx"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 // EVMKeeper defines the expected keeper interface used on the Eth AnteHandler

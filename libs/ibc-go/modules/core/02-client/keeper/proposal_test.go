@@ -1,14 +1,14 @@
 package keeper_test
 
 import (
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 
 	// govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	// upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 func (suite *KeeperTestSuite) TestClientUpdateProposal() {

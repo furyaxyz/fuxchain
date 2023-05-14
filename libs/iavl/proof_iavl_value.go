@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
 )
 
 const ProofOpIAVLValue = "iavl:v"

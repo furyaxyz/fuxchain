@@ -4,13 +4,13 @@ import (
 	"math"
 	"time"
 
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	solomachinetypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	solomachinetypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 )
 
 func (suite *TendermintTestSuite) TestGetConsensusState() {

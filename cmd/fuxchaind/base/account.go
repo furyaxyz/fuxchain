@@ -3,8 +3,8 @@ package base
 import (
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	auth "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	auth "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 	"github.com/status-im/keycard-go/hexutils"
 )
 

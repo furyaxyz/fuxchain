@@ -3,13 +3,13 @@ package types_test
 import (
 	"testing"
 
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evidence/exported"
-	"github.com/exfury/fuxchain/x/evidence/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evidence/exported"
+	"github.com/furyaxyz/fuxchain/x/evidence/internal/types"
 )
 
 var _ exported.Evidence = (*testEvidence)(nil)

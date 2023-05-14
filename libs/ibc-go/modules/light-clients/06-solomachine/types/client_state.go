@@ -2,15 +2,15 @@ package types
 
 import (
 	ics23 "github.com/confio/ics23/go"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 	"reflect"
 )
 

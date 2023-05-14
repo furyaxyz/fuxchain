@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 )
 
 const (

@@ -2,17 +2,17 @@ package simulation_test
 
 import (
 	"fmt"
-	tmkv "github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	tmkv "github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/kv"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/simulation"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/kv"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/simulation"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
 )
 
 func TestDecodeStore(t *testing.T) {

@@ -3,9 +3,9 @@ package distribution
 import (
 	"testing"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/distribution/keeper"
-	"github.com/exfury/fuxchain/x/distribution/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/keeper"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 	"github.com/stretchr/testify/require"
 )
 

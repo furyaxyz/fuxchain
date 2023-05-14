@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 // RequestInfo contains all the information for sending

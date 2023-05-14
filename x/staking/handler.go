@@ -3,10 +3,10 @@ package staking
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/staking/keeper"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 // NewHandler manages all tx treatment

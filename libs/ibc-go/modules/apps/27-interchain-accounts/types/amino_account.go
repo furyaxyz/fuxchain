@@ -4,10 +4,10 @@ import (
 	"errors"
 	"strings"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 	yaml "gopkg.in/yaml.v2"
 )
 

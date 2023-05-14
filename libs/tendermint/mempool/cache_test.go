@@ -4,10 +4,10 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/require"
 )
 

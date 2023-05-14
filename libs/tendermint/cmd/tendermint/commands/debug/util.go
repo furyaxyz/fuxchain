@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	rpchttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	rpchttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
 )
 
 // dumpStatus gets node status state dump from the Tendermint RPC and writes it

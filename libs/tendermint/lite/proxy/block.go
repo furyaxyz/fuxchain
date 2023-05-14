@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func ValidateBlockMeta(meta *types.BlockMeta, sh types.SignedHeader) error {

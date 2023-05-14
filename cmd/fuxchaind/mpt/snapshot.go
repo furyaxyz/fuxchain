@@ -1,14 +1,14 @@
 package mpt
 
 import (
-	"github.com/exfury/fuxchain/cmd/fuxchaind/base"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/rootmulti"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	tmflags "github.com/exfury/fuxchain/libs/tendermint/libs/cli/flags"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/cmd/fuxchaind/base"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/rootmulti"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	tmflags "github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli/flags"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 	"github.com/spf13/cobra"
 	stdlog "log"
 	"os"

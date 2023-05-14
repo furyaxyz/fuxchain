@@ -5,7 +5,7 @@ import (
 	"compress/gzip"
 	"errors"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
 	"io/ioutil"
 	"reflect"
 	"strings"

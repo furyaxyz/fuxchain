@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/types"
 )
 
 type (

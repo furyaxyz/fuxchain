@@ -8,9 +8,9 @@ import (
 
 	"github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
 )
 
 const (

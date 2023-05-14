@@ -7,13 +7,13 @@ import (
 	"strings"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
-	app "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	types2 "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/params"
-	"github.com/exfury/fuxchain/x/token/types"
+	app "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	types2 "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/x/token/types"
 )
 
 // Keeper maintains the link to data storage and exposes getter/setter methods for the various parts of the state machine

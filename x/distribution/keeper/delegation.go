@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/distribution/types"
-	stakingexported "github.com/exfury/fuxchain/x/staking/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
+	stakingexported "github.com/furyaxyz/fuxchain/x/staking/exported"
 )
 
 // initialize starting info for a new delegation

@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
-	wasmtypes "github.com/exfury/fuxchain/x/wasm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
+	wasmtypes "github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 type EVMKeeper interface {

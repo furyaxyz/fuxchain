@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
 )
 
 // GenNodeKeyCmd allows the generation of a node key. It prints node's ID to

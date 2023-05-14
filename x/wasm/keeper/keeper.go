@@ -14,19 +14,19 @@ import (
 	wasmvm "github.com/CosmWasm/wasmvm"
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
 	"github.com/gogo/protobuf/proto"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/innertx"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	paramtypes "github.com/exfury/fuxchain/x/params"
-	ptypes "github.com/exfury/fuxchain/x/params/types"
-	"github.com/exfury/fuxchain/x/wasm/ioutils"
-	"github.com/exfury/fuxchain/x/wasm/types"
-	"github.com/exfury/fuxchain/x/wasm/watcher"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/innertx"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	paramtypes "github.com/furyaxyz/fuxchain/x/params"
+	ptypes "github.com/furyaxyz/fuxchain/x/params/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/ioutils"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/watcher"
 )
 
 // contractMemoryLimit is the memory limit of each contract execution (in MiB)
@@ -1236,7 +1236,7 @@ func (k Keeper) QueryGasLimit() sdk.Gas {
 }
 
 // BankCoinTransferrer replicates the cosmos-sdk behaviour as in
-// https://github.com/exfury/fuxchain/libs/cosmos-sdk/blob/v0.41.4/x/bank/keeper/msg_server.go#L26
+// https://github.com/furyaxyz/fuxchain/libs/cosmos-sdk/blob/v0.41.4/x/bank/keeper/msg_server.go#L26
 type BankCoinTransferrer struct {
 	keeper types.BankKeeper
 }

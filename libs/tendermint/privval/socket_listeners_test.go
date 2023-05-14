@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
 )
 
 //-------------------------------------------

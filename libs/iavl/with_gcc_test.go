@@ -10,7 +10,7 @@ package iavl
 import (
 	"testing"
 
-	db "github.com/exfury/fuxchain/libs/tm-db"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 func BenchmarkImmutableAvlTreeCLevelDB(b *testing.B) {

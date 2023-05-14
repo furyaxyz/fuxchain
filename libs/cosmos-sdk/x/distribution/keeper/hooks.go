@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/types"
+	stakingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 // Wrapper struct

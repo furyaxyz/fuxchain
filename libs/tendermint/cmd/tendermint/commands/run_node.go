@@ -11,10 +11,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	nm "github.com/exfury/fuxchain/libs/tendermint/node"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	nm "github.com/furyaxyz/fuxchain/libs/tendermint/node"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var (

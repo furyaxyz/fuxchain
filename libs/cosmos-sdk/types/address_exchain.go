@@ -3,8 +3,8 @@ package types
 import (
 	"crypto/sha256"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 // MustBech32ifyAccPub returns the result of Bech32ifyAccPub panicing on failure.

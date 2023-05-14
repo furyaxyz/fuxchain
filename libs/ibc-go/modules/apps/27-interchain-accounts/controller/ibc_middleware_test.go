@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"testing"
 
-	types2 "github.com/exfury/fuxchain/libs/tendermint/types"
+	types2 "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
-	icatypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	fee "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
+	icatypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	fee "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 	"github.com/stretchr/testify/suite"
 )
 

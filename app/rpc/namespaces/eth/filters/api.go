@@ -14,13 +14,13 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/app/rpc/monitor"
-	rpctypes "github.com/exfury/fuxchain/app/rpc/types"
-	clientcontext "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	coretypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/app/rpc/monitor"
+	rpctypes "github.com/furyaxyz/fuxchain/app/rpc/types"
+	clientcontext "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	coretypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 
 	"golang.org/x/time/rate"
 )

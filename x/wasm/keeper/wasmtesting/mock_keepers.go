@@ -1,13 +1,13 @@
 package wasmtesting
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	ibcexported "github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibcexported "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 type MockChannelKeeper struct {

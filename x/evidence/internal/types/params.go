@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/x/params"
 
 	"gopkg.in/yaml.v2"
 )

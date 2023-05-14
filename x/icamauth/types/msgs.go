@@ -4,13 +4,13 @@ import (
 	fmt "fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/common"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/common"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
 	proto "github.com/gogo/protobuf/proto"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 )
 
 var (

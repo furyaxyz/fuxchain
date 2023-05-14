@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 // IsFastStorageStrategy check the db is FSS

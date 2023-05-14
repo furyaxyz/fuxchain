@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmkv "github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmkv "github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/slashing/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/slashing/internal/types"
 )
 
 // DecodeStore unmarshals the KVPair's Value to the corresponding slashing type

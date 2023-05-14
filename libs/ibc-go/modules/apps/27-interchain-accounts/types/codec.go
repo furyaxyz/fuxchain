@@ -1,10 +1,10 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	auth "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	auth "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // ModuleCdc references the global interchain accounts module codec. Note, the codec

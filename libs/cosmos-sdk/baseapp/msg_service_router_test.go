@@ -1,20 +1,20 @@
 package baseapp_test
 
 import (
-	chaincodec "github.com/exfury/fuxchain/app/codec"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
-	"github.com/exfury/fuxchain/x/evm"
+	chaincodec "github.com/furyaxyz/fuxchain/app/codec"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
+	"github.com/furyaxyz/fuxchain/x/evm"
 	"os"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
 
-	"github.com/exfury/fuxchain/x/evm/types/testdata"
+	"github.com/furyaxyz/fuxchain/x/evm/types/testdata"
 )
 
 func TestRegisterMsgService(t *testing.T) {

@@ -2,16 +2,16 @@ package gov
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
 	"github.com/spf13/cobra"
 
-	"github.com/exfury/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	anytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	GovCli "github.com/exfury/fuxchain/x/gov/client/cli"
+	anytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	GovCli "github.com/furyaxyz/fuxchain/x/gov/client/cli"
 )
 
 var (

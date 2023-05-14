@@ -7,7 +7,7 @@ import (
 	"log"
 
 	"github.com/cosmos/gorocksdb"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 func init() {

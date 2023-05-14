@@ -2,9 +2,9 @@ package types
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 	"github.com/tendermint/go-amino"
 )
 

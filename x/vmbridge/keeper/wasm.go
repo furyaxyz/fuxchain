@@ -4,13 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	ibcadapter "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/vmbridge/types"
-	"github.com/exfury/fuxchain/x/wasm"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	ibcadapter "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/vmbridge/types"
+	"github.com/furyaxyz/fuxchain/x/wasm"
 )
 
 func (k Keeper) SendToWasm(ctx sdk.Context, caller sdk.AccAddress, wasmContractAddr, recipient string, amount sdk.Int) error {

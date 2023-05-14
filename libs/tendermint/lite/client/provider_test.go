@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/example/kvstore"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	rpctest "github.com/exfury/fuxchain/libs/tendermint/rpc/test"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/example/kvstore"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	rpctest "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/test"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func TestMain(m *testing.M) {

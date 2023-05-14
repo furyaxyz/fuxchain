@@ -3,14 +3,14 @@ package keeper_test
 import (
 	"testing"
 
-	types2 "github.com/exfury/fuxchain/libs/tendermint/types"
+	types2 "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	icatypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	icatypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 	"github.com/stretchr/testify/suite"
 )
 

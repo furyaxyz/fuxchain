@@ -7,11 +7,11 @@ import (
 	"sort"
 	"strings"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // ParseDenomTrace parses a string with the ibc prefix (denom trace) and the base denomination

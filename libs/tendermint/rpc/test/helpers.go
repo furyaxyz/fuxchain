@@ -8,18 +8,18 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	tmnet "github.com/exfury/fuxchain/libs/tendermint/libs/net"
-	nm "github.com/exfury/fuxchain/libs/tendermint/node"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	"github.com/exfury/fuxchain/libs/tendermint/privval"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	core_grpc "github.com/exfury/fuxchain/libs/tendermint/rpc/grpc"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/client"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	tmnet "github.com/furyaxyz/fuxchain/libs/tendermint/libs/net"
+	nm "github.com/furyaxyz/fuxchain/libs/tendermint/node"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/privval"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	core_grpc "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/grpc"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/client"
 )
 
 // Options helps with specifying some parameters for our RPC testing for greater

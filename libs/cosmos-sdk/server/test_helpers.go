@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"

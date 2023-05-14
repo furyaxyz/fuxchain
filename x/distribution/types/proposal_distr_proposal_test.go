@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/exfury/fuxchain/libs/tendermint/global"
-	exgovtypes "github.com/exfury/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
+	exgovtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

@@ -1,7 +1,7 @@
 package baseapp
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 func (m *modeHandlerDeliver) handleRunMsg(info *runTxInfo) (err error) {

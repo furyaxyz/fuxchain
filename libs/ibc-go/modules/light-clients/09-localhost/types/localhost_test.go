@@ -3,14 +3,14 @@ package types_test
 import (
 	"testing"
 
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
 )
 
 const (

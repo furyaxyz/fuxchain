@@ -7,14 +7,14 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/etherhash"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/etherhash"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
 	"github.com/tendermint/go-amino"
 )
 

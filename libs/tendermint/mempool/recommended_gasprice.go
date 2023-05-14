@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/exfury/fuxchain/libs/system/trace"
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type GPOConfig struct {

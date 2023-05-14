@@ -3,7 +3,7 @@ package monitor
 import (
 	"bytes"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
 	"github.com/spf13/viper"
 	"os/exec"
 	"strconv"

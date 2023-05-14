@@ -1,11 +1,11 @@
 package types
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	supplyexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
-	"github.com/exfury/fuxchain/x/common"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
-	stakingexported "github.com/exfury/fuxchain/x/staking/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	supplyexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	"github.com/furyaxyz/fuxchain/x/common"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
+	stakingexported "github.com/furyaxyz/fuxchain/x/staking/exported"
 )
 
 // StakingKeeper expected staking keeper (noalias)

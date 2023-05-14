@@ -6,12 +6,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
-	gcutils "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/client/utils"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	gcutils "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
 )
 
 func registerTxRoutes(cliCtx context.CLIContext, r *mux.Router, phs []ProposalRESTHandler) {

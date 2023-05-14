@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
 )
 
 // Simulation parameter constants

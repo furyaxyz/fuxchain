@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/iavl"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 // TODO: make this configurable?

@@ -3,9 +3,9 @@ package types_test
 import (
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/suite"
 	"testing"

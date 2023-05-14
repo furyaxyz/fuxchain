@@ -8,18 +8,18 @@ import (
 	"time"
 
 	"github.com/go-kit/kit/log/term"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cmap"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cmap"
 	"github.com/stretchr/testify/assert"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // mockPeer for testing the PeerSet

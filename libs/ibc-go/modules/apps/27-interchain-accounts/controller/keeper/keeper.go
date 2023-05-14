@@ -4,18 +4,18 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	capabilitykeeper "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/keeper"
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
-	icatypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	paramtypes "github.com/exfury/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	capabilitykeeper "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/keeper"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
+	icatypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	paramtypes "github.com/furyaxyz/fuxchain/x/params"
 )
 
 // Keeper defines the IBC interchain accounts controller keeper

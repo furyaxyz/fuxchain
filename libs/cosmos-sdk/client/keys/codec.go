@@ -1,7 +1,7 @@
 package keys
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 )
 
 // KeysCdc defines codec to be used with key operations

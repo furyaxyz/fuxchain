@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/distribution/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 )
 
 func (h Hooks) afterValidatorRemovedForDistributionProposal(ctx sdk.Context, _ sdk.ConsAddress, valAddr sdk.ValAddress) {

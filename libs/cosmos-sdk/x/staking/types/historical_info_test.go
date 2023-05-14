@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 )
 

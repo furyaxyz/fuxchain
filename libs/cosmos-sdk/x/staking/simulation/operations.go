@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/params"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/params"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 // Simulation operation weights constants

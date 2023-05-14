@@ -9,8 +9,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	db "github.com/exfury/fuxchain/libs/tm-db"
-	protodb "github.com/exfury/fuxchain/libs/tm-db/remotedb/proto"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
+	protodb "github.com/furyaxyz/fuxchain/libs/tm-db/remotedb/proto"
 )
 
 // ListenAndServe is a blocking function that sets up a gRPC based

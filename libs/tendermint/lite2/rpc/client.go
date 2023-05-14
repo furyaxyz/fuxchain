@@ -9,16 +9,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/mempool"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	service "github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	lite "github.com/exfury/fuxchain/libs/tendermint/lite2"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	service "github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	lite "github.com/furyaxyz/fuxchain/libs/tendermint/lite2"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var errNegOrZeroHeight = errors.New("negative or zero height")

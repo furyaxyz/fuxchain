@@ -3,7 +3,7 @@ package rest
 import (
 	"github.com/gorilla/mux"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
 )
 
 // RegisterRoutes registers staking-related REST handlers to a router

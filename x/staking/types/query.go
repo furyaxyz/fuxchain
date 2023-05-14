@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/query"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/query"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 // note: it should act like protobuf ,but for now ,we only need the `pure struct`

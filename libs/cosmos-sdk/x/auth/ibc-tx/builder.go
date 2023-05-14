@@ -2,15 +2,15 @@ package ibc_tx
 
 import (
 	"github.com/gogo/protobuf/proto"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	ibcmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
-	sigtx "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	ibcmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	sigtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibcsigning"
 )
 
 // wrapper is a wrapper around the tx.Tx proto.Message which retain the raw

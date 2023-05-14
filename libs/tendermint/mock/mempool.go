@@ -3,13 +3,13 @@ package mock
 import (
 	"crypto/sha256"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/clist"
-	mempl "github.com/exfury/fuxchain/libs/tendermint/mempool"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/clist"
+	mempl "github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // Mempool is an empty implementation of a Mempool, useful for testing.

@@ -3,12 +3,12 @@ package ibc_tx
 import (
 	"fmt"
 	"github.com/gogo/protobuf/proto"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	ibctx "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	ibctx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 const MaxGasWanted = uint64((1 << 63) - 1)

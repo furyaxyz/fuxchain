@@ -9,12 +9,12 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/tests"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/tests"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 func Test_runAddCmdLedgerWithCustomCoinType(t *testing.T) {

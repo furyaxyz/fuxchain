@@ -1,22 +1,22 @@
 package types
 
 import (
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"strings"
 	"time"
 
 	ics23 "github.com/confio/ics23/go"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	common2 "github.com/exfury/fuxchain/libs/ibc-go/modules/core/common"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	lite "github.com/exfury/fuxchain/libs/tendermint/lite2"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	common2 "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/common"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	lite "github.com/furyaxyz/fuxchain/libs/tendermint/lite2"
 )
 
 var _ exported.ClientState = (*ClientState)(nil)

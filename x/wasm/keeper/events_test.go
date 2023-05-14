@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 func TestHasWasmModuleEvent(t *testing.T) {

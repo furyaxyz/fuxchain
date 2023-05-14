@@ -13,20 +13,20 @@ import (
 	"time"
 
 	fuzz "github.com/google/gofuzz"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authkeeper "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/keeper"
-	paramskeeper "github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
-	paramtypes "github.com/exfury/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authkeeper "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/keeper"
+	paramskeeper "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
+	paramtypes "github.com/furyaxyz/fuxchain/x/params"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
-	wasmTypes "github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
+	wasmTypes "github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 const firstCodeID = 1

@@ -1,11 +1,11 @@
 package ante
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/keeper"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/keeper"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type AnteDecorator struct {

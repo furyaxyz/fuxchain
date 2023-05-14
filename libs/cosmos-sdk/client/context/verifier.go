@@ -3,10 +3,10 @@ package context
 import (
 	"path/filepath"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmlite "github.com/exfury/fuxchain/libs/tendermint/lite"
-	tmliteproxy "github.com/exfury/fuxchain/libs/tendermint/lite/proxy"
-	rpchttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmlite "github.com/furyaxyz/fuxchain/libs/tendermint/lite"
+	tmliteproxy "github.com/furyaxyz/fuxchain/libs/tendermint/lite/proxy"
+	rpchttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
 	"github.com/pkg/errors"
 )
 

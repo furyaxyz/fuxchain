@@ -5,18 +5,18 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmkv "github.com/exfury/fuxchain/libs/tendermint/libs/kv"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmkv "github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/vesting"
-	keep "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/vesting"
+	keep "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
 )
 
 const (

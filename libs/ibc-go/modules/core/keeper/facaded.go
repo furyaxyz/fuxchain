@@ -3,12 +3,12 @@ package keeper
 import (
 	"context"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/common"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/common"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltyeps "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltyeps "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 var _ IBCServerKeeper = (*FacadedKeeper)(nil)

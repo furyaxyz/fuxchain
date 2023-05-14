@@ -2,38 +2,38 @@ package ibctesting
 
 import (
 	"encoding/json"
-	staking "github.com/exfury/fuxchain/x/staking/types"
+	staking "github.com/furyaxyz/fuxchain/x/staking/types"
 	"testing"
 	"time"
 
-	ibc "github.com/exfury/fuxchain/libs/ibc-go/modules/core"
+	ibc "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
 
-	//cryptocodec "github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
+	//cryptocodec "github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
 
-	//authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	//authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 
-	capabilitykeeper "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/keeper"
-	stakingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
-	"github.com/exfury/fuxchain/x/evm"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
-	stakingkeeper "github.com/exfury/fuxchain/x/staking"
+	capabilitykeeper "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/keeper"
+	stakingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/x/evm"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
+	stakingkeeper "github.com/furyaxyz/fuxchain/x/staking"
 	"github.com/stretchr/testify/require"
 
-	bam "github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
+	bam "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
 )
 
 var DefaultTestingAppInit func() (TestingApp, map[string]json.RawMessage) = SetupTestingApp

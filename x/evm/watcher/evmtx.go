@@ -2,7 +2,7 @@ package watcher
 
 import (
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 type evmTx struct {

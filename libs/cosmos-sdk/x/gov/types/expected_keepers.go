@@ -1,10 +1,10 @@
 package types
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	stakingexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/exported"
-	supplyexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	stakingexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/exported"
+	supplyexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/exported"
 )
 
 // ParamSubspace defines the expected Subspace interface for parameters (noalias)

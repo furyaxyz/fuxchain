@@ -10,11 +10,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bits"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bits"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
 )
 
 var (

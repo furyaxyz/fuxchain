@@ -1,8 +1,8 @@
 package transfer
 
 import (
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 var (

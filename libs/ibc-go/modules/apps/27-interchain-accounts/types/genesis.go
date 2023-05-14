@@ -1,9 +1,9 @@
 package types
 
 import (
-	controllertypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
-	hosttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
+	controllertypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
+	hosttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
 )
 
 // DefaultGenesis creates and returns the interchain accounts GenesisState

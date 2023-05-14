@@ -3,7 +3,7 @@ package types
 import (
 	"strings"
 
-	ibctransferType "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	ibctransferType "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 const (

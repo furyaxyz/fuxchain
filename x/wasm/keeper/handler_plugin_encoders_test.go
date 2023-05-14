@@ -1,24 +1,24 @@
 package keeper
 
 import (
-	ibcadapter "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	ibcadapter "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	//ibctransfertypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	//clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	//channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	//ibctransfertypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	//clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	//channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 	"github.com/stretchr/testify/assert"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	banktypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	//distributiontypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/types"
-	//stakingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	banktypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	//distributiontypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/types"
+	//stakingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/require"
 
-	//"github.com/exfury/fuxchain/x/wasm/keeper/wasmtesting"
-	"github.com/exfury/fuxchain/x/wasm/types"
+	//"github.com/furyaxyz/fuxchain/x/wasm/keeper/wasmtesting"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 func TestEncoding(t *testing.T) {

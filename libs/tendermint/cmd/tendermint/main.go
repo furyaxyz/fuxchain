@@ -4,11 +4,11 @@ import (
 	"os"
 	"path/filepath"
 
-	cmd "github.com/exfury/fuxchain/libs/tendermint/cmd/tendermint/commands"
-	"github.com/exfury/fuxchain/libs/tendermint/cmd/tendermint/commands/debug"
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
-	nm "github.com/exfury/fuxchain/libs/tendermint/node"
+	cmd "github.com/furyaxyz/fuxchain/libs/tendermint/cmd/tendermint/commands"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/cmd/tendermint/commands/debug"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
+	nm "github.com/furyaxyz/fuxchain/libs/tendermint/node"
 )
 
 func main() {

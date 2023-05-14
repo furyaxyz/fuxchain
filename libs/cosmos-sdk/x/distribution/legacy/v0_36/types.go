@@ -3,8 +3,8 @@
 package v0_36
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	v034distr "github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/legacy/v0_34"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	v034distr "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/legacy/v0_34"
 )
 
 // ----------------------------------------------------------------------------

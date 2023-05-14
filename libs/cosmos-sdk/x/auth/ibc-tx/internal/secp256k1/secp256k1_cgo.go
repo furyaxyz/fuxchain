@@ -4,7 +4,7 @@
 package secp256k1
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 // Sign creates an ECDSA signature on curve Secp256k1, using SHA256 on the msg.

@@ -3,9 +3,9 @@ package v0_11
 import (
 	"time"
 
-	"github.com/exfury/fuxchain/x/staking/legacy/v0_10"
+	"github.com/furyaxyz/fuxchain/x/staking/legacy/v0_10"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 const ModuleName = "staking"

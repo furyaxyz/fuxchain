@@ -1,8 +1,8 @@
 package lite
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // Provider provides information for the lite client to sync validators.

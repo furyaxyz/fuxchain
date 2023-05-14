@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/evidence/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/evidence/exported"
 )
 
 // DONTCOVER

@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/provider"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	rpchttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	rpchttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // This is very brittle, see: https://github.com/tendermint/tendermint/issues/4740

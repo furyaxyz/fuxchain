@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
 )
 
 type ErrAddrBookNonRoutable struct {

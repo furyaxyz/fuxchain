@@ -1,20 +1,20 @@
 package keeper
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	types2 "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	capabilitykeeper "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	paramtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	clientkeeper "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/keeper"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectionkeeper "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/keeper"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channelkeeper "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/keeper"
-	portkeeper "github.com/exfury/fuxchain/libs/ibc-go/modules/core/05-port/keeper"
-	porttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/05-port/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	types2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	capabilitykeeper "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	paramtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	clientkeeper "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/keeper"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectionkeeper "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/keeper"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channelkeeper "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/keeper"
+	portkeeper "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/05-port/keeper"
+	porttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/05-port/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/types"
 )
 
 var _ types.QueryServer = (*Keeper)(nil)

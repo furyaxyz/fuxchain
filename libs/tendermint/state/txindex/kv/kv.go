@@ -11,12 +11,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/pubsub/query"
-	tmstring "github.com/exfury/fuxchain/libs/tendermint/libs/strings"
-	"github.com/exfury/fuxchain/libs/tendermint/state/txindex"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub/query"
+	tmstring "github.com/furyaxyz/fuxchain/libs/tendermint/libs/strings"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state/txindex"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 const (

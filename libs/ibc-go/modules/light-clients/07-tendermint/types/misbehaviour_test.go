@@ -1,11 +1,11 @@
 package types_test
 
 import (
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
 )
 
 func (suite *TendermintTestSuite) TestMisbehaviour() {

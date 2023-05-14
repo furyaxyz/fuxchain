@@ -7,11 +7,11 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
 )
 
 var (

@@ -3,17 +3,17 @@ package cli
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/version"
-	ibcclient "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client"
-	connection "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection"
-	channel "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/version"
+	ibcclient "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client"
+	connection "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection"
+	channel "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/types"
 	"github.com/spf13/cobra"
 )
 

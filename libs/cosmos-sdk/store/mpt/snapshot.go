@@ -5,7 +5,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	mpttypes "github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt/types"
+	mpttypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt/types"
 )
 
 var (

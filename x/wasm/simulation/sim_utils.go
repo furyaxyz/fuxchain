@@ -1,10 +1,10 @@
 package simulation
 
 //import (
-//	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/helpers"
-//	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-//	simtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/types/simulation"
-//	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
+//	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/helpers"
+//	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+//	simtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/simulation"
+//	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
 //)
 //
 //// GenAndDeliverTxWithRandFees generates a transaction with a random fee and delivers it.

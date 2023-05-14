@@ -1,11 +1,11 @@
 package evm
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/evm/types"
-	"github.com/exfury/fuxchain/x/evm/watcher"
-	govTypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
+	govTypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // NewManageContractDeploymentWhitelistProposalHandler handles "gov" type message in "evm"

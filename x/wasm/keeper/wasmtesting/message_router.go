@@ -1,8 +1,8 @@
 package wasmtesting
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // MockMessageRouter mock for testing

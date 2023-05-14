@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	jsoniter "github.com/json-iterator/go"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/go-amino"
 )

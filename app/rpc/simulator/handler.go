@@ -1,7 +1,7 @@
 package simulator
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 type Simulator interface {

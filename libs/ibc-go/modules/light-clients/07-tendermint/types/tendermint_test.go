@@ -4,18 +4,18 @@ import (
 	"testing"
 	"time"
 
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
-	ibctestingmock "github.com/exfury/fuxchain/libs/ibc-go/testing/mock"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
+	ibctestingmock "github.com/furyaxyz/fuxchain/libs/ibc-go/testing/mock"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
 )
 
 const (

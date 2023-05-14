@@ -11,16 +11,16 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/exfury/fuxchain/app"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	minttypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint"
-	transfertypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	"github.com/exfury/fuxchain/x/erc20/keeper"
-	"github.com/exfury/fuxchain/x/erc20/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/app"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	minttypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint"
+	transfertypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	"github.com/furyaxyz/fuxchain/x/erc20/keeper"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 var (

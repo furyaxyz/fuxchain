@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
 )
 
 /* AutoFile usage

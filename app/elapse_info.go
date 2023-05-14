@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/system/trace"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
 	"github.com/spf13/viper"
 )

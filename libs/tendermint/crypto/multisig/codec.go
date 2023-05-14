@@ -3,10 +3,10 @@ package multisig
 import (
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/sr25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/sr25519"
 )
 
 // TODO: Figure out API for others to either add their own pubkey types, or

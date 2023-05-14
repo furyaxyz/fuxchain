@@ -13,12 +13,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/google/uuid"
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	"github.com/exfury/fuxchain/app/crypto/hd"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/mintkey"
-	tmcrypto "github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	"github.com/furyaxyz/fuxchain/app/crypto/hd"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/mintkey"
+	tmcrypto "github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 )
 
 // CreateKeystoreByTmKey  create a eth keystore by accountname from keybase

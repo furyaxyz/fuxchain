@@ -1,9 +1,9 @@
 package exported
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
 )
 
 // Evidence defines the contract which concrete evidence types of misbehavior

@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	trensferTypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	"github.com/exfury/fuxchain/x/erc20/types"
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	trensferTypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 )
 
 var (

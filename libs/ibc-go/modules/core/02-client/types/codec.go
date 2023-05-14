@@ -2,14 +2,14 @@ package types
 
 import (
 	"github.com/gogo/protobuf/proto"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	txmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/msgservice"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	"github.com/exfury/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	txmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/msgservice"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 func init() {

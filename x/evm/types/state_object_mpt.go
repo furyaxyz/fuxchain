@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethstate "github.com/ethereum/go-ethereum/core/state"
 	types2 "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/exfury/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/app/types"
 )
 
 const (

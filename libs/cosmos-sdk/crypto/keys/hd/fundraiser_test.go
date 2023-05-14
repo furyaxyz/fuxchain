@@ -11,8 +11,8 @@ import (
 
 	bip39 "github.com/cosmos/go-bip39"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 )
 
 type addrData struct {

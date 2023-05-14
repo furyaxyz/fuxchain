@@ -1,10 +1,10 @@
 package mint
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
-	"github.com/exfury/fuxchain/x/common"
-	govTypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/mint/internal/types"
+	"github.com/furyaxyz/fuxchain/x/common"
+	govTypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // NewManageTreasuresProposalHandler handles "gov" type message in "mint"

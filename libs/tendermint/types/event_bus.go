@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmpubsub "github.com/exfury/fuxchain/libs/tendermint/libs/pubsub"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmpubsub "github.com/furyaxyz/fuxchain/libs/tendermint/libs/pubsub"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
 )
 
 const defaultCapacity = 0

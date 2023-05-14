@@ -1,10 +1,10 @@
 package fss
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/iavl"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/spf13/cobra"
 )
 

@@ -3,10 +3,10 @@ package testdata
 import (
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	txmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/msgservice"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	txmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/msgservice"
 )
 
 func NewTestInterfaceRegistry() types.InterfaceRegistry {

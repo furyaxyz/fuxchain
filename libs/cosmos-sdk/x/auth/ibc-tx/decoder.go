@@ -2,22 +2,22 @@ package ibc_tx
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/unknownproto"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	ibctx "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx/signing"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/unknownproto"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	ibctx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx/signing"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/adapter"
 	"google.golang.org/protobuf/encoding/protowire"
 
-	//"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/unknownproto"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	//"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/unknownproto"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	tx "github.com/exfury/fuxchain/libs/cosmos-sdk/types/tx"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	tx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/tx"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 func CM40TxDecoder(cdc codec.ProtoCodecMarshaler) func(txBytes []byte) (ibctx.Tx, error) {

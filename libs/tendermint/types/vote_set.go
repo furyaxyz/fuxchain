@@ -3,13 +3,13 @@ package types
 import (
 	"bytes"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/automation"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/automation"
 	"strings"
 	"sync"
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bits"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bits"
 )
 
 const (

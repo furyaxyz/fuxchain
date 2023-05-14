@@ -10,17 +10,17 @@ package wasm_test
 //
 //	wasmvm "github.com/CosmWasm/wasmvm"
 //	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-//	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
-//	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+//	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
+//	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 //	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
 //	channeltypes "github.com/cosmos/ibc-go/v3/modules/core/04-channel/types"
 //	"github.com/stretchr/testify/assert"
 //	"github.com/stretchr/testify/require"
 //
-//	wasmibctesting "github.com/exfury/fuxchain/x/wasm/ibctesting"
-//	wasmkeeper "github.com/exfury/fuxchain/x/wasm/keeper"
-//	"github.com/exfury/fuxchain/x/wasm/keeper/wasmtesting"
-//	wasmtypes "github.com/exfury/fuxchain/x/wasm/types"
+//	wasmibctesting "github.com/furyaxyz/fuxchain/x/wasm/ibctesting"
+//	wasmkeeper "github.com/furyaxyz/fuxchain/x/wasm/keeper"
+//	"github.com/furyaxyz/fuxchain/x/wasm/keeper/wasmtesting"
+//	wasmtypes "github.com/furyaxyz/fuxchain/x/wasm/types"
 //)
 //
 //const (

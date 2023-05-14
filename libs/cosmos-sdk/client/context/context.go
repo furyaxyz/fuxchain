@@ -5,21 +5,21 @@ import (
 	"io"
 	"os"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
-	tmlite "github.com/exfury/fuxchain/libs/tendermint/lite"
-	rpcclient "github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	rpchttp "github.com/exfury/fuxchain/libs/tendermint/rpc/client/http"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
+	tmlite "github.com/furyaxyz/fuxchain/libs/tendermint/lite"
+	rpcclient "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	rpchttp "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client/http"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // CLIContext implements a typical CLI context created in SDK modules for

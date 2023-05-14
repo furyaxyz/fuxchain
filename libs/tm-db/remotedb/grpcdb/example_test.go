@@ -5,8 +5,8 @@ import (
 	"context"
 	"log"
 
-	grpcdb "github.com/exfury/fuxchain/libs/tm-db/remotedb/grpcdb"
-	protodb "github.com/exfury/fuxchain/libs/tm-db/remotedb/proto"
+	grpcdb "github.com/furyaxyz/fuxchain/libs/tm-db/remotedb/grpcdb"
+	protodb "github.com/furyaxyz/fuxchain/libs/tm-db/remotedb/proto"
 )
 
 func Example() {

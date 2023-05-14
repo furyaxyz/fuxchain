@@ -2,22 +2,22 @@ package keeper
 
 import (
 	"encoding/json"
-	ibcadapter "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	ibcadapter "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
 	"testing"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	ibcexported "github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibcexported "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/x/wasm/keeper/wasmtesting"
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/keeper/wasmtesting"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 func TestMessageHandlerChainDispatch(t *testing.T) {

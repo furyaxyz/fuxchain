@@ -1,9 +1,9 @@
 package mpt
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/spf13/cobra"
 )
 

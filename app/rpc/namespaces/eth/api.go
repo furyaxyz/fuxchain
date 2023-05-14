@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
 
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/accounts/keystore"
@@ -24,36 +24,36 @@ import (
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/spf13/viper"
 
-	appconfig "github.com/exfury/fuxchain/app/config"
-	"github.com/exfury/fuxchain/libs/tendermint/mempool"
+	appconfig "github.com/furyaxyz/fuxchain/app/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
 
-	"github.com/exfury/fuxchain/app/config"
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	"github.com/exfury/fuxchain/app/crypto/hd"
-	"github.com/exfury/fuxchain/app/rpc/backend"
-	"github.com/exfury/fuxchain/app/rpc/monitor"
-	"github.com/exfury/fuxchain/app/rpc/namespaces/eth/simulation"
-	rpctypes "github.com/exfury/fuxchain/app/rpc/types"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/app/utils"
-	clientcontext "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	cmserver "github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	authclient "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/global"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/evm"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/app/config"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	"github.com/furyaxyz/fuxchain/app/crypto/hd"
+	"github.com/furyaxyz/fuxchain/app/rpc/backend"
+	"github.com/furyaxyz/fuxchain/app/rpc/monitor"
+	"github.com/furyaxyz/fuxchain/app/rpc/namespaces/eth/simulation"
+	rpctypes "github.com/furyaxyz/fuxchain/app/rpc/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/app/utils"
+	clientcontext "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	cmserver "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	authclient "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/evm"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 )
 
 const (
@@ -1012,7 +1012,7 @@ func (api *PublicEthereumAPI) simDoCall(args rpctypes.CallArgs, cap uint64) (uin
 	}
 
 	// use exact gas to run verify again
-	// https://github.com/exfury/oec/issues/1784
+	// https://github.com/furyaxyz/oec/issues/1784
 	verifiedResponse, err := executable(exactResponse.GasInfo.GasUsed)
 	if err == nil {
 		return verifiedResponse.GasInfo.GasUsed, nil

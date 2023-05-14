@@ -11,11 +11,11 @@ import (
 	//	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	//	"github.com/cosmos/cosmos-sdk/types/module"
 	//	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	simtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/simulation"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/simulation"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	simtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/simulation"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 // TestRandomizedGenState tests the normal scenario of applying RandomizedGenState.

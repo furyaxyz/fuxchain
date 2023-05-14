@@ -1,11 +1,11 @@
 package client
 
 import (
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	merkle "github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	coretypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	merkle "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	coretypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type CM39ResultBroadcastTxCommit struct {

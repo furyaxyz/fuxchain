@@ -6,11 +6,11 @@ import (
 	"sort"
 	"strings"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	types2 "github.com/exfury/fuxchain/libs/tendermint/types"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
-	"github.com/exfury/fuxchain/x/wasm/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	types2 "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 // NewWasmProposalHandler creates a new governance Handler for wasm proposals

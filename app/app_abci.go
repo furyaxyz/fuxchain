@@ -4,10 +4,10 @@ import (
 	"runtime"
 	"time"
 
-	appconfig "github.com/exfury/fuxchain/app/config"
-	"github.com/exfury/fuxchain/libs/system/trace"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/wasm/watcher"
+	appconfig "github.com/furyaxyz/fuxchain/app/config"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/watcher"
 )
 
 // BeginBlock implements the Application interface

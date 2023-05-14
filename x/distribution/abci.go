@@ -1,12 +1,12 @@
 package distribution
 
 import (
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/common"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/common"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/distribution/keeper"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/keeper"
 )
 
 // BeginBlocker set the proposer for determining distribution during endblock

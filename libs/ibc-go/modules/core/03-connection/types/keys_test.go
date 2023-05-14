@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
 )
 
 // tests ParseConnectionSequence and IsValidConnectionID

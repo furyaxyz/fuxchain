@@ -3,7 +3,7 @@ package context
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // ErrInvalidAccount returns a standardized error reflecting that a given

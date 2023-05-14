@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // Proposal defines a struct used by the governance module to allow for voting

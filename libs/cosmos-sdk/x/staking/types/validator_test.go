@@ -7,14 +7,14 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 func TestValidatorTestEquivalent(t *testing.T) {

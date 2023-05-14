@@ -5,11 +5,11 @@ import (
 	"io"
 	"sync"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/cachekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/cachekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 )
 
 //----------------------------------------

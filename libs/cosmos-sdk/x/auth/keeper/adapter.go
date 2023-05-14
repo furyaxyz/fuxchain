@@ -3,13 +3,13 @@ package keeper
 import (
 	"context"
 
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/query"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	internaltypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/typesadapter"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/query"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	internaltypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/typesadapter"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -9,10 +9,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 )
 
 const (

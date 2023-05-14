@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	govtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/gov/types"
+	govtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/gov/types"
 )
 
 const (

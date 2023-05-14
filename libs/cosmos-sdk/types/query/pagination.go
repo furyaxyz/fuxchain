@@ -3,7 +3,7 @@ package query
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

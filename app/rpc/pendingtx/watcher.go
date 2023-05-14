@@ -7,12 +7,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	rpcfilters "github.com/exfury/fuxchain/app/rpc/namespaces/eth/filters"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	coretypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	rpcfilters "github.com/furyaxyz/fuxchain/app/rpc/namespaces/eth/filters"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	coretypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 type Watcher struct {

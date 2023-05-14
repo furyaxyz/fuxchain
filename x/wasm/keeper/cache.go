@@ -3,7 +3,7 @@ package keeper
 import (
 	"sync"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 var wasmParamsCache = NewCache()

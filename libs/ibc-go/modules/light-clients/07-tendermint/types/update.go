@@ -5,14 +5,14 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
-	lite "github.com/exfury/fuxchain/libs/tendermint/lite2"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
+	lite "github.com/furyaxyz/fuxchain/libs/tendermint/lite2"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // CheckHeaderAndUpdateState checks if the provided header is valid, and if valid it will:

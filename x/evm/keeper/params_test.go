@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 func (suite *KeeperTestSuite) TestParams() {

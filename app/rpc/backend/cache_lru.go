@@ -3,11 +3,11 @@ package backend
 import (
 	"errors"
 
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 
 	"github.com/ethereum/go-ethereum/common"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 	"github.com/spf13/viper"
 )
 

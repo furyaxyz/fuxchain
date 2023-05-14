@@ -2,8 +2,8 @@ package types
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // Shares is the alias of sdk.Dec to represent the amount of shares for adding shares to validators

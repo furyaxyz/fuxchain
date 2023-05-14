@@ -11,7 +11,7 @@ import (
 
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

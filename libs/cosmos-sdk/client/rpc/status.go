@@ -7,15 +7,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/version"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/version"
 
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
 )
 
 // StatusCommand returns the command to return the status of the network.

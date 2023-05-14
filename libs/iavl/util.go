@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 // PrintTree prints the whole tree in an indented form.

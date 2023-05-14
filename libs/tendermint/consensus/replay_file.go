@@ -9,17 +9,17 @@ import (
 	"strconv"
 	"strings"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/pkg/errors"
 
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	"github.com/exfury/fuxchain/libs/tendermint/mock"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/store"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/mock"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/store"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 const (

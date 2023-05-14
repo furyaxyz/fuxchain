@@ -3,15 +3,15 @@ package sanity
 import (
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/app/config"
-	apptype "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	cosmost "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	"github.com/exfury/fuxchain/libs/tendermint/consensus"
-	"github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/evm/watcher"
-	"github.com/exfury/fuxchain/x/infura"
+	"github.com/furyaxyz/fuxchain/app/config"
+	apptype "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	cosmost "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/consensus"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/x/infura"
 )
 
 // CheckStart check start command's flags. if user set conflict flags return error.

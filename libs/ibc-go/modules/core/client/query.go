@@ -3,11 +3,11 @@ package client
 import (
 	"fmt"
 
-	clictx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	clictx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 // QueryTendermintProof performs an ABCI query with the given key and returns

@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 
-	tmkv "github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	tmkv "github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // DecodeStore unmarshals the KVPair's Value to the corresponding auth type

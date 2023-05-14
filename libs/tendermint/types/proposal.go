@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 )
 
 var (

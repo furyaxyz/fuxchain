@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	stakingtypes "github.com/exfury/fuxchain/x/staking/types"
+	stakingtypes "github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 // Hooks is struct of keepers from other module

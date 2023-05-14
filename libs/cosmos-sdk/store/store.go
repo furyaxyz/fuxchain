@@ -1,11 +1,11 @@
 package store
 
 import (
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/cache"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/rootmulti"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/cache"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/rootmulti"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 )
 
 func NewCommitMultiStore(db dbm.DB) types.CommitMultiStore {

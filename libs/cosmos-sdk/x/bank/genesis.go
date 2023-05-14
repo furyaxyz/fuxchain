@@ -1,7 +1,7 @@
 package bank
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 // InitGenesis sets distribution information for genesis.

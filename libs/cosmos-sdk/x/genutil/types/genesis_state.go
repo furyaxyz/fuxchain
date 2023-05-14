@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-	stakingtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+	stakingtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 // GenesisState defines the raw genesis transaction in JSON

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 
 	"github.com/tendermint/go-amino"
 )

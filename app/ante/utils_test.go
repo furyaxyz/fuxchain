@@ -2,38 +2,38 @@ package ante_test
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"math/big"
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	types2 "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp/helpers"
-	ibcmsg "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	ibc_tx "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/mock"
-	helpers2 "github.com/exfury/fuxchain/libs/ibc-go/testing/simapp/helpers"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	types2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp/helpers"
+	ibcmsg "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	ibc_tx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/mock"
+	helpers2 "github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp/helpers"
 
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
 
-	"github.com/exfury/fuxchain/app"
-	ante "github.com/exfury/fuxchain/app/ante"
-	appconfig "github.com/exfury/fuxchain/app/config"
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	chain "github.com/exfury/fuxchain/app/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/app"
+	ante "github.com/furyaxyz/fuxchain/app/ante"
+	appconfig "github.com/furyaxyz/fuxchain/app/config"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	chain "github.com/furyaxyz/fuxchain/app/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmcrypto "github.com/exfury/fuxchain/libs/tendermint/crypto"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmcrypto "github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 type AnteTestSuite struct {

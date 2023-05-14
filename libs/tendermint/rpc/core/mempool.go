@@ -8,11 +8,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	mempl "github.com/exfury/fuxchain/libs/tendermint/mempool"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	mempl "github.com/furyaxyz/fuxchain/libs/tendermint/mempool"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 //-----------------------------------------------------------------------------

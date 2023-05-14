@@ -3,12 +3,12 @@ package keeper_test
 import (
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/evidence/internal/types"
-	"github.com/exfury/fuxchain/x/staking"
-	stakingtypes "github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/evidence/internal/types"
+	"github.com/furyaxyz/fuxchain/x/staking"
+	stakingtypes "github.com/furyaxyz/fuxchain/x/staking/types"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 const EPOCH = 252

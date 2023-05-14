@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/x/gov/keeper"
+	"github.com/furyaxyz/fuxchain/x/gov/keeper"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/gov/types"
-	"github.com/exfury/fuxchain/x/staking"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/staking"
 	"github.com/stretchr/testify/require"
 )
 

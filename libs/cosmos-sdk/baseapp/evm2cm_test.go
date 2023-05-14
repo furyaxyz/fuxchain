@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	db "github.com/exfury/fuxchain/libs/tm-db"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,17 +3,17 @@ package token
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
-	"github.com/exfury/fuxchain/x/params"
-	"github.com/exfury/fuxchain/x/token/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/x/token/types"
 	"github.com/stretchr/testify/require"
 )
 

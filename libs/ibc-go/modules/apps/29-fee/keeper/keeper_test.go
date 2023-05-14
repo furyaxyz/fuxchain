@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"testing"
 
-	types2 "github.com/exfury/fuxchain/libs/tendermint/types"
+	types2 "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/baseapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/baseapp"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
-	ibcmock "github.com/exfury/fuxchain/libs/ibc-go/testing/mock"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
+	ibcmock "github.com/furyaxyz/fuxchain/libs/ibc-go/testing/mock"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 	"github.com/stretchr/testify/suite"
 )
 

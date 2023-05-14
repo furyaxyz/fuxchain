@@ -1,9 +1,9 @@
 package proofs
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/internal/maps"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	"github.com/exfury/fuxchain/libs/tendermint/proto/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/internal/maps"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proto/crypto/merkle"
 	"sort"
 )
 

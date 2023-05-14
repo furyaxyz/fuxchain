@@ -1,11 +1,11 @@
 package staking
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/common"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 
-	govTypes "github.com/exfury/fuxchain/x/gov/types"
+	govTypes "github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 // NewProposalHandler handles "gov" type message in "staking"

@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	storetypes "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	storetypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 
-	"github.com/exfury/fuxchain/libs/iavl"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/merkle"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/merkle"
 )
 
 // MultiStoreProof defines a collection of store proofs in a multi-store

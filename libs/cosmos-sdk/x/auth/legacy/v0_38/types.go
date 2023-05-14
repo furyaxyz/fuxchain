@@ -11,11 +11,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	v034auth "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/legacy/v0_34"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	v034auth "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/legacy/v0_34"
 )
 
 const (

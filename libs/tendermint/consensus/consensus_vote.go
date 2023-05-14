@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	cstypes "github.com/exfury/fuxchain/libs/tendermint/consensus/types"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	cstypes "github.com/furyaxyz/fuxchain/libs/tendermint/consensus/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 	"time"
 )
 

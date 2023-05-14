@@ -5,18 +5,18 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/innertx"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	vestexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/vesting/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	"github.com/exfury/fuxchain/libs/tendermint/global"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/innertx"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	vestexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/vesting/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
 )
 
 var _ Keeper = (*BaseKeeper)(nil)

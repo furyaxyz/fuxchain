@@ -1,9 +1,9 @@
 package distribution
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/distribution/keeper"
-	"github.com/exfury/fuxchain/x/distribution/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/keeper"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 )
 
 func handleMsgWithdrawDelegatorReward(ctx sdk.Context, msg types.MsgWithdrawDelegatorReward, k keeper.Keeper) (*sdk.Result, error) {

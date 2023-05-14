@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/go-errors/errors"
-	"github.com/exfury/fuxchain/libs/system/trace"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/tendermint/go-amino"
 )
 

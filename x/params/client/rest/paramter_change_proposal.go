@@ -3,14 +3,14 @@ package rest
 import (
 	"net/http"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	"github.com/exfury/fuxchain/x/gov"
-	govrest "github.com/exfury/fuxchain/x/gov/client/rest"
-	paramscutils "github.com/exfury/fuxchain/x/params/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	"github.com/furyaxyz/fuxchain/x/gov"
+	govrest "github.com/furyaxyz/fuxchain/x/gov/client/rest"
+	paramscutils "github.com/furyaxyz/fuxchain/x/params/client/utils"
 )
 
 // ProposalRESTHandler returns a ProposalRESTHandler that exposes the param change REST handler with a given sub-route

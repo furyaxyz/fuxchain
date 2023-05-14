@@ -1,11 +1,11 @@
 package channel
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 // HandleMsgChannelOpenInit defines the sdk.Handler for MsgChannelOpenInit

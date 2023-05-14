@@ -5,7 +5,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/rpc"
 
-	rpcfilters "github.com/exfury/fuxchain/app/rpc/namespaces/eth/filters"
+	rpcfilters "github.com/furyaxyz/fuxchain/app/rpc/namespaces/eth/filters"
 )
 
 type SubscriptionResponseJSON struct {

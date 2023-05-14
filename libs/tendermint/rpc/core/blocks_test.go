@@ -7,13 +7,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
-	sm "github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	sm "github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func TestBlockchainInfo(t *testing.T) {

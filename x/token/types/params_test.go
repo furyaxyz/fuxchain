@@ -3,9 +3,9 @@ package types
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/common"
 
-	"github.com/exfury/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/x/params"
 	"github.com/stretchr/testify/require"
 )
 

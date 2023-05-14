@@ -4,13 +4,13 @@ import (
 	"os"
 	"testing"
 
-	authkeeper "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
+	authkeeper "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/x/wasm/keeper/wasmtesting"
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/keeper/wasmtesting"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 func TestConstructorOptions(t *testing.T) {

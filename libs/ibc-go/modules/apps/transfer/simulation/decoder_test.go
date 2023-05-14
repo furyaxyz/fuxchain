@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/kv"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/simulation"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
-	tmkv "github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/kv"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/simulation"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
+	tmkv "github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 )
 
 func TestDecodeStore(t *testing.T) {

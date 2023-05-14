@@ -5,16 +5,16 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmlog "github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
-	"github.com/exfury/fuxchain/x/evm"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmlog "github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/x/evm"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 )
 
 type EvmFactory struct {

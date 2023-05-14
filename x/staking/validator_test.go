@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/x/staking/types"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 func TestValidatorMultiCreates(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 
 	schnorrkel "github.com/ChainSafe/go-schnorrkel"
 )

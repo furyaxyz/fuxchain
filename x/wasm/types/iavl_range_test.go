@@ -3,10 +3,10 @@ package types
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/iavl"
-	iavl2 "github.com/exfury/fuxchain/libs/iavl"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/iavl"
+	iavl2 "github.com/furyaxyz/fuxchain/libs/iavl"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 )
 

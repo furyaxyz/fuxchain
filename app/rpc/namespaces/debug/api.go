@@ -4,17 +4,17 @@ import (
 	"encoding/json"
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	"github.com/spf13/viper"
 
 	"github.com/ethereum/go-ethereum/common"
-	clientcontext "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
+	clientcontext "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
 
-	"github.com/exfury/fuxchain/app/rpc/backend"
-	"github.com/exfury/fuxchain/app/rpc/monitor"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/app/rpc/backend"
+	"github.com/furyaxyz/fuxchain/app/rpc/monitor"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 const (

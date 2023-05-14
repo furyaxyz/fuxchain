@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	abcicli "github.com/exfury/fuxchain/libs/tendermint/abci/client"
-	"github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abcicli "github.com/furyaxyz/fuxchain/libs/tendermint/abci/client"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 //----------------------------------------------------------------------------------------

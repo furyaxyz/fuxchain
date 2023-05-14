@@ -17,13 +17,13 @@ want to directly call a tendermint node in process, you can use the
 import (
 	"reflect"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/client"
-	"github.com/exfury/fuxchain/libs/tendermint/rpc/core"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/client"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 // Client wraps arbitrary implementations of the various interfaces.

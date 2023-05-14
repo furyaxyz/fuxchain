@@ -2,8 +2,8 @@ package cachekv
 
 import (
 	"errors"
-	kv "github.com/exfury/fuxchain/libs/cosmos-sdk/types/kv"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	kv "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/kv"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 // Iterates over iterKVCache items.

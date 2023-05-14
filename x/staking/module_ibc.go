@@ -3,22 +3,22 @@ package staking
 import (
 	"context"
 
-	"github.com/exfury/fuxchain/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/x/staking/keeper"
 
-	cosmost "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	"github.com/exfury/fuxchain/x/staking/typesadapter"
+	cosmost "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/x/staking/typesadapter"
 
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	clictx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	anytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
+	clictx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	anytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/upgrade"
-	"github.com/exfury/fuxchain/x/params"
-	"github.com/exfury/fuxchain/x/staking/client/rest"
-	_ "github.com/exfury/fuxchain/x/staking/typesadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/upgrade"
+	"github.com/furyaxyz/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/x/staking/client/rest"
+	_ "github.com/furyaxyz/fuxchain/x/staking/typesadapter"
 	"github.com/spf13/cobra"
 )
 

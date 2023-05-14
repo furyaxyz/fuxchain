@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/x/common"
+	"github.com/furyaxyz/fuxchain/x/common"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/subspace"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/subspace"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkparams "github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkparams "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
 )
 
 const (

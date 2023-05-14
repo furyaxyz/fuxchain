@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	auto "github.com/exfury/fuxchain/libs/tendermint/libs/autofile"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
+	auto "github.com/furyaxyz/fuxchain/libs/tendermint/libs/autofile"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
 )
 
 const Version = "0.0.1"

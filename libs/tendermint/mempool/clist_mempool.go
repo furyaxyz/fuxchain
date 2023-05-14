@@ -17,14 +17,14 @@ import (
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/system/trace"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	cfg "github.com/exfury/fuxchain/libs/tendermint/config"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/clist"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	cfg "github.com/furyaxyz/fuxchain/libs/tendermint/config"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/clist"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type TxInfoParser interface {

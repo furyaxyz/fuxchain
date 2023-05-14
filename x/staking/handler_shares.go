@@ -3,9 +3,9 @@ package staking
 import (
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/staking/keeper"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 func handleMsgBindProxy(ctx sdk.Context, msg types.MsgBindProxy, k keeper.Keeper) (*sdk.Result, error) {

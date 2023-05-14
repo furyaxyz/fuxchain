@@ -4,8 +4,8 @@
 package gov
 
 import (
-	"github.com/exfury/fuxchain/x/gov/keeper"
-	"github.com/exfury/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/gov/keeper"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
 )
 
 const (

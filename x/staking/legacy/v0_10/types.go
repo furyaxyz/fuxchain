@@ -3,7 +3,7 @@ package v0_10
 import (
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 const ModuleName = "staking"

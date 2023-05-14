@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmnet "github.com/exfury/fuxchain/libs/tendermint/libs/net"
-	p2pconn "github.com/exfury/fuxchain/libs/tendermint/p2p/conn"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmnet "github.com/furyaxyz/fuxchain/libs/tendermint/libs/net"
+	p2pconn "github.com/furyaxyz/fuxchain/libs/tendermint/p2p/conn"
 )
 
 // Socket errors.

@@ -3,10 +3,10 @@ package store
 // TODO: make it independent from list
 /*
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/list"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/list"
 )
 
 // Key for the top element position in the queue

@@ -5,12 +5,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	ethermint "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/x/erc20/types"
-	"github.com/exfury/fuxchain/x/params"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
+	"github.com/furyaxyz/fuxchain/x/params"
 )
 
 // Keeper wraps the CommitStateDB, allowing us to pass in SDK context while adhering

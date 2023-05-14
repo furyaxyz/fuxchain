@@ -3,11 +3,11 @@ package keeper_test
 import (
 	"math/big"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	ethermint "github.com/exfury/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 )

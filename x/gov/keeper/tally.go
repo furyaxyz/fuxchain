@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/gov/types"
-	"github.com/exfury/fuxchain/x/staking/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/gov/types"
+	"github.com/furyaxyz/fuxchain/x/staking/exported"
 )
 
 // validatorGovInfo used for tallying

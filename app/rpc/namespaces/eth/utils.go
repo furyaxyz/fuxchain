@@ -13,14 +13,14 @@ import (
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/spf13/viper"
 
-	ethermint "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerror "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
-	"github.com/exfury/fuxchain/x/evm/types"
-	"github.com/exfury/fuxchain/x/token"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerror "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/token"
 )
 
 const (

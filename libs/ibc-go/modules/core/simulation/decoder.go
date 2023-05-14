@@ -3,13 +3,13 @@ package simulation
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	clientsim "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/simulation"
-	connectionsim "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/simulation"
-	channelsim "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/simulation"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/keeper"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	clientsim "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/simulation"
+	connectionsim "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/simulation"
+	channelsim "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/simulation"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/keeper"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

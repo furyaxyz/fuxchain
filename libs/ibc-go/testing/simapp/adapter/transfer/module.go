@@ -4,17 +4,17 @@ import (
 	"encoding/json"
 	"fmt"
 
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	porttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/05-port/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	porttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/05-port/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp/adapter"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp/adapter"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 var (

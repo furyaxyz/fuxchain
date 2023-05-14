@@ -1,7 +1,7 @@
 package types
 
 import (
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 type CM40EventDataNewBlock struct {

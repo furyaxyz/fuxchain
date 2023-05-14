@@ -3,12 +3,12 @@ package ethkeystore
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	"github.com/exfury/fuxchain/app/crypto/hd"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/tests"
-	tmamino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/multisig"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	"github.com/furyaxyz/fuxchain/app/crypto/hd"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/tests"
+	tmamino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/multisig"
 	"github.com/stretchr/testify/require"
 )
 

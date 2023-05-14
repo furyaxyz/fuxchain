@@ -3,13 +3,13 @@ package staking
 import (
 	"time"
 
-	tmstrings "github.com/exfury/fuxchain/libs/tendermint/libs/strings"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmstrings "github.com/furyaxyz/fuxchain/libs/tendermint/libs/strings"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 func NewHandler(k keeper.Keeper) sdk.Handler {

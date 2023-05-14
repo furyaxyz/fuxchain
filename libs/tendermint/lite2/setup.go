@@ -3,9 +3,9 @@ package lite
 import (
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/provider"
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/provider/http"
-	"github.com/exfury/fuxchain/libs/tendermint/lite2/store"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/provider/http"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/lite2/store"
 )
 
 // NewHTTPClient initiates an instance of a lite client using HTTP addresses

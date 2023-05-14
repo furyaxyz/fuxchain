@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 )
 
 const (

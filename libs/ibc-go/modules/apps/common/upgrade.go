@@ -1,11 +1,11 @@
 package common
 
 import (
-	cosmost "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/upgrade"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/base"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	cosmost "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/upgrade"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/base"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 var (

@@ -5,10 +5,10 @@ import (
 	"sync"
 
 	"github.com/ethereum/go-ethereum/common"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	"github.com/exfury/fuxchain/x/evm/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 var commitStateDBPool = &sync.Pool{

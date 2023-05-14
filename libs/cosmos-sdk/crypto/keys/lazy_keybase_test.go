@@ -3,17 +3,17 @@ package keys
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	tmamino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	tmamino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/tests"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/tests"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 func TestNew(t *testing.T) {

@@ -1,8 +1,8 @@
 package evidence
 
 import (
-	"github.com/exfury/fuxchain/x/evidence/internal/keeper"
-	"github.com/exfury/fuxchain/x/evidence/internal/types"
+	"github.com/furyaxyz/fuxchain/x/evidence/internal/keeper"
+	"github.com/furyaxyz/fuxchain/x/evidence/internal/types"
 )
 
 // nolint

@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
 )
 
 var _ types.QueryServer = Keeper{}

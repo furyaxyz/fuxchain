@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/spf13/viper"
 )
 

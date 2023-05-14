@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/evidence/exported"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/evidence/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/evidence/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/evidence/internal/types"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 const (

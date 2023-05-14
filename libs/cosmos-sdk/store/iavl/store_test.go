@@ -9,15 +9,15 @@ import (
 	"strings"
 	"testing"
 
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/exfury/fuxchain/libs/iavl"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 )
 
 var (

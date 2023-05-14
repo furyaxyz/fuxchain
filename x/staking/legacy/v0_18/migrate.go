@@ -1,6 +1,6 @@
 package v0_18
 
-import "github.com/exfury/fuxchain/x/staking/legacy/v0_11"
+import "github.com/furyaxyz/fuxchain/x/staking/legacy/v0_11"
 
 const (
 	ModuleName = "staking"

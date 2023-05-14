@@ -11,10 +11,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	db "github.com/exfury/fuxchain/libs/tm-db"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	db "github.com/furyaxyz/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 /*

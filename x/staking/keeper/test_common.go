@@ -8,28 +8,28 @@ import (
 	"testing"
 	"time"
 
-	types2 "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
+	types2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
 
-	"github.com/exfury/fuxchain/x/staking/types"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
-	"github.com/exfury/fuxchain/x/params"
-	//distr "github.com/exfury/fuxchain/x/distribution"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
+	"github.com/furyaxyz/fuxchain/x/params"
+	//distr "github.com/furyaxyz/fuxchain/x/distribution"
 )
 
 // dummy addresses used for testing

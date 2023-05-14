@@ -2,12 +2,12 @@ package staking
 
 import (
 	"encoding/json"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	types2 "github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp/adapter"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/staking"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	types2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp/adapter"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/staking"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 type StakingModule struct {

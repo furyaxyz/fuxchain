@@ -3,8 +3,8 @@ package simulation
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
 	"math/rand"
 )
 

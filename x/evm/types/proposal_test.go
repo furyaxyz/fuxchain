@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 	"github.com/stretchr/testify/suite"
 )
 

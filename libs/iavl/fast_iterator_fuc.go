@@ -1,6 +1,6 @@
 package iavl
 
-import dbm "github.com/exfury/fuxchain/libs/tm-db"
+import dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
 type FastIteratorWithCache struct {
 	*UnsavedFastIterator

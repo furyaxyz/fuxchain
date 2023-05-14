@@ -5,7 +5,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/exfury/fuxchain/x/params"
+	"github.com/furyaxyz/fuxchain/x/params"
 )
 
 const (

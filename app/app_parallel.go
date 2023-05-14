@@ -5,15 +5,15 @@ import (
 	"sort"
 	"strings"
 
-	ethermint "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth"
-	authante "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/ante"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/evm"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth"
+	authante "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/ante"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/evm"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 // feeCollectorHandler set or get the value of feeCollectorAcc

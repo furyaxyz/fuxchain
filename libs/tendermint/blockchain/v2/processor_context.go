@@ -3,8 +3,8 @@ package v2
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/tendermint/state"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/state"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type processorContext interface {

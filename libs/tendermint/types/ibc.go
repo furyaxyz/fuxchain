@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/libs/protoio"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/protoio"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
 )
 
 // CanonicalizeVote transforms the given Proposal to a CanonicalProposal.

@@ -3,10 +3,10 @@ package v0_36
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	v034distr "github.com/exfury/fuxchain/libs/cosmos-sdk/x/distribution/legacy/v0_34"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	v034distr "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/distribution/legacy/v0_34"
 
 	"github.com/stretchr/testify/require"
 )

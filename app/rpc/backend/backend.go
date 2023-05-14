@@ -7,34 +7,34 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 
-	"github.com/exfury/fuxchain/libs/tendermint/global"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/global"
 
 	lru "github.com/hashicorp/golang-lru"
 
-	coretypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
+	coretypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
 
 	"github.com/spf13/viper"
 
 	"golang.org/x/time/rate"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 
-	rpctypes "github.com/exfury/fuxchain/app/rpc/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
+	rpctypes "github.com/furyaxyz/fuxchain/app/rpc/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
 
-	clientcontext "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
+	clientcontext "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/bitutil"
 	"github.com/ethereum/go-ethereum/core/bloombits"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 const (

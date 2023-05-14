@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"testing"
 
-	tmkv "github.com/exfury/fuxchain/libs/tendermint/libs/kv"
+	tmkv "github.com/furyaxyz/fuxchain/libs/tendermint/libs/kv"
 
 	"github.com/stretchr/testify/require"
 
 	//"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/kv"
-	clienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/simulation"
-	ibctmtypes "github.com/exfury/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/testing/simapp"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/kv"
+	clienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/simulation"
+	ibctmtypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/testing/simapp"
 )
 
 func TestDecodeStore(t *testing.T) {

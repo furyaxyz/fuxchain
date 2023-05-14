@@ -4,11 +4,11 @@ import (
 	"math"
 	"testing"
 
-	capabilitytypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	ibctesting "github.com/exfury/fuxchain/libs/ibc-go/testing"
+	capabilitytypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	ibctesting "github.com/furyaxyz/fuxchain/libs/ibc-go/testing"
 	"github.com/stretchr/testify/suite"
 )
 

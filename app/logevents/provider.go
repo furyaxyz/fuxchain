@@ -1,10 +1,10 @@
 package logevents
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	"github.com/exfury/fuxchain/libs/system"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	"github.com/furyaxyz/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/spf13/viper"
 	"sync"
 	"time"

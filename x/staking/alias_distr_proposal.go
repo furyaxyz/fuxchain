@@ -1,9 +1,9 @@
 // nolint
-// ALIASGEN: github.com/exfury/fuxchain/x/staking/types
+// ALIASGEN: github.com/furyaxyz/fuxchain/x/staking/types
 package staking
 
 import (
-	"github.com/exfury/fuxchain/x/staking/types"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 var (

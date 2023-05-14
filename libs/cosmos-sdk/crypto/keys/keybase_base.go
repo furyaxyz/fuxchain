@@ -8,13 +8,13 @@ import (
 	"strings"
 
 	"github.com/cosmos/go-bip39"
-	tmcrypto "github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/secp256k1"
+	tmcrypto "github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/pkg/errors"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/hd"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 )
 
 type (

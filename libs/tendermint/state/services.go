@@ -1,7 +1,7 @@
 package state
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 //------------------------------------------------------

@@ -1,13 +1,13 @@
 package keeper_test
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	keep "github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/supply/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	keep "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/supply/internal/types"
 )
 
 var (

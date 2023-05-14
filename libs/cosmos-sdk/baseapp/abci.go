@@ -11,18 +11,18 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/system/trace/persist"
+	"github.com/furyaxyz/fuxchain/libs/system/trace/persist"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/app/rpc/simulator"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/system/trace"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/app/rpc/simulator"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 	"github.com/tendermint/go-amino"
 )
 

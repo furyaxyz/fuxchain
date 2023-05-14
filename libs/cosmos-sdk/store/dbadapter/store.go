@@ -3,11 +3,11 @@ package dbadapter
 import (
 	"io"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/cachekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/tracekv"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/cachekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/tracekv"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
 )
 
 // Wrapper type for dbm.Db with implementation of KVStore

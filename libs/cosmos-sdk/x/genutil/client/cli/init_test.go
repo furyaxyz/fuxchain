@@ -6,19 +6,19 @@ import (
 	"os"
 	"testing"
 
-	tcmd "github.com/exfury/fuxchain/libs/tendermint/cmd/tendermint/commands"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cli"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	tcmd "github.com/furyaxyz/fuxchain/libs/tendermint/cmd/tendermint/commands"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cli"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/client/flags"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/tests"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/module"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/flags"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/tests"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/module"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil"
 )
 
 var testMbm = module.NewBasicManager(genutil.AppModuleBasic{})

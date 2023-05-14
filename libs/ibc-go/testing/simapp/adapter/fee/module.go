@@ -3,13 +3,13 @@ package fee
 import (
 	"encoding/json"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	fee "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/apps/29-fee/keeper"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	fee "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/29-fee/keeper"
 )
 
 type TestFeeAppModuleBaisc struct {

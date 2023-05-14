@@ -10,10 +10,10 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 	"github.com/tendermint/go-amino"
 
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
 )
 
 // GasInfo defines tx execution gas context.

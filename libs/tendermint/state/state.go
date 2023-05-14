@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 // database keys

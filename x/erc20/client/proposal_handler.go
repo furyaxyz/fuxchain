@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/exfury/fuxchain/x/erc20/client/cli"
-	"github.com/exfury/fuxchain/x/erc20/client/rest"
-	govcli "github.com/exfury/fuxchain/x/gov/client"
+	"github.com/furyaxyz/fuxchain/x/erc20/client/cli"
+	"github.com/furyaxyz/fuxchain/x/erc20/client/rest"
+	govcli "github.com/furyaxyz/fuxchain/x/gov/client"
 )
 
 var (

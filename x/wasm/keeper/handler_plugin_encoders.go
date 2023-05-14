@@ -3,18 +3,18 @@ package keeper
 import (
 	"encoding/json"
 	"fmt"
-	ibcadapter "github.com/exfury/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
-	bank "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank"
+	ibcadapter "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/ibc-adapter"
+	bank "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	ibctransfertypes "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/transfer/types"
-	ibcclienttypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	ibctransfertypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/transfer/types"
+	ibcclienttypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 type BankEncoder func(sender sdk.AccAddress, msg *wasmvmtypes.BankMsg) ([]ibcadapter.Msg, error)

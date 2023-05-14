@@ -3,7 +3,7 @@ package keeper
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 	"github.com/stretchr/testify/require"
 )
 

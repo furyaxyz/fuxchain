@@ -13,12 +13,12 @@ import (
 	"github.com/ethereum/go-ethereum/core"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/exfury/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
 
-	types2 "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/innertx"
+	types2 "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/innertx"
 )
 
 // StateTransition defines data to transitionDB in evm

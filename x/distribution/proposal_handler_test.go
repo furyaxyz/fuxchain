@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 
-	"github.com/exfury/fuxchain/x/distribution/keeper"
-	"github.com/exfury/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/keeper"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 )
 
 var (

@@ -2,19 +2,19 @@ package state
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
-	"github.com/exfury/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
 	"sync/atomic"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/iavl"
-	"github.com/exfury/fuxchain/libs/system"
-	"github.com/exfury/fuxchain/libs/tendermint/delta"
-	redis_cgi "github.com/exfury/fuxchain/libs/tendermint/delta/redis-cgi"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	"github.com/furyaxyz/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/delta"
+	redis_cgi "github.com/furyaxyz/fuxchain/libs/tendermint/delta/redis-cgi"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 	"github.com/spf13/viper"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 type identityMapType map[string]int64

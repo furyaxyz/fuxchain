@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	codectypes "github.com/exfury/fuxchain/libs/cosmos-sdk/codec/types"
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/exported"
+	codectypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec/types"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/exported"
 )
 
 // ClientsConsensusStates defines a slice of ClientConsensusStates that supports the sort interface

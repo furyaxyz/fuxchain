@@ -7,11 +7,11 @@ import (
 
 	"github.com/go-kit/kit/metrics"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/cmap"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/cmap"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
 
-	tmconn "github.com/exfury/fuxchain/libs/tendermint/p2p/conn"
+	tmconn "github.com/furyaxyz/fuxchain/libs/tendermint/p2p/conn"
 )
 
 const metricsTickerDuration = 10 * time.Second

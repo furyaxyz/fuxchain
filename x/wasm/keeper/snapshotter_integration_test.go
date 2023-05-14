@@ -6,21 +6,21 @@ package keeper_test
 //	"testing"
 //	"time"
 //
-//	"github.com/exfury/fuxchain/x/wasm/types"
+//	"github.com/furyaxyz/fuxchain/x/wasm/types"
 //
 //	"github.com/stretchr/testify/assert"
 //
-//	cryptocodec "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/codec"
-//	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys/ed25519"
-//	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-//	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
-//	banktypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/types"
+//	cryptocodec "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/codec"
+//	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys/ed25519"
+//	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+//	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
+//	banktypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/types"
 //	"github.com/stretchr/testify/require"
 //	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 //	tmtypes "github.com/tendermint/tendermint/types"
 //
-//	"github.com/exfury/fuxchain/app"
-//	"github.com/exfury/fuxchain/x/wasm/keeper"
+//	"github.com/furyaxyz/fuxchain/app"
+//	"github.com/furyaxyz/fuxchain/x/wasm/keeper"
 //)
 //
 //func TestSnapshotter(t *testing.T) {

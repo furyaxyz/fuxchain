@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	paramtypes "github.com/exfury/fuxchain/x/params"
+	paramtypes "github.com/furyaxyz/fuxchain/x/params"
 )
 
 const (

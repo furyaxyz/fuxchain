@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 )
 
 // NOTE: privValidators are in order

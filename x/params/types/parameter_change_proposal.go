@@ -2,15 +2,15 @@ package types
 
 import (
 	"fmt"
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params/types"
 
-	govtypes "github.com/exfury/fuxchain/x/gov/types"
+	govtypes "github.com/furyaxyz/fuxchain/x/gov/types"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkparams "github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkparams "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
 )
 
 // Assert ParameterChangeProposal implements govtypes.Content at compile-time

@@ -3,10 +3,10 @@ package bank
 // nolint
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/keeperadapter"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/bank/internal/typesadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/keeperadapter"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/bank/internal/typesadapter"
 )
 
 const (

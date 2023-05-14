@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/tests"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/tests"
 
 	"github.com/stretchr/testify/require"
 )

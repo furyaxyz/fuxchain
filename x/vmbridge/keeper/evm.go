@@ -5,14 +5,14 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	ethermint "github.com/exfury/fuxchain/app/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	erc20types "github.com/exfury/fuxchain/x/erc20/types"
-	evmtypes "github.com/exfury/fuxchain/x/evm/types"
-	"github.com/exfury/fuxchain/x/evm/watcher"
-	"github.com/exfury/fuxchain/x/vmbridge/types"
+	ethermint "github.com/furyaxyz/fuxchain/app/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	erc20types "github.com/furyaxyz/fuxchain/x/erc20/types"
+	evmtypes "github.com/furyaxyz/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/x/vmbridge/types"
 )
 
 // event __SendToWasmEventName(string wasmAddr,string recipient, string amount)

@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 )
 
 // VersionCmd ...

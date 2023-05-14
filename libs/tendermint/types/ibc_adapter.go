@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/tendermint/version"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/version"
 
-	ce "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bits"
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	tmproto "github.com/exfury/fuxchain/libs/tendermint/proto/types"
-	tmversion "github.com/exfury/fuxchain/libs/tendermint/proto/version"
+	ce "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bits"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	tmproto "github.com/furyaxyz/fuxchain/libs/tendermint/proto/types"
+	tmversion "github.com/furyaxyz/fuxchain/libs/tendermint/proto/version"
 )
 
 type CM40Block struct {

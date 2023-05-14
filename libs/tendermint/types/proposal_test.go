@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/tmhash"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/tmhash"
 )
 
 var testProposal *Proposal

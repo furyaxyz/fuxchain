@@ -2,7 +2,7 @@ package module
 
 import (
 	"github.com/gogo/protobuf/grpc"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
 )
 
 // Configurator provides the hooks to allow modules to configure and register

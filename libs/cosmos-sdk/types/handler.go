@@ -3,7 +3,7 @@ package types
 import (
 	"github.com/ethereum/go-ethereum/common"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
 )
 
 // Handler defines the core of the state transition function of an application.

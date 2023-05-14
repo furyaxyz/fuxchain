@@ -13,12 +13,12 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	"github.com/exfury/fuxchain/app/crypto/hd"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	tmamino "github.com/exfury/fuxchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/exfury/fuxchain/x/evm/watcher"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	"github.com/furyaxyz/fuxchain/app/crypto/hd"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	tmamino "github.com/furyaxyz/fuxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/furyaxyz/fuxchain/x/evm/watcher"
 	"github.com/stretchr/testify/require"
 )
 

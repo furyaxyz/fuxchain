@@ -4,8 +4,8 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/erc20/types"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/erc20/types"
 )
 
 func (suite *KeeperTestSuite) TestQuerier() {

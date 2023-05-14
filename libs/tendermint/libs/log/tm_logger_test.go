@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 )
 
 func TestLoggerLogsItsErrors(t *testing.T) {

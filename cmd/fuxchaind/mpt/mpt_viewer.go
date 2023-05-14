@@ -3,17 +3,17 @@ package mpt
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/exfury/fuxchain/cmd/fuxchaind/base"
+	"github.com/furyaxyz/fuxchain/cmd/fuxchaind/base"
 	"strconv"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	"log"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/trie"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/server"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/server"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/mpt"
 	"github.com/spf13/cobra"
 )
 

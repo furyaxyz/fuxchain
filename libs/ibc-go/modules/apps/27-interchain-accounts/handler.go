@@ -3,11 +3,11 @@ package ica
 import (
 	"fmt"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
-	controllerkeeper "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/keeper"
-	hostkeeper "github.com/exfury/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
+	controllerkeeper "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/keeper"
+	hostkeeper "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func NewHandler(hostKeeper *hostkeeper.Keeper, ck *controllerkeeper.Keeper) sdk.Handler {

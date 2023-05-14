@@ -8,9 +8,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/exfury/fuxchain/libs/tendermint/types"
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 	"github.com/spf13/viper"
 )
 

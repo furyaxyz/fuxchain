@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/exfury/fuxchain/libs/tm-db/common"
+	"github.com/furyaxyz/fuxchain/libs/tm-db/common"
 	"github.com/pkg/errors"
 	"go.etcd.io/bbolt"
 )

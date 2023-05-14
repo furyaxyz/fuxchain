@@ -3,10 +3,10 @@ package types
 import (
 	"regexp"
 
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authtypes "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
 )
 
 // DefaultMaxAddrLength defines the default maximum character length used in validation of addresses

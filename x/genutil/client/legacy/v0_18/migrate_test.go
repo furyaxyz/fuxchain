@@ -1,10 +1,10 @@
 package v018
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/genutil"
-	v018evm "github.com/exfury/fuxchain/x/evm/legacy/v0_18"
-	v018staking "github.com/exfury/fuxchain/x/staking/legacy/v0_18"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/genutil"
+	v018evm "github.com/furyaxyz/fuxchain/x/evm/legacy/v0_18"
+	v018staking "github.com/furyaxyz/fuxchain/x/staking/legacy/v0_18"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

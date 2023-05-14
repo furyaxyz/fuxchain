@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/tempfile"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/tempfile"
 )
 
 /* Loading & Saving */

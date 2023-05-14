@@ -2,9 +2,9 @@ package upgrade
 
 import (
 	"errors"
-	store "github.com/exfury/fuxchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/params"
+	store "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/params"
 )
 
 type UpgradeModule interface {

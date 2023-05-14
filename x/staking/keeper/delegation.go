@@ -3,8 +3,8 @@ package keeper
 import (
 	"time"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/x/staking/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/x/staking/types"
 )
 
 // UpdateProxy updates the shares by the total delegated and self delegated tokens of a proxy

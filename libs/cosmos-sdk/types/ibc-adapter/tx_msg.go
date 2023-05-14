@@ -3,9 +3,9 @@ package types
 import (
 	"github.com/gogo/protobuf/proto"
 
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	costypes "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	stdtx "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/types"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	costypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	stdtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 type (

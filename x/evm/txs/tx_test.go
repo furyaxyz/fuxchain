@@ -8,12 +8,12 @@ import (
 	"time"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	"github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	authexported "github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/x/evm/txs/base"
-	"github.com/exfury/fuxchain/x/evm/types"
+	"github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	authexported "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/x/evm/txs/base"
+	"github.com/furyaxyz/fuxchain/x/evm/types"
 )
 
 var sdkResult sdk.Result

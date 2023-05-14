@@ -5,18 +5,18 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/exfury/fuxchain/libs/iavl"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
+	"github.com/furyaxyz/fuxchain/libs/iavl"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto/ed25519"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	"github.com/exfury/fuxchain/libs/tendermint/proxy"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto/ed25519"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/proxy"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 )
 
 var (

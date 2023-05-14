@@ -1,10 +1,10 @@
 package watcher
 
 import (
-	cryptocodec "github.com/exfury/fuxchain/app/crypto/ethsecp256k1"
-	app "github.com/exfury/fuxchain/app/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	cryptocodec "github.com/furyaxyz/fuxchain/app/crypto/ethsecp256k1"
+	app "github.com/furyaxyz/fuxchain/app/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
 )
 
 var WatchCdc *codec.Codec

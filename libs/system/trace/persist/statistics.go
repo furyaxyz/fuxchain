@@ -3,7 +3,7 @@ package persist
 import (
 	"fmt"
 
-	"github.com/exfury/fuxchain/libs/system/trace"
+	"github.com/furyaxyz/fuxchain/libs/system/trace"
 )
 
 var stats *statistics

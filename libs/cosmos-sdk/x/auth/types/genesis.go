@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/auth/exported"
 )
 
 // GenesisState - all auth state that must be provided at genesis

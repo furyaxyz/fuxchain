@@ -12,12 +12,12 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	auto "github.com/exfury/fuxchain/libs/tendermint/libs/autofile"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmos "github.com/exfury/fuxchain/libs/tendermint/libs/os"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
-	tmtime "github.com/exfury/fuxchain/libs/tendermint/types/time"
+	auto "github.com/furyaxyz/fuxchain/libs/tendermint/libs/autofile"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmos "github.com/furyaxyz/fuxchain/libs/tendermint/libs/os"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
+	tmtime "github.com/furyaxyz/fuxchain/libs/tendermint/types/time"
 )
 
 const (

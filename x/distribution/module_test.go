@@ -3,10 +3,10 @@ package distribution
 import (
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	abci "github.com/exfury/fuxchain/libs/tendermint/abci/types"
-	"github.com/exfury/fuxchain/x/distribution/keeper"
-	"github.com/exfury/fuxchain/x/distribution/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	abci "github.com/furyaxyz/fuxchain/libs/tendermint/abci/types"
+	"github.com/furyaxyz/fuxchain/x/distribution/keeper"
+	"github.com/furyaxyz/fuxchain/x/distribution/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,11 +7,11 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/codec"
-	cryptotypes "github.com/exfury/fuxchain/libs/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/exfury/fuxchain/libs/cosmos-sdk/types/errors"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/codec"
+	cryptotypes "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/crypto/types"
+	sdkerrors "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/errors"
 
-	tmcrypto "github.com/exfury/fuxchain/libs/tendermint/crypto"
+	tmcrypto "github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/exfury/fuxchain/libs/tendermint/libs/clist"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/clist"
 )
 
 type GasTxQueue struct {

@@ -1,9 +1,9 @@
 package client
 
 import (
-	govclient "github.com/exfury/fuxchain/x/gov/client"
-	"github.com/exfury/fuxchain/x/params/client/cli"
-	"github.com/exfury/fuxchain/x/params/client/rest"
+	govclient "github.com/furyaxyz/fuxchain/x/gov/client"
+	"github.com/furyaxyz/fuxchain/x/params/client/cli"
+	"github.com/furyaxyz/fuxchain/x/params/client/rest"
 )
 
 // ProposalHandler is the param change proposal handler in cmsdk

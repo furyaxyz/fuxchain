@@ -18,13 +18,13 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	tmbytes "github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/log"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
+	tmbytes "github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/log"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
 
-	client "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/client"
-	server "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/server"
-	types "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	client "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/client"
+	server "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/server"
+	types "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 // Client and Server should work over tcp or unix sockets

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sort"
 
-	dbm "github.com/exfury/fuxchain/libs/tm-db"
+	dbm "github.com/furyaxyz/fuxchain/libs/tm-db"
 )
 
 var (

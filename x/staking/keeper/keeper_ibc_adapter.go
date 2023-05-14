@@ -1,11 +1,11 @@
 package keeper
 
 import (
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/query"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/x/staking/types"
-	outtypes "github.com/exfury/fuxchain/x/staking/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/query"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/x/staking/types"
+	outtypes "github.com/furyaxyz/fuxchain/x/staking/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	host "github.com/exfury/fuxchain/libs/ibc-go/modules/core/24-host"
+	host "github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/24-host"
 )
 
 // IBC connection events

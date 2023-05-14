@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/exfury/fuxchain/libs/system"
+	"github.com/furyaxyz/fuxchain/libs/system"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
 	"github.com/spf13/cobra"
 )
 
 const (
-	exfuryPrefix = "fuxchain"
+	furyaxyzPrefix = "fuxchain"
 	exPrefix  = "did:fury:ex"
 	rawPrefix = "0x"
 )
@@ -43,12 +43,12 @@ func convertCommand() *cobra.Command {
 		Args: cobra.ExactArgs(1),
 		RunE: func(cmd *cobra.Command, args []string) error {
 			addrList := make(map[string]string)
-			targetPrefix := []string{exfuryPrefix, exPrefix, rawPrefix}
+			targetPrefix := []string{furyaxyzPrefix, exPrefix, rawPrefix}
 			srcAddr := args[0]
 
 			// register func to encode account address to prefix address.
 			toPrefixFunc := map[string]accAddrToPrefixFunc{
-				exfuryPrefix: bech32FromAccAddr,
+				furyaxyzPrefix: bech32FromAccAddr,
 				exPrefix:  bech32FromAccAddr,
 				rawPrefix: hexFromAccAddr,
 			}
@@ -58,10 +58,10 @@ func convertCommand() *cobra.Command {
 			var accAddr sdk.AccAddress
 			var err error
 			switch {
-			case strings.HasPrefix(srcAddr, exfuryPrefix):
+			case strings.HasPrefix(srcAddr, furyaxyzPrefix):
 				//source address parse to account address
-				addrList[exfuryPrefix] = srcAddr
-				accAddr, err = bech32ToAccAddr(exfuryPrefix, srcAddr)
+				addrList[furyaxyzPrefix] = srcAddr
+				accAddr, err = bech32ToAccAddr(furyaxyzPrefix, srcAddr)
 
 			case strings.HasPrefix(srcAddr, exPrefix):
 				//source address parse to account address

@@ -10,15 +10,15 @@ import (
 	"strconv"
 	"strings"
 
-	clientCtx "github.com/exfury/fuxchain/libs/cosmos-sdk/client/context"
+	clientCtx "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/client/context"
 
 	"github.com/gorilla/mux"
 
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/cosmos-sdk/types/rest"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types/rest"
 
-	"github.com/exfury/fuxchain/x/wasm/keeper"
-	"github.com/exfury/fuxchain/x/wasm/types"
+	"github.com/furyaxyz/fuxchain/x/wasm/keeper"
+	"github.com/furyaxyz/fuxchain/x/wasm/types"
 )
 
 func registerQueryRoutes(cliCtx clientCtx.CLIContext, r *mux.Router) {

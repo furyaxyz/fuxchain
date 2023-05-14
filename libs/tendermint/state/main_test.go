@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func TestMain(m *testing.M) {

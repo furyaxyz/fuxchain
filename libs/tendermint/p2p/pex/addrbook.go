@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/minio/highwayhash"
-	"github.com/exfury/fuxchain/libs/tendermint/crypto"
-	tmmath "github.com/exfury/fuxchain/libs/tendermint/libs/math"
-	tmrand "github.com/exfury/fuxchain/libs/tendermint/libs/rand"
-	"github.com/exfury/fuxchain/libs/tendermint/libs/service"
-	"github.com/exfury/fuxchain/libs/tendermint/p2p"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/crypto"
+	tmmath "github.com/furyaxyz/fuxchain/libs/tendermint/libs/math"
+	tmrand "github.com/furyaxyz/fuxchain/libs/tendermint/libs/rand"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/service"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/p2p"
 )
 
 const (

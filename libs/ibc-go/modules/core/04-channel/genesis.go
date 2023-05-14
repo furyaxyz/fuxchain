@@ -1,9 +1,9 @@
 package channel
 
 import (
-	sdk "github.com/exfury/fuxchain/libs/cosmos-sdk/types"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/keeper"
-	"github.com/exfury/fuxchain/libs/ibc-go/modules/core/04-channel/types"
+	sdk "github.com/furyaxyz/fuxchain/libs/cosmos-sdk/types"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/keeper"
+	"github.com/furyaxyz/fuxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 // InitGenesis initializes the ibc channel submodule's state from a provided genesis

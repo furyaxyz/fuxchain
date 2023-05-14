@@ -1,12 +1,12 @@
 package proxy
 
 import (
-	"github.com/exfury/fuxchain/libs/tendermint/libs/bytes"
-	lrpc "github.com/exfury/fuxchain/libs/tendermint/lite2/rpc"
-	ctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/core/types"
-	rpcserver "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/server"
-	rpctypes "github.com/exfury/fuxchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/exfury/fuxchain/libs/tendermint/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/libs/bytes"
+	lrpc "github.com/furyaxyz/fuxchain/libs/tendermint/lite2/rpc"
+	ctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/core/types"
+	rpcserver "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/server"
+	rpctypes "github.com/furyaxyz/fuxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/furyaxyz/fuxchain/libs/tendermint/types"
 )
 
 func RPCRoutes(c *lrpc.Client) map[string]*rpcserver.RPCFunc {
