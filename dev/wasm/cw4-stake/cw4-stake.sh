@@ -1,7 +1,7 @@
 #!/bin/bash
 set -o errexit -o nounset -o pipefail
 
-CHAIN_ID="fuxchain-197"
+CHAIN_ID="clockend-4200"
 NODE="http://localhost:26657"
 QUERY_EXTRA="--node=$NODE"
 TX_EXTRA_UNBLOCKED="--fees 0.01fury --gas 3000000 --chain-id=$CHAIN_ID --node $NODE -b async -y"
@@ -16,7 +16,7 @@ transferAmount="100"
 res=$(fuxchaincli tx wasm store ../cw20-base/artifacts/cw20_base.wasm --from captain $TX_EXTRA)
 cw20_code_id=$(echo "$res" | jq '.logs[0].events[1].attributes[0].value' | sed 's/\"//g')
 
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id" '{"decimals":10,"initial_balances":[{"address":"'"$captain"'","amount":"'$totalAmount'"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id" '{"decimals":10,"initial_balances":[{"address":"'"$captain"'","amount":"'$totalAmount'"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
 cw20contractAddr=$(echo "$res" | jq '.logs[0].events[0].attributes[0].value' | sed 's/\"//g')
 echo "cw20 contract address: $cw20contractAddr"
 

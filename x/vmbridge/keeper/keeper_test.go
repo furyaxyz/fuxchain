@@ -74,7 +74,7 @@ func (suite *KeeperTestSuite) SetupTest() {
 	suite.codeId, err = suite.app.WasmPermissionKeeper.Create(suite.ctx, suite.addr, wasmcode, nil)
 	suite.Require().NoError(err)
 
-	initMsg := []byte(fmt.Sprintf("{\"decimals\":10,\"initial_balances\":[{\"address\":\"%s\",\"amount\":\"100000000\"}],\"name\":\"my test token\", \"symbol\":\"MTT\"}", suite.addr.String()))
+	initMsg := []byte(fmt.Sprintf("{\"decimals\":10,\"initial_balances\":[{\"address\":\"%s\",\"amount\":\"100000000\"}],\"name\":\"clockend network token\", \"symbol\":\"XFURY\"}", suite.addr.String()))
 	suite.wasmContract, _, err = suite.app.WasmPermissionKeeper.Instantiate(suite.ctx, suite.codeId, suite.addr, suite.addr, initMsg, "label", sdk.Coins{sdk.NewInt64Coin(sdk.DefaultBondDenom, 0)})
 	suite.Require().NoError(err)
 

@@ -59,7 +59,7 @@ FUXCHAIN_DEVNET_VAL_ADMIN_MNEMONIC=(
 
 VAL_NODE_NUM=${#FUXCHAIN_DEVNET_VAL_ADMIN_MNEMONIC[@]}
 
-CHAIN_ID="fuxchain-197"
+CHAIN_ID="clockend-4200"
 NODE="http://localhost:26657"
 while getopts "c:i:" opt; do
   case $opt in
@@ -104,7 +104,7 @@ fi;
 # usage:
 #   proposal_vote {proposal_id}
 proposal_vote() {
-  if [[ $CHAIN_ID == "fuxchain-197" ]];
+  if [[ $CHAIN_ID == "clockend-4200" ]];
   then
     res=$(fuxchaincli tx gov vote "$proposal_id" yes --from captain $TX_EXTRA)
   else
@@ -195,14 +195,14 @@ fi;
 #########    instantiate contract      ##############
 #####################################################
 echo "## instantiate everybody..."
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id1" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id1" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
 echo "instantiate cw20 succeed"
 if [[ $(echo "$res" | jq '.logs[0].events[0].attributes[0].key' | sed 's/\"//g') != "_contract_address" ]];
 then
   echo "unexpected result of instantiate"
   exit 1
 fi;
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id1" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from admin18 $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id1" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from admin18 $TX_EXTRA)
 echo "instantiate cw20 succeed"
 if [[ $(echo "$res" | jq '.logs[0].events[0].attributes[0].key' | sed 's/\"//g') != "_contract_address" ]];
 then
@@ -211,14 +211,14 @@ then
 fi;
 
 echo "## instantiate nobody..."
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id2" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id2" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
 raw_log=$(echo "$res" | jq '.raw_log' | sed 's/\"//g')
 failed_log="unauthorized: can not instantiate: failed to execute message; message index: 0"
 if [[ "${raw_log}" != "${failed_log}" ]];
 then
   exit 1
 fi;
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id2" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from admin18 $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id2" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from admin18 $TX_EXTRA)
 raw_log=$(echo "$res" | jq '.raw_log' | sed 's/\"//g')
 failed_log="unauthorized: can not instantiate: failed to execute message; message index: 0"
 if [[ "${raw_log}" != "${failed_log}" ]];
@@ -227,14 +227,14 @@ then
 fi;
 
 echo "## instantiate only address..."
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id3" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id3" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
 echo "instantiate cw20 succeed"
 if [[ $(echo "$res" | jq '.logs[0].events[0].attributes[0].key' | sed 's/\"//g') != "_contract_address" ]];
 then
   echo "unexpected result of instantiate"
   exit 1
 fi;
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id3" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from admin18 $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id3" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from admin18 $TX_EXTRA)
 raw_log=$(echo "$res" | jq '.raw_log' | sed 's/\"//g')
 failed_log="unauthorized: can not instantiate: failed to execute message; message index: 0"
 if [[ "${raw_log}" != "${failed_log}" ]];
@@ -243,7 +243,7 @@ then
 fi;
 
 echo "## instantiate nonexistent contract..."
-res=$(fuxchaincli tx wasm instantiate 9999 '{"decimals":10,"initial_balances":[{"address":"","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate 9999 '{"decimals":10,"initial_balances":[{"address":"","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
 raw_log=$(echo "$res" | jq '.raw_log' | sed 's/\"//g')
 failed_log="not found: code: failed to execute message; message index: 0"
 if [[ "${raw_log}" != "${failed_log}" ]];
@@ -254,7 +254,7 @@ then
 fi;
 
 echo "## instantiate cw20 contract with invalid input..."
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
 raw_log=$(echo "$res" | jq '.raw_log' | sed 's/\"//g')
 failed_log="instantiate wasm contract failed: Generic error: addr_validate errored: Input is empty: failed to execute message; message index: 0"
 if [[ "${raw_log}" != "${failed_log}" ]];
@@ -264,7 +264,7 @@ then
 fi;
 
 echo "## instantiate cw20 contract with invalid amount..."
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --amount=1000000000000fury --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --amount=1000000000000fury --from captain $TX_EXTRA)
 raw_log=$(echo "$res" | jq '.raw_log' | sed 's/\"//g')
 failed_log_prefix="insufficient funds"
 if [[ "${raw_log:0:18}" != "${failed_log_prefix}" ]];
@@ -274,7 +274,7 @@ then
 fi;
 
 echo "## instantiate cw20 contract..."
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
 echo "instantiate cw20 succeed"
 if [[ $(echo "$res" | jq '.logs[0].events[0].attributes[0].key' | sed 's/\"//g') != "_contract_address" ]];
 then
@@ -286,7 +286,7 @@ echo "## instantiate cw20 contract with deposit..."
 totalAmount="100000000"
 depositAmount="20"
 depositDenom="fury"
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"'${totalAmount}'"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --amount=${depositAmount}${depositDenom} --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"'${totalAmount}'"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --amount=${depositAmount}${depositDenom} --from captain $TX_EXTRA)
 echo "instantiate cw20 succeed"
 if [[ $(echo "$res" | jq '.logs[0].events[0].attributes[0].key' | sed 's/\"//g') != "_contract_address" ]];
 then
@@ -367,7 +367,7 @@ then
   exit 1
 fi;
 
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"'${totalAmount}'"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --amount=${depositAmount}${depositDenom} --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"'${totalAmount}'"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --amount=${depositAmount}${depositDenom} --from captain $TX_EXTRA)
 instantiate_gas_used2=$(echo "$res" | jq '.gas_used' | sed 's/\"//g')
 if [[ "$instantiate_gas_used" -le "$instantiate_gas_used2" ]];
 then
@@ -569,7 +569,7 @@ fi;
 echo "store cw20 contract succeed"
 cw20_code_id=$(echo "$res" | jq '.logs[0].events[1].attributes[0].value' | sed 's/\"//g')
 echo "## instantiate cw20 contract..."
-res=$(fuxchaincli tx wasm instantiate "$cw20_code_id" '{"decimals":10,"initial_balances":[{"address":"'"$captain"'","amount":"'$totalAmount'"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
+res=$(fuxchaincli tx wasm instantiate "$cw20_code_id" '{"decimals":10,"initial_balances":[{"address":"'"$captain"'","amount":"'$totalAmount'"}],"name":"clockend network token", "symbol":"xfury"}' --label test1 --admin "$captain" --from captain $TX_EXTRA)
 event_type=$(echo $res | jq '.logs[0].events[0].type' | sed 's/\"//g')
 if [[ $event_type != "instantiate" ]];
 then
